@@ -1,0 +1,789 @@
+Machine Learning Roadmap: Basic to Advanced
+Phase 0: Required Foundation
+
+Before ML, learn these basics.
+
+1. Python basics
+2. NumPy
+3. Pandas
+4. Matplotlib
+5. Seaborn
+6. Jupyter Notebook
+7. Basic statistics
+8. Basic probability
+9. Linear algebra basics
+10. Calculus basics
+
+Important math concepts:
+
+Mean
+Median
+Mode
+Variance
+Standard deviation
+Probability
+Conditional probability
+Correlation
+Covariance
+Matrix
+Vector
+Dot product
+Gradient
+Derivative
+Phase 1: ML Basics
+
+Start ML from here.
+
+1. What is Machine Learning?
+2. AI vs ML vs Deep Learning vs GenAI
+3. Supervised Learning
+4. Unsupervised Learning
+5. Reinforcement Learning
+6. Features
+7. Labels
+8. Training data
+9. Testing data
+10. Validation data
+11. Model
+12. Prediction
+13. Error
+14. Loss function
+15. Accuracy
+16. Generalization
+17. Overfitting
+18. Underfitting
+19. Bias
+20. Variance
+
+Most important flow:
+
+Data → Features → Model → Prediction → Evaluation
+Phase 2: Data Understanding
+
+Before training any model, you must understand the data.
+
+1. Dataset
+2. Rows and columns
+3. Numerical features
+4. Categorical features
+5. Ordinal features
+6. Boolean features
+7. Date-time features
+8. Text features
+9. Image features
+10. Time-series data
+11. Structured data
+12. Unstructured data
+13. Data distribution
+14. Target distribution
+15. Class imbalance
+16. Data quality
+17. Missing values
+18. Duplicate values
+19. Outliers
+20. Noise
+21. Data leakage
+22. Data drift
+23. Concept drift
+
+Example:
+
+temperature      → numerical feature
+device_id        → categorical feature
+timestamp        → date-time feature
+shipment_failed  → label / target
+Phase 3: Data Preprocessing
+
+This is cleaning and preparing data before model training.
+
+1. Data cleaning
+2. Handling missing values
+3. Removing duplicate records
+4. Handling incorrect data types
+5. Handling outliers
+6. Handling noisy data
+7. Train-test split
+8. Validation split
+9. Cross-validation
+10. Scaling
+11. Normalization
+12. Standardization
+13. Encoding categorical data
+14. Label encoding
+15. One-hot encoding
+16. Ordinal encoding
+17. Frequency encoding
+18. Target encoding
+19. Log transformation
+20. Binning
+21. Data balancing
+22. SMOTE
+23. Undersampling
+24. Oversampling
+
+Important rule:
+
+Never apply scaler/encoder on full data before train-test split.
+Fit preprocessing only on training data.
+
+Otherwise, data leakage can happen.
+
+Phase 4: Feature Engineering
+
+This is one of the most important ML concepts.
+
+1. Feature creation
+2. Feature transformation
+3. Feature extraction
+4. Feature selection
+5. Feature scaling
+6. Feature encoding
+7. Interaction features
+8. Polynomial features
+9. Ratio features
+10. Difference features
+11. Aggregation features
+12. Count features
+13. Frequency features
+14. Time-based features
+15. Lag features
+16. Rolling window features
+17. Expanding window features
+18. Domain-based features
+19. Text features
+20. Embedding features
+21. GPS/location features
+22. Sensor-based features
+23. Business-rule features
+
+Example in Thinxfresh/cold-chain:
+
+Raw feature:
+temperature = 34°C
+
+Engineered features:
+temperature_deviation = 34 - 30 = 4°C
+is_temperature_breach = 1
+breach_duration_minutes = 30
+rolling_avg_temp_1hr = 32.5°C
+max_temp_last_1hr = 35°C
+time_since_last_breach = 120 minutes
+Phase 5: Basic ML Algorithms
+
+Learn these first.
+
+1. Linear Regression
+2. Logistic Regression
+3. K-Nearest Neighbors
+4. Decision Tree
+5. Random Forest
+6. Naive Bayes
+7. Support Vector Machine
+8. K-Means Clustering
+9. Principal Component Analysis
+
+Use cases:
+
+Linear Regression       → predict number
+Logistic Regression     → yes/no classification
+Decision Tree           → rule-based prediction
+Random Forest           → strong general model
+KNN                     → similarity-based prediction
+Naive Bayes             → text classification
+SVM                     → classification
+K-Means                 → clustering/grouping
+PCA                     → reduce dimensions
+Phase 6: Model Training Concepts
+1. Training
+2. Testing
+3. Validation
+4. Loss function
+5. Cost function
+6. Gradient descent
+7. Learning rate
+8. Epoch
+9. Batch
+10. Iteration
+11. Model parameters
+12. Hyperparameters
+13. Hyperparameter tuning
+14. Grid Search
+15. Random Search
+16. Bayesian Optimization
+17. Early stopping
+18. Regularization
+19. L1 regularization
+20. L2 regularization
+21. Ridge
+22. Lasso
+23. ElasticNet
+
+Remember:
+
+Parameters are learned by the model.
+Hyperparameters are set by the developer.
+
+Example:
+
+Random Forest n_estimators = hyperparameter
+Tree split decision        = learned parameter
+Phase 7: Evaluation Metrics
+
+Very important for interviews and real projects.
+
+Classification Metrics
+1. Confusion Matrix
+2. Accuracy
+3. Precision
+4. Recall
+5. F1 Score
+6. Specificity
+7. Sensitivity
+8. ROC Curve
+9. AUC Score
+10. PR Curve
+11. Log Loss
+12. Classification Report
+
+Example:
+
+Cold-chain alert model:
+
+False Negative:
+Model says shipment is safe, but actually it is risky.
+This is dangerous.
+
+False Positive:
+Model says shipment is risky, but actually it is safe.
+This creates unnecessary alerts.
+Regression Metrics
+1. MAE
+2. MSE
+3. RMSE
+4. R² Score
+5. Adjusted R²
+6. MAPE
+7. RMSLE
+
+Example:
+
+Temperature prediction:
+
+Actual temperature = 32°C
+Predicted temperature = 30°C
+Error = 2°C
+Clustering Metrics
+1. Inertia
+2. Silhouette Score
+3. Davies-Bouldin Index
+4. Elbow Method
+Phase 8: Classification Deep Concepts
+1. Binary classification
+2. Multi-class classification
+3. Multi-label classification
+4. Class imbalance
+5. Threshold tuning
+6. Probability calibration
+7. False positive
+8. False negative
+9. True positive
+10. True negative
+11. Precision-recall tradeoff
+12. Cost-sensitive learning
+13. Imbalanced classification
+14. Anomaly classification
+
+Example:
+
+For medical, fraud, shipment risk, and alerts:
+Recall is usually very important.
+
+Because missing a risky case can be costly.
+Phase 9: Regression Deep Concepts
+1. Simple Linear Regression
+2. Multiple Linear Regression
+3. Polynomial Regression
+4. Ridge Regression
+5. Lasso Regression
+6. ElasticNet Regression
+7. Residuals
+8. Error distribution
+9. Homoscedasticity
+10. Heteroscedasticity
+11. Multicollinearity
+12. VIF
+13. Feature coefficients
+14. Regression assumptions
+
+Use case:
+
+Predict future temperature
+Predict delivery delay
+Predict battery remaining time
+Predict product shelf-life loss
+Phase 10: Tree-Based Models
+
+Very important for industry ML.
+
+1. Decision Tree
+2. Gini impurity
+3. Entropy
+4. Information gain
+5. Max depth
+6. Min samples split
+7. Min samples leaf
+8. Pruning
+9. Random Forest
+10. Bagging
+11. Extra Trees
+12. Feature importance
+13. Out-of-bag score
+
+Tree models are useful because:
+
+They handle non-linear data well.
+They work well with tabular business data.
+They need less scaling.
+They are easy to explain compared to deep learning.
+Phase 11: Boosting Algorithms
+
+After Random Forest, learn boosting.
+
+1. AdaBoost
+2. Gradient Boosting
+3. XGBoost
+4. LightGBM
+5. CatBoost
+6. Weak learners
+7. Sequential learning
+8. Learning rate
+9. Number of estimators
+10. Max depth
+11. Regularization in boosting
+12. Early stopping
+
+Industry important models:
+
+XGBoost
+LightGBM
+CatBoost
+
+For tabular data, these are very powerful.
+
+Phase 12: Unsupervised Learning
+1. Clustering
+2. K-Means
+3. Hierarchical Clustering
+4. DBSCAN
+5. Gaussian Mixture Models
+6. Dimensionality Reduction
+7. PCA
+8. t-SNE
+9. UMAP
+10. Anomaly Detection
+11. Isolation Forest
+12. One-Class SVM
+13. Autoencoders
+
+Use cases:
+
+Group similar customers
+Find unusual sensor behavior
+Detect abnormal shipment routes
+Detect device failure patterns
+Phase 13: Time-Series Machine Learning
+
+Important for IoT, stock, sensor, temperature, demand forecasting.
+
+1. Time-series data
+2. Trend
+3. Seasonality
+4. Cyclicity
+5. Stationarity
+6. Autocorrelation
+7. Partial autocorrelation
+8. Lag features
+9. Rolling mean
+10. Rolling max
+11. Rolling min
+12. Rolling standard deviation
+13. Expanding window
+14. Moving average
+15. ARIMA
+16. SARIMA
+17. Prophet
+18. Exponential smoothing
+19. Time-series cross-validation
+20. Forecast horizon
+21. Backtesting
+
+Cold-chain example:
+
+temperature_t
+temperature_t_minus_1
+temperature_diff
+rolling_avg_temp_30min
+rolling_max_temp_1hr
+breach_duration
+recovery_time
+Phase 14: ML Pipelines
+
+This is where you move from notebook ML to real industry ML.
+
+1. sklearn Pipeline
+2. ColumnTransformer
+3. Fit-transform concept
+4. Train pipeline
+5. Inference pipeline
+6. Pipeline serialization
+7. Pickle
+8. Joblib
+9. Feature consistency
+10. Training-serving skew
+11. Feature validation
+12. Schema validation
+13. Data validation
+14. Model versioning
+15. Experiment tracking
+
+Important:
+
+The same preprocessing used during training must be used during prediction.
+Phase 15: Model Explainability
+
+Advanced but very important.
+
+1. Feature importance
+2. Permutation importance
+3. SHAP
+4. LIME
+5. Partial Dependence Plot
+6. ICE Plot
+7. Global explanation
+8. Local explanation
+9. Model interpretability
+10. Black-box models
+11. White-box models
+
+Example:
+
+Why did model say shipment is risky?
+
+Because:
+temperature_deviation = high
+breach_duration = long
+recovery_time = slow
+battery_drop_rate = abnormal
+Phase 16: Production ML / MLOps
+
+This is advanced industry-level ML.
+
+1. Model deployment
+2. Batch inference
+3. Real-time inference
+4. API-based prediction
+5. Model monitoring
+6. Data drift monitoring
+7. Feature drift monitoring
+8. Concept drift monitoring
+9. Model retraining
+10. Model registry
+11. Feature store
+12. ML pipeline automation
+13. CI/CD for ML
+14. A/B testing
+15. Shadow deployment
+16. Canary deployment
+17. Rollback strategy
+18. Logging predictions
+19. Monitoring latency
+20. Monitoring accuracy after deployment
+
+Production flow:
+
+Raw data → Feature pipeline → Model API → Prediction → Monitoring → Retraining
+Phase 17: Advanced ML Concepts
+1. Ensemble Learning
+2. Bagging
+3. Boosting
+4. Stacking
+5. Blending
+6. Calibration
+7. Bayesian Optimization
+8. AutoML
+9. Active Learning
+10. Semi-supervised Learning
+11. Self-supervised Learning
+12. Transfer Learning
+13. Meta Learning
+14. Online Learning
+15. Incremental Learning
+16. Continual Learning
+17. Multi-task Learning
+18. Weak Supervision
+19. Distant Supervision
+20. Human-in-the-loop ML
+Phase 18: Deep Learning Basics
+
+After ML, then learn deep learning.
+
+1. Neural Network
+2. Perceptron
+3. Activation Functions
+4. ReLU
+5. Sigmoid
+6. Tanh
+7. Forward Propagation
+8. Backpropagation
+9. Gradient Descent
+10. Optimizers
+11. SGD
+12. Adam
+13. RMSProp
+14. Loss Functions
+15. Epochs
+16. Batch Size
+17. Dropout
+18. Batch Normalization
+19. Weight Initialization
+20. Learning Rate Scheduling
+Phase 19: Deep Learning Architectures
+1. ANN
+2. CNN
+3. RNN
+4. LSTM
+5. GRU
+6. Autoencoders
+7. Transformers
+8. Attention Mechanism
+9. Encoder-Decoder
+10. Seq2Seq
+11. Vision Transformers
+12. Graph Neural Networks
+
+Use cases:
+
+CNN         → images
+RNN/LSTM    → sequence/time-series
+Transformer → text, LLM, modern AI
+Autoencoder → anomaly detection
+GNN         → graph/network data
+Phase 20: NLP Before GenAI
+
+Before LLMs, learn NLP basics.
+
+1. Text preprocessing
+2. Tokenization
+3. Stop words
+4. Stemming
+5. Lemmatization
+6. Bag of Words
+7. TF-IDF
+8. N-grams
+9. Word2Vec
+10. GloVe
+11. FastText
+12. Text classification
+13. Sentiment analysis
+14. Named Entity Recognition
+15. Text similarity
+16. Embeddings
+17. Semantic search
+Phase 21: GenAI / LLM Foundation
+
+After ML + DL + NLP, learn LLMs.
+
+1. What is LLM?
+2. Tokens
+3. Tokenization
+4. Embeddings
+5. Transformer architecture
+6. Attention
+7. Self-attention
+8. Positional encoding
+9. Pretraining
+10. Fine-tuning
+11. Instruction tuning
+12. RLHF
+13. Prompt engineering
+14. Context window
+15. Temperature
+16. Top-p
+17. Hallucination
+18. RAG
+19. Vector database
+20. Semantic search
+21. Chunking
+22. Retrieval
+23. Re-ranking
+24. Agents
+25. Function calling
+26. Tool calling
+Phase 22: RAG Roadmap
+1. Documents
+2. Chunking
+3. Embeddings
+4. Vector database
+5. Similarity search
+6. Top-k retrieval
+7. Hybrid search
+8. BM25
+9. Dense retrieval
+10. Sparse retrieval
+11. Re-ranking
+12. Prompt construction
+13. Answer generation
+14. Citation generation
+15. Evaluation
+16. Hallucination reduction
+17. Query rewriting
+18. Metadata filtering
+19. Multi-query retrieval
+20. Agentic RAG
+
+RAG flow:
+
+User question
+→ Convert question to embedding
+→ Search vector DB
+→ Retrieve relevant chunks
+→ Send chunks + question to LLM
+→ Generate grounded answer
+Phase 23: ML System Design
+
+This is extreme advanced.
+
+1. Problem framing
+2. Business objective
+3. Data collection
+4. Label design
+5. Feature pipeline
+6. Training pipeline
+7. Validation strategy
+8. Model selection
+9. Offline evaluation
+10. Online evaluation
+11. Deployment architecture
+12. Monitoring
+13. Feedback loop
+14. Retraining strategy
+15. Model rollback
+16. Cost optimization
+17. Latency optimization
+18. Scalability
+19. Fault tolerance
+20. Governance
+
+Example system:
+
+Cold-chain risk prediction system
+
+Device sends data
+→ Store in S3/MongoDB
+→ Clean data
+→ Create features
+→ Train model
+→ Deploy model API
+→ Predict shipment risk
+→ Send alert
+→ Monitor model drift
+→ Retrain weekly/monthly
+Correct Learning Order
+
+Follow this exact order:
+
+1. Python
+2. NumPy
+3. Pandas
+4. Visualization
+5. Statistics
+6. Probability
+7. Linear Algebra
+8. ML basics
+9. Data preprocessing
+10. Feature engineering
+11. Basic ML algorithms
+12. Model evaluation
+13. Cross-validation
+14. Hyperparameter tuning
+15. Tree models
+16. Boosting models
+17. Time-series ML
+18. Unsupervised learning
+19. Model explainability
+20. ML pipelines
+21. Production ML / MLOps
+22. Deep learning
+23. NLP
+24. LLM
+25. RAG
+26. AI agents
+27. ML system design
+Best Practice Learning Path
+
+Do not only read concepts. For every stage, build one small project.
+
+Beginner Projects
+1. House price prediction
+2. Titanic survival prediction
+3. Iris flower classification
+4. Customer churn prediction
+Intermediate Projects
+1. Credit card fraud detection
+2. Sales forecasting
+3. Loan approval prediction
+4. Product recommendation system
+5. Customer segmentation
+Advanced Projects
+1. Temperature breach prediction
+2. Shipment risk prediction
+3. Sensor anomaly detection
+4. Predictive maintenance
+5. Real-time alert classification
+6. ML API using FastAPI
+7. ML pipeline with retraining
+Extreme Advanced Projects
+1. Full MLOps pipeline
+2. Feature store implementation
+3. Real-time ML inference system
+4. Model monitoring dashboard
+5. RAG chatbot
+6. AI copilot for cold-chain logistics
+7. Agentic AI workflow
+Final Mental Map
+
+Keep this in your mind:
+
+Basic ML:
+Data → Model → Prediction
+
+Real ML:
+Data → Cleaning → Feature Engineering → Model → Evaluation
+
+Industry ML:
+Data Pipeline → Feature Pipeline → Training Pipeline → Deployment → Monitoring → Retraining
+
+Advanced AI:
+ML → Deep Learning → NLP → LLM → RAG → AI Agents
+
+So your learning curve should be:
+
+ML fundamentals
+↓
+Data preprocessing
+↓
+Feature engineering
+↓
+Model training
+↓
+Model evaluation
+↓
+Advanced algorithms
+↓
+Production ML
+↓
+Deep learning
+↓
+LLM / GenAI
+↓
+RAG / AI agents
