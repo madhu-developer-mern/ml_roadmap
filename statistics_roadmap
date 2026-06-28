@@ -1,0 +1,276 @@
+Statistics Roadmap for Data Science
+
+From basic → advanced, learn in this order.
+
+Level 1: Data Basics
+
+First understand what type of data you have.
+
+Topic	What to Learn	Example
+Data types	Numerical, categorical	Battery %, Battery Risk
+Numerical data	Continuous, discrete	Temperature, alert count
+Categorical data	Nominal, ordinal	Device ID, Low/Medium/High
+Dataset structure	Rows, columns, features, target	X and y in ML
+
+Example from your battery dataset:
+
+Device_ID                 -> categorical
+Upload_Interval_hr        -> numerical
+Alert_Count               -> numerical/discrete
+Avg_Temp_C                -> numerical/continuous
+Battery_Risk              -> categorical target
+Level 2: Descriptive Statistics
+
+This is used to summarize data.
+
+Topic	Meaning
+Mean	Average
+Median	Middle value
+Mode	Most repeated value
+Min / Max	Smallest and largest value
+Range	Max - Min
+Count	Number of records
+
+Python practice:
+
+df.describe()
+df["Battery_Risk"].value_counts()
+df["Daily_Battery_Drop_%"].mean()
+df["Daily_Battery_Drop_%"].median()
+
+You use this to answer:
+
+What is the average battery drop?
+Which battery risk is most common?
+What is the maximum temperature?
+Level 3: Spread / Variability
+
+This tells you how much data is changing.
+
+Topic	Meaning
+Variance	How far values are from mean
+Standard Deviation	Average spread of values
+Percentile	Position of value
+Quartiles	25%, 50%, 75% points
+IQR	Q3 - Q1
+
+Python practice:
+
+df["Daily_Battery_Drop_%"].std()
+df["Daily_Battery_Drop_%"].var()
+df["Daily_Battery_Drop_%"].quantile(0.25)
+df["Daily_Battery_Drop_%"].quantile(0.75)
+
+Use in real data science:
+
+Device A battery drop is stable.
+Device B battery drop is unstable.
+Level 4: Outlier Detection
+
+Outliers are abnormal values.
+
+Topic	Meaning
+Outlier	Very unusual value
+IQR method	Detect outliers using Q1 and Q3
+Z-score	Detect values far from mean
+
+Example:
+
+Normal battery drop: 2%, 3%, 4%
+Outlier battery drop: 25%
+
+Python practice:
+
+Q1 = df["Daily_Battery_Drop_%"].quantile(0.25)
+Q3 = df["Daily_Battery_Drop_%"].quantile(0.75)
+
+IQR = Q3 - Q1
+
+lower = Q1 - 1.5 * IQR
+upper = Q3 + 1.5 * IQR
+
+outliers = df[
+    (df["Daily_Battery_Drop_%"] < lower) |
+    (df["Daily_Battery_Drop_%"] > upper)
+]
+Level 5: Probability Basics
+
+Probability is the foundation for ML algorithms like Naive Bayes, classification, risk prediction.
+
+Topic	Meaning
+Probability	Chance of event
+Event	Something happening
+Independent event	One event does not affect another
+Dependent event	One event affects another
+Conditional probability	Probability based on condition
+only concepts no explanation
+Thought for a second
+Statistics Roadmap for Data Science — Concepts Only
+1. Data Basics
+Population
+Sample
+Variables
+Features
+Target variable
+Numerical data
+Categorical data
+Discrete data
+Continuous data
+Nominal data
+Ordinal data
+2. Descriptive Statistics
+Count
+Sum
+Mean
+Median
+Mode
+Minimum
+Maximum
+Range
+Percentile
+Quartile
+Interquartile Range
+Frequency
+Relative frequency
+3. Data Spread
+Deviation
+Variance
+Standard deviation
+Mean absolute deviation
+Skewness
+Kurtosis
+Coefficient of variation
+4. Data Visualization Statistics
+Histogram
+Bar chart
+Box plot
+Scatter plot
+Line plot
+Density plot
+Pair plot
+Correlation heatmap
+5. Probability Basics
+Random experiment
+Sample space
+Event
+Probability
+Complement rule
+Addition rule
+Multiplication rule
+Independent events
+Dependent events
+Mutually exclusive events
+Conditional probability
+6. Probability Distributions
+Bernoulli distribution
+Binomial distribution
+Poisson distribution
+Uniform distribution
+Normal distribution
+Standard normal distribution
+Exponential distribution
+Log-normal distribution
+7. Sampling
+Random sampling
+Stratified sampling
+Systematic sampling
+Cluster sampling
+Sampling bias
+Sample size
+Sampling distribution
+Central Limit Theorem
+8. Inferential Statistics
+Estimation
+Point estimate
+Interval estimate
+Confidence interval
+Margin of error
+Standard error
+Statistical significance
+9. Hypothesis Testing
+Null hypothesis
+Alternative hypothesis
+Test statistic
+P-value
+Significance level
+Type I error
+Type II error
+One-tailed test
+Two-tailed test
+Statistical power
+10. Statistical Tests
+Z-test
+T-test
+Paired T-test
+Independent T-test
+Chi-square test
+ANOVA
+MANOVA
+F-test
+Mann-Whitney U test
+Kruskal-Wallis test
+11. Relationship Between Variables
+Covariance
+Correlation
+Pearson correlation
+Spearman correlation
+Partial correlation
+Multicollinearity
+Association
+Causation
+12. Regression Statistics
+Simple linear regression
+Multiple linear regression
+Polynomial regression
+Logistic regression
+Regression coefficient
+Intercept
+Residual
+Error term
+R-squared
+Adjusted R-squared
+Mean Absolute Error
+Mean Squared Error
+Root Mean Squared Error
+13. Bayesian Statistics
+Prior probability
+Likelihood
+Posterior probability
+Bayes theorem
+Bayesian inference
+Maximum likelihood estimation
+Maximum a posteriori estimation
+14. Advanced Statistics for ML
+Bias
+Variance
+Bias-variance tradeoff
+Entropy
+Information gain
+Gini impurity
+KL divergence
+Cross entropy
+Maximum likelihood estimation
+Regularization statistics
+15. Model Evaluation Statistics
+Confusion matrix
+Accuracy
+Precision
+Recall
+F1-score
+Specificity
+Sensitivity
+ROC curve
+AUC score
+Log loss
+Lift chart
+KS statistic
+16. Experimentation
+A/B testing
+Control group
+Treatment group
+Randomization
+Experimental design
+Statistical significance
+Practical significance
+Effect size
+Power analysis
