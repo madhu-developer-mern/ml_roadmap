@@ -1,0 +1,278 @@
+ML Project Checklist — Advanced Things to Keep in Mind
+1. Problem Understanding
+Business objective
+ML problem type
+Target variable
+Success criteria
+Failure criteria
+Business impact
+User impact
+Risk level
+Real-time or batch requirement
+Automation level
+2. Data Understanding
+Data source
+Data volume
+Number of rows
+Number of columns
+Data types
+Data frequency
+Timestamp quality
+Historical data availability
+Data freshness
+Data ownership
+Data privacy
+Data security
+3. Data Quality
+Missing values
+Duplicate rows
+Outliers
+Wrong values
+Sensor errors
+Timestamp gaps
+Inconsistent units
+Invalid categories
+Data drift
+Label noise
+Class imbalance
+Data leakage risk
+4. Data Preparation
+Cleaning
+Imputation
+Encoding
+Scaling
+Normalization
+Standardization
+Aggregation
+Resampling
+Windowing
+Train-test split
+Time-based split
+Cross-validation
+5. Feature Engineering
+Raw features
+Derived features
+Rolling averages
+Rolling minimums
+Rolling maximums
+Rate of change
+Lag features
+Time features
+Event duration
+Frequency features
+Interaction features
+Ratio features
+Domain-based features
+Sensor-combination features
+6. Feature Selection
+Constant feature removal
+Duplicate feature removal
+Low-variance feature removal
+High-missing feature removal
+Correlation filtering
+Mutual information
+Chi-square test
+ANOVA test
+L1 regularization
+Tree-based importance
+SHAP-based selection
+7. Dimensionality Reduction
+PCA
+Incremental PCA
+Truncated SVD
+Autoencoders
+Feature hashing
+Embeddings
+UMAP
+t-SNE
+Factor analysis
+8. Memory Optimization
+float32
+int32
+Categorical dtype
+Chunk processing
+Sparse matrices
+Parquet format
+Feather format
+Dask
+Polars
+PySpark
+NumPy memmap
+9. Model Selection
+Rule-based baseline
+Logistic Regression
+Decision Tree
+Random Forest
+XGBoost
+LightGBM
+CatBoost
+SVM
+KNN
+Naive Bayes
+Neural Network
+LSTM
+GRU
+Transformer
+Autoencoder
+Isolation Forest
+10. Training Strategy
+Baseline model
+Hyperparameter tuning
+Grid search
+Random search
+Bayesian optimization
+Early stopping
+Regularization
+Batch training
+Incremental training
+Distributed training
+GPU training
+Experiment tracking
+11. Evaluation
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+PR-AUC
+Confusion matrix
+MAE
+MSE
+RMSE
+MAPE
+R² score
+False positive rate
+False negative rate
+Detection delay
+12. Validation
+Holdout validation
+K-fold validation
+Stratified validation
+Time-series validation
+Device-based validation
+Location-based validation
+Product-based validation
+Out-of-sample testing
+Backtesting
+Stress testing
+13. Explainability
+Feature importance
+SHAP
+LIME
+Partial dependence plots
+Decision rules
+Reason codes
+Confidence score
+Model transparency
+Business-readable explanation
+Recommendation reason
+14. Production Readiness
+Model latency
+Memory usage
+CPU usage
+GPU requirement
+API response time
+Batch pipeline
+Real-time pipeline
+Scalability
+Cost
+Failure handling
+Retry logic
+Logging
+Monitoring
+15. Deployment
+REST API
+Batch job
+Streaming pipeline
+Docker
+Kubernetes
+AWS Lambda
+ECS
+SageMaker
+MLflow
+CI/CD
+Model registry
+Versioning
+Rollback
+16. Monitoring
+Data drift
+Concept drift
+Model drift
+Prediction drift
+Feature drift
+Accuracy drop
+Latency increase
+Error rate
+Missing input rate
+Outlier rate
+Alert volume
+False alerts
+17. Retraining
+Manual retraining
+Scheduled retraining
+Trigger-based retraining
+Drift-based retraining
+New data validation
+Model comparison
+Champion-challenger model
+A/B testing
+Rollback strategy
+18. MLOps
+Data versioning
+Model versioning
+Feature store
+Model registry
+Pipeline orchestration
+Experiment tracking
+Reproducibility
+CI/CD pipeline
+Automated testing
+Monitoring dashboard
+Access control
+19. Security & Compliance
+PII handling
+Data encryption
+Access control
+Audit logs
+API authentication
+API authorization
+Secure storage
+Secure deployment
+Compliance rules
+Model governance
+20. Business Output
+Prediction
+Alert
+Recommendation
+Explanation
+Confidence score
+Risk score
+Priority score
+Action plan
+Dashboard view
+Report generation
+Email notification
+SMS notification
+WhatsApp notification
+21. Cold Room / IoT Specific
+Temperature trend
+Humidity trend
+CO2 trend
+Door-open duration
+Compressor cycle
+Fan status
+Light status
+Airflow status
+Defrost cycle
+Cooling recovery time
+Sensor battery
+Gateway health
+Signal strength
+Data gaps
+Sensor calibration
+Room zone mapping
+Product type
+Shelf-life risk
+Spoilage risk
+Alert root cause
+Corrective recommendation
