@@ -1,0 +1,1541 @@
+3. MACHINE LEARNING
+│
+├── 3.1 Machine Learning Foundations
+│   ├── Artificial Intelligence
+│   ├── Machine Learning
+│   ├── Deep Learning
+│   ├── Statistical Learning
+│   ├── Pattern Recognition
+│   ├── Data Mining
+│   ├── Model
+│   ├── Algorithm
+│   ├── Training
+│   ├── Inference
+│   ├── Prediction
+│   ├── Feature
+│   ├── Target
+│   ├── Label
+│   ├── Observation
+│   ├── Parameter
+│   ├── Hyperparameter
+│   ├── Loss Function
+│   ├── Cost Function
+│   ├── Objective Function
+│   ├── Optimization
+│   ├── Ground Truth
+│   ├── Generalization
+│   └── Decision Boundary
+│
+├── 3.2 Types of Machine Learning
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   ├── Semi-Supervised Learning
+│   ├── Self-Supervised Learning
+│   ├── Reinforcement Learning
+│   ├── Active Learning
+│   ├── Online Learning
+│   ├── Offline Learning
+│   ├── Batch Learning
+│   ├── Incremental Learning
+│   ├── Transfer Learning
+│   ├── Multi-Task Learning
+│   ├── Meta-Learning
+│   ├── Federated Learning
+│   └── Weakly Supervised Learning
+│
+├── 3.3 Machine Learning Problem Types
+│   ├── Regression
+│   ├── Binary Classification
+│   ├── Multiclass Classification
+│   ├── Multilabel Classification
+│   ├── Ordinal Classification
+│   ├── Clustering
+│   ├── Dimensionality Reduction
+│   ├── Anomaly Detection
+│   ├── Ranking
+│   ├── Recommendation
+│   ├── Forecasting
+│   ├── Density Estimation
+│   ├── Association Rule Mining
+│   ├── Survival Prediction
+│   ├── Causal Estimation
+│   └── Structured Prediction
+│
+├── 3.4 Machine Learning Workflow
+│   ├── Business Problem Definition
+│   ├── ML Problem Formulation
+│   ├── Target Definition
+│   ├── Success Metric Definition
+│   ├── Data Collection
+│   ├── Data Validation
+│   ├── Exploratory Data Analysis
+│   ├── Data Cleaning
+│   ├── Feature Engineering
+│   ├── Data Splitting
+│   ├── Baseline Model
+│   ├── Model Training
+│   ├── Model Evaluation
+│   ├── Error Analysis
+│   ├── Hyperparameter Tuning
+│   ├── Model Selection
+│   ├── Explainability
+│   ├── Deployment
+│   ├── Monitoring
+│   └── Retraining
+│
+├── 3.5 Dataset Splitting
+│   ├── Training Set
+│   ├── Validation Set
+│   ├── Test Set
+│   ├── Holdout Method
+│   ├── Random Split
+│   ├── Stratified Split
+│   ├── Group-Based Split
+│   ├── User-Based Split
+│   ├── Geographic Split
+│   ├── Time-Based Split
+│   ├── Out-of-Time Validation
+│   ├── Rolling-Window Split
+│   ├── Expanding-Window Split
+│   ├── Train-Test Contamination
+│   └── Data Leakage Prevention
+│
+├── 3.6 Baseline Models
+│   ├── Random Baseline
+│   ├── Majority-Class Baseline
+│   ├── Mean Baseline
+│   ├── Median Baseline
+│   ├── Previous-Value Baseline
+│   ├── Seasonal-Naive Baseline
+│   ├── Simple Rule-Based Baseline
+│   ├── Linear Baseline
+│   ├── Logistic Baseline
+│   └── Business-Heuristic Baseline
+│
+├── 3.7 Regression Foundations
+│   ├── Dependent Variable
+│   ├── Independent Variable
+│   ├── Continuous Target
+│   ├── Regression Line
+│   ├── Predicted Value
+│   ├── Actual Value
+│   ├── Residual
+│   ├── Error
+│   ├── Coefficient
+│   ├── Intercept
+│   ├── Slope
+│   ├── Least Squares
+│   ├── Sum of Squared Errors
+│   ├── Residual Analysis
+│   └── Regression Assumptions
+│
+├── 3.8 Linear Regression
+│   ├── Simple Linear Regression
+│   ├── Multiple Linear Regression
+│   ├── Ordinary Least Squares
+│   ├── Normal Equation
+│   ├── Gradient-Descent Solution
+│   ├── Matrix Form of Regression
+│   ├── Regression Coefficients
+│   ├── Intercept Calculation
+│   ├── Residual Sum of Squares
+│   ├── Total Sum of Squares
+│   ├── Explained Sum of Squares
+│   ├── Coefficient Interpretation
+│   ├── Interaction Terms
+│   ├── Dummy Variables
+│   └── Prediction Intervals
+│
+├── 3.9 Linear Regression Assumptions
+│   ├── Linearity
+│   ├── Independence of Errors
+│   ├── Homoscedasticity
+│   ├── Normality of Residuals
+│   ├── No Perfect Multicollinearity
+│   ├── Exogeneity
+│   ├── Residual Plot
+│   ├── Q-Q Plot
+│   ├── Durbin-Watson Test
+│   ├── Breusch-Pagan Test
+│   ├── Variance Inflation Factor
+│   ├── Leverage
+│   ├── Influence
+│   ├── Cook’s Distance
+│   └── Heteroscedasticity-Robust Errors
+│
+├── 3.10 Polynomial Regression
+│   ├── Polynomial Features
+│   ├── Degree
+│   ├── Quadratic Regression
+│   ├── Cubic Regression
+│   ├── Curvilinear Relationships
+│   ├── Interaction Polynomials
+│   ├── Basis Expansion
+│   ├── Underfitting
+│   ├── Overfitting
+│   ├── Degree Selection
+│   ├── Polynomial Scaling
+│   ├── Orthogonal Polynomials
+│   └── Spline Regression
+│
+├── 3.11 Regularized Regression
+│   ├── Regularization
+│   ├── Penalty Term
+│   ├── Regularization Strength
+│   ├── L1 Regularization
+│   ├── L2 Regularization
+│   ├── Ridge Regression
+│   ├── Lasso Regression
+│   ├── Elastic Net
+│   ├── Coefficient Shrinkage
+│   ├── Sparse Coefficients
+│   ├── Feature Selection
+│   ├── Bias-Variance Trade-Off
+│   ├── Regularization Path
+│   ├── Cross-Validated Regularization
+│   └── Bayesian Interpretation
+│
+├── 3.12 Advanced Regression Models
+│   ├── Weighted Least Squares
+│   ├── Generalized Least Squares
+│   ├── Robust Regression
+│   ├── Huber Regression
+│   ├── RANSAC Regression
+│   ├── Quantile Regression
+│   ├── Poisson Regression
+│   ├── Negative Binomial Regression
+│   ├── Gamma Regression
+│   ├── Tweedie Regression
+│   ├── Generalized Linear Models
+│   ├── Generalized Additive Models
+│   ├── Spline Regression
+│   ├── Isotonic Regression
+│   ├── Bayesian Linear Regression
+│   └── Gaussian Process Regression
+│
+├── 3.13 Regression Metrics
+│   ├── Mean Absolute Error
+│   ├── Mean Squared Error
+│   ├── Root Mean Squared Error
+│   ├── Mean Absolute Percentage Error
+│   ├── Symmetric MAPE
+│   ├── Median Absolute Error
+│   ├── Mean Squared Logarithmic Error
+│   ├── Root Mean Squared Logarithmic Error
+│   ├── R-Squared
+│   ├── Adjusted R-Squared
+│   ├── Explained Variance
+│   ├── Mean Absolute Scaled Error
+│   ├── Prediction Interval Coverage
+│   ├── Residual Distribution
+│   └── Business-Cost Metrics
+│
+├── 3.14 Classification Foundations
+│   ├── Class
+│   ├── Label
+│   ├── Binary Classification
+│   ├── Multiclass Classification
+│   ├── Multilabel Classification
+│   ├── Ordinal Classification
+│   ├── Class Probability
+│   ├── Decision Threshold
+│   ├── Decision Boundary
+│   ├── Positive Class
+│   ├── Negative Class
+│   ├── Class Imbalance
+│   ├── Misclassification Cost
+│   └── Probability Calibration
+│
+├── 3.15 Logistic Regression
+│   ├── Linear Score
+│   ├── Sigmoid Function
+│   ├── Log-Odds
+│   ├── Odds
+│   ├── Odds Ratio
+│   ├── Binary Logistic Regression
+│   ├── Multinomial Logistic Regression
+│   ├── Ordinal Logistic Regression
+│   ├── Maximum Likelihood Estimation
+│   ├── Log-Likelihood
+│   ├── Binary Cross-Entropy
+│   ├── Decision Threshold
+│   ├── Regularized Logistic Regression
+│   ├── Coefficient Interpretation
+│   └── Probability Calibration
+│
+├── 3.16 K-Nearest Neighbours
+│   ├── Instance-Based Learning
+│   ├── Lazy Learning
+│   ├── Neighbourhood
+│   ├── Value of K
+│   ├── Majority Voting
+│   ├── Weighted Voting
+│   ├── Distance-Weighted KNN
+│   ├── Euclidean Distance
+│   ├── Manhattan Distance
+│   ├── Minkowski Distance
+│   ├── Chebyshev Distance
+│   ├── Mahalanobis Distance
+│   ├── Feature Scaling
+│   ├── Curse of Dimensionality
+│   ├── KNN Classification
+│   ├── KNN Regression
+│   ├── Approximate Nearest Neighbours
+│   ├── KD-Trees
+│   └── Ball Trees
+│
+├── 3.17 Naive Bayes
+│   ├── Bayes’ Theorem
+│   ├── Prior Probability
+│   ├── Likelihood
+│   ├── Posterior Probability
+│   ├── Conditional Independence
+│   ├── Gaussian Naive Bayes
+│   ├── Multinomial Naive Bayes
+│   ├── Bernoulli Naive Bayes
+│   ├── Complement Naive Bayes
+│   ├── Categorical Naive Bayes
+│   ├── Laplace Smoothing
+│   ├── Log Probabilities
+│   └── Feature Independence Assumption
+│
+├── 3.18 Decision Trees
+│   ├── Root Node
+│   ├── Internal Node
+│   ├── Leaf Node
+│   ├── Split
+│   ├── Branch
+│   ├── Decision Rule
+│   ├── Recursive Partitioning
+│   ├── Gini Impurity
+│   ├── Entropy
+│   ├── Information Gain
+│   ├── Gain Ratio
+│   ├── Variance Reduction
+│   ├── Mean Squared Error Split
+│   ├── Tree Depth
+│   ├── Minimum Samples Split
+│   ├── Minimum Samples Leaf
+│   ├── Maximum Leaf Nodes
+│   ├── Pre-Pruning
+│   ├── Post-Pruning
+│   ├── Cost-Complexity Pruning
+│   ├── Regression Trees
+│   ├── Classification Trees
+│   ├── CART
+│   ├── ID3
+│   ├── C4.5
+│   └── CHAID
+│
+├── 3.19 Support Vector Machines
+│   ├── Hyperplane
+│   ├── Margin
+│   ├── Maximum-Margin Classifier
+│   ├── Support Vectors
+│   ├── Hard Margin
+│   ├── Soft Margin
+│   ├── Slack Variables
+│   ├── Regularization Parameter C
+│   ├── Hinge Loss
+│   ├── Kernel Trick
+│   ├── Linear Kernel
+│   ├── Polynomial Kernel
+│   ├── Radial Basis Function Kernel
+│   ├── Sigmoid Kernel
+│   ├── Kernel Parameters
+│   ├── Dual Optimization
+│   ├── Support Vector Classification
+│   ├── Support Vector Regression
+│   └── One-Class SVM
+│
+├── 3.20 Linear Discriminant Models
+│   ├── Linear Discriminant Analysis
+│   ├── Quadratic Discriminant Analysis
+│   ├── Class Priors
+│   ├── Class Means
+│   ├── Shared Covariance Matrix
+│   ├── Class-Specific Covariance
+│   ├── Discriminant Function
+│   ├── Dimensionality Reduction
+│   ├── Fisher’s Linear Discriminant
+│   └── Regularized Discriminant Analysis
+│
+├── 3.21 Classification Metrics
+│   ├── Confusion Matrix
+│   ├── True Positive
+│   ├── True Negative
+│   ├── False Positive
+│   ├── False Negative
+│   ├── Accuracy
+│   ├── Precision
+│   ├── Recall
+│   ├── Sensitivity
+│   ├── Specificity
+│   ├── False Positive Rate
+│   ├── False Negative Rate
+│   ├── Negative Predictive Value
+│   ├── F1-Score
+│   ├── F-Beta Score
+│   ├── Balanced Accuracy
+│   ├── Matthews Correlation Coefficient
+│   ├── Cohen’s Kappa
+│   ├── Hamming Loss
+│   ├── Jaccard Score
+│   ├── Log Loss
+│   ├── Brier Score
+│   ├── ROC Curve
+│   ├── ROC-AUC
+│   ├── Precision-Recall Curve
+│   ├── PR-AUC
+│   └── Lift and Gain Charts
+│
+├── 3.22 Multiclass Classification
+│   ├── One-vs-Rest
+│   ├── One-vs-One
+│   ├── Softmax Classification
+│   ├── Multinomial Logistic Regression
+│   ├── Macro Averaging
+│   ├── Micro Averaging
+│   ├── Weighted Averaging
+│   ├── Per-Class Metrics
+│   ├── Multiclass ROC-AUC
+│   ├── Top-K Accuracy
+│   ├── Hierarchical Classification
+│   └── Error-Correcting Output Codes
+│
+├── 3.23 Multilabel Classification
+│   ├── Binary Relevance
+│   ├── Classifier Chains
+│   ├── Label Powerset
+│   ├── Multilabel KNN
+│   ├── Hamming Loss
+│   ├── Subset Accuracy
+│   ├── Label Ranking Loss
+│   ├── Coverage Error
+│   ├── Micro F1
+│   └── Macro F1
+│
+├── 3.24 Ensemble Learning
+│   ├── Ensemble Methods
+│   ├── Weak Learner
+│   ├── Strong Learner
+│   ├── Diversity
+│   ├── Voting
+│   ├── Averaging
+│   ├── Bagging
+│   ├── Boosting
+│   ├── Stacking
+│   ├── Blending
+│   ├── Bootstrap Aggregation
+│   ├── Hard Voting
+│   ├── Soft Voting
+│   ├── Weighted Voting
+│   ├── Model Averaging
+│   └── Ensemble Selection
+│
+├── 3.25 Random Forest
+│   ├── Bootstrap Sampling
+│   ├── Bagging
+│   ├── Random Feature Selection
+│   ├── Number of Trees
+│   ├── Maximum Depth
+│   ├── Maximum Features
+│   ├── Out-of-Bag Samples
+│   ├── Out-of-Bag Error
+│   ├── Feature Importance
+│   ├── Gini Importance
+│   ├── Permutation Importance
+│   ├── Random Forest Classification
+│   ├── Random Forest Regression
+│   ├── Extremely Randomized Trees
+│   └── Quantile Regression Forest
+│
+├── 3.26 Boosting
+│   ├── Sequential Learning
+│   ├── Weak Learners
+│   ├── Residual Fitting
+│   ├── Sample Weighting
+│   ├── Learning Rate
+│   ├── Number of Estimators
+│   ├── Shrinkage
+│   ├── Stage-Wise Additive Modelling
+│   ├── AdaBoost
+│   ├── Gradient Boosting
+│   ├── Stochastic Gradient Boosting
+│   ├── Histogram-Based Gradient Boosting
+│   └── Early Stopping
+│
+├── 3.27 XGBoost
+│   ├── Gradient Boosted Trees
+│   ├── First-Order Gradient
+│   ├── Second-Order Gradient
+│   ├── Regularized Objective
+│   ├── Tree Complexity Penalty
+│   ├── Learning Rate
+│   ├── Maximum Depth
+│   ├── Minimum Child Weight
+│   ├── Subsample
+│   ├── Column Sampling
+│   ├── Gamma
+│   ├── L1 Regularization
+│   ├── L2 Regularization
+│   ├── Missing-Value Handling
+│   ├── Early Stopping
+│   └── Feature Importance
+│
+├── 3.28 LightGBM
+│   ├── Histogram-Based Learning
+│   ├── Leaf-Wise Tree Growth
+│   ├── Gradient-Based One-Side Sampling
+│   ├── Exclusive Feature Bundling
+│   ├── Number of Leaves
+│   ├── Maximum Depth
+│   ├── Minimum Data in Leaf
+│   ├── Feature Fraction
+│   ├── Bagging Fraction
+│   ├── Categorical Features
+│   └── Early Stopping
+│
+├── 3.29 CatBoost
+│   ├── Ordered Boosting
+│   ├── Ordered Target Statistics
+│   ├── Categorical Feature Handling
+│   ├── Symmetric Trees
+│   ├── Target Leakage Reduction
+│   ├── CatBoost Classification
+│   ├── CatBoost Regression
+│   ├── Feature Combinations
+│   ├── Missing-Value Handling
+│   └── Early Stopping
+│
+├── 3.30 Model Evaluation Foundations
+│   ├── Training Performance
+│   ├── Validation Performance
+│   ├── Test Performance
+│   ├── Generalization Error
+│   ├── Empirical Risk
+│   ├── Expected Risk
+│   ├── Evaluation Metric
+│   ├── Offline Evaluation
+│   ├── Online Evaluation
+│   ├── Business Evaluation
+│   ├── Statistical Significance
+│   ├── Confidence Intervals
+│   └── Evaluation Leakage
+│
+├── 3.31 Cross-Validation
+│   ├── K-Fold Cross-Validation
+│   ├── Stratified K-Fold
+│   ├── Repeated K-Fold
+│   ├── Leave-One-Out Cross-Validation
+│   ├── Leave-P-Out Cross-Validation
+│   ├── Group K-Fold
+│   ├── Stratified Group K-Fold
+│   ├── Nested Cross-Validation
+│   ├── Time-Series Cross-Validation
+│   ├── Walk-Forward Validation
+│   ├── Purged Cross-Validation
+│   └── Cross-Validation Leakage
+│
+├── 3.32 Bias and Variance
+│   ├── Bias
+│   ├── Variance
+│   ├── Irreducible Error
+│   ├── Bias-Variance Decomposition
+│   ├── High Bias
+│   ├── High Variance
+│   ├── Underfitting
+│   ├── Overfitting
+│   ├── Model Complexity
+│   ├── Training Error
+│   ├── Validation Error
+│   ├── Learning Curves
+│   ├── Validation Curves
+│   └── Double Descent
+│
+├── 3.33 Overfitting Control
+│   ├── More Training Data
+│   ├── Feature Reduction
+│   ├── Regularization
+│   ├── Cross-Validation
+│   ├── Early Stopping
+│   ├── Tree Pruning
+│   ├── Data Augmentation
+│   ├── Ensemble Methods
+│   ├── Noise Reduction
+│   ├── Hyperparameter Constraints
+│   └── Simpler Models
+│
+├── 3.34 Hyperparameter Tuning
+│   ├── Hyperparameter Search Space
+│   ├── Manual Search
+│   ├── Grid Search
+│   ├── Random Search
+│   ├── Bayesian Optimization
+│   ├── Sequential Model-Based Optimization
+│   ├── Tree-Structured Parzen Estimator
+│   ├── Hyperband
+│   ├── Successive Halving
+│   ├── Population-Based Training
+│   ├── Multi-Fidelity Optimization
+│   ├── Nested Cross-Validation
+│   ├── Early Stopping
+│   └── Tuning Leakage
+│
+├── 3.35 Feature Scaling
+│   ├── Min-Max Normalization
+│   ├── Standardization
+│   ├── Robust Scaling
+│   ├── Max-Absolute Scaling
+│   ├── Unit-Norm Scaling
+│   ├── Quantile Transformation
+│   ├── Power Transformation
+│   ├── Box-Cox Transformation
+│   ├── Yeo-Johnson Transformation
+│   └── Scaling Leakage
+│
+├── 3.36 Feature Encoding
+│   ├── Label Encoding
+│   ├── One-Hot Encoding
+│   ├── Ordinal Encoding
+│   ├── Binary Encoding
+│   ├── Count Encoding
+│   ├── Frequency Encoding
+│   ├── Target Encoding
+│   ├── Mean Encoding
+│   ├── Leave-One-Out Encoding
+│   ├── Hash Encoding
+│   ├── Weight-of-Evidence Encoding
+│   ├── Embedding Encoding
+│   └── Encoding Leakage
+│
+├── 3.37 Feature Engineering
+│   ├── Domain Features
+│   ├── Interaction Features
+│   ├── Polynomial Features
+│   ├── Ratio Features
+│   ├── Difference Features
+│   ├── Aggregate Features
+│   ├── Group Statistics
+│   ├── Count Features
+│   ├── Frequency Features
+│   ├── Date Features
+│   ├── Time Features
+│   ├── Lag Features
+│   ├── Rolling Features
+│   ├── Expanding Features
+│   ├── Window Features
+│   ├── Text Features
+│   ├── Spatial Features
+│   ├── Graph Features
+│   ├── Missing-Indicator Features
+│   └── Cross Features
+│
+├── 3.38 Feature Selection
+│   ├── Filter Methods
+│   ├── Wrapper Methods
+│   ├── Embedded Methods
+│   ├── Variance Threshold
+│   ├── Correlation Filtering
+│   ├── Chi-Square Test
+│   ├── ANOVA F-Test
+│   ├── Mutual Information
+│   ├── Information Gain
+│   ├── Forward Selection
+│   ├── Backward Elimination
+│   ├── Recursive Feature Elimination
+│   ├── Lasso Selection
+│   ├── Tree-Based Importance
+│   ├── Permutation Importance
+│   ├── Boruta
+│   ├── Stability Selection
+│   └── SHAP-Based Selection
+│
+├── 3.39 Dimensionality Reduction
+│   ├── Feature Selection
+│   ├── Feature Extraction
+│   ├── Principal Component Analysis
+│   ├── Kernel PCA
+│   ├── Incremental PCA
+│   ├── Sparse PCA
+│   ├── Linear Discriminant Analysis
+│   ├── Singular Value Decomposition
+│   ├── Truncated SVD
+│   ├── Independent Component Analysis
+│   ├── Factor Analysis
+│   ├── Non-Negative Matrix Factorization
+│   ├── Random Projection
+│   ├── t-SNE
+│   ├── UMAP
+│   ├── Multidimensional Scaling
+│   ├── Isomap
+│   └── Autoencoder-Based Reduction
+│
+├── 3.40 Principal Component Analysis
+│   ├── Mean Centering
+│   ├── Standardization
+│   ├── Covariance Matrix
+│   ├── Correlation Matrix
+│   ├── Eigenvalues
+│   ├── Eigenvectors
+│   ├── Principal Components
+│   ├── Explained Variance
+│   ├── Explained Variance Ratio
+│   ├── Scree Plot
+│   ├── Component Loadings
+│   ├── Projection
+│   ├── Reconstruction
+│   ├── Whitening
+│   └── Information Loss
+│
+├── 3.41 Unsupervised Learning Foundations
+│   ├── Unlabelled Data
+│   ├── Pattern Discovery
+│   ├── Similarity
+│   ├── Distance
+│   ├── Density
+│   ├── Cluster
+│   ├── Latent Structure
+│   ├── Representation Learning
+│   ├── Density Estimation
+│   └── Unsupervised Evaluation
+│
+├── 3.42 K-Means Clustering
+│   ├── Cluster Centroid
+│   ├── Number of Clusters
+│   ├── Assignment Step
+│   ├── Update Step
+│   ├── Within-Cluster Sum of Squares
+│   ├── Inertia
+│   ├── Euclidean Distance
+│   ├── K-Means Initialization
+│   ├── K-Means++
+│   ├── Elbow Method
+│   ├── Silhouette Score
+│   ├── Local Optimum
+│   ├── Mini-Batch K-Means
+│   ├── Fuzzy C-Means
+│   └── K-Medoids
+│
+├── 3.43 Hierarchical Clustering
+│   ├── Agglomerative Clustering
+│   ├── Divisive Clustering
+│   ├── Dendrogram
+│   ├── Linkage
+│   ├── Single Linkage
+│   ├── Complete Linkage
+│   ├── Average Linkage
+│   ├── Ward Linkage
+│   ├── Distance Matrix
+│   ├── Cluster Cutting
+│   └── Cophenetic Correlation
+│
+├── 3.44 Density-Based Clustering
+│   ├── DBSCAN
+│   ├── Epsilon Neighbourhood
+│   ├── Minimum Samples
+│   ├── Core Point
+│   ├── Border Point
+│   ├── Noise Point
+│   ├── Density Reachability
+│   ├── Density Connectivity
+│   ├── OPTICS
+│   └── HDBSCAN
+│
+├── 3.45 Probabilistic Clustering
+│   ├── Gaussian Mixture Models
+│   ├── Mixture Components
+│   ├── Latent Variables
+│   ├── Soft Clustering
+│   ├── Component Weights
+│   ├── Component Means
+│   ├── Covariance Matrices
+│   ├── Expectation-Maximization
+│   ├── Log-Likelihood
+│   ├── Bayesian Information Criterion
+│   └── Akaike Information Criterion
+│
+├── 3.46 Clustering Evaluation
+│   ├── Inertia
+│   ├── Silhouette Score
+│   ├── Davies-Bouldin Index
+│   ├── Calinski-Harabasz Index
+│   ├── Dunn Index
+│   ├── Adjusted Rand Index
+│   ├── Rand Index
+│   ├── Normalized Mutual Information
+│   ├── Adjusted Mutual Information
+│   ├── Homogeneity
+│   ├── Completeness
+│   ├── V-Measure
+│   ├── Cluster Stability
+│   └── Business Interpretability
+│
+├── 3.47 Anomaly Detection
+│   ├── Outlier Detection
+│   ├── Novelty Detection
+│   ├── Point Anomalies
+│   ├── Contextual Anomalies
+│   ├── Collective Anomalies
+│   ├── Statistical Thresholds
+│   ├── Z-Score
+│   ├── Modified Z-Score
+│   ├── IQR Method
+│   ├── Isolation Forest
+│   ├── Local Outlier Factor
+│   ├── One-Class SVM
+│   ├── Elliptic Envelope
+│   ├── Robust Covariance
+│   ├── Autoencoder Anomaly Detection
+│   ├── Reconstruction Error
+│   ├── Change-Point Detection
+│   └── Anomaly Threshold Selection
+│
+├── 3.48 Association Rule Learning
+│   ├── Transaction Data
+│   ├── Itemsets
+│   ├── Frequent Itemsets
+│   ├── Support
+│   ├── Confidence
+│   ├── Lift
+│   ├── Leverage
+│   ├── Conviction
+│   ├── Apriori Algorithm
+│   ├── FP-Growth
+│   ├── Eclat Algorithm
+│   └── Market-Basket Analysis
+│
+├── 3.49 Imbalanced Learning
+│   ├── Majority Class
+│   ├── Minority Class
+│   ├── Imbalance Ratio
+│   ├── Random Oversampling
+│   ├── Random Undersampling
+│   ├── SMOTE
+│   ├── Borderline SMOTE
+│   ├── SMOTE-NC
+│   ├── ADASYN
+│   ├── Tomek Links
+│   ├── Edited Nearest Neighbours
+│   ├── NearMiss
+│   ├── Class Weights
+│   ├── Cost-Sensitive Learning
+│   ├── Threshold Moving
+│   ├── Balanced Random Forest
+│   ├── EasyEnsemble
+│   └── Precision-Recall Evaluation
+│
+├── 3.50 Threshold Optimization
+│   ├── Default Threshold
+│   ├── Custom Threshold
+│   ├── Precision-Recall Trade-Off
+│   ├── Sensitivity-Specificity Trade-Off
+│   ├── Youden’s J Statistic
+│   ├── Cost-Based Threshold
+│   ├── Profit-Based Threshold
+│   ├── F1-Optimal Threshold
+│   ├── Recall Constraint
+│   ├── Precision Constraint
+│   ├── Threshold Validation
+│   └── Segment-Specific Thresholds
+│
+├── 3.51 Probability Calibration
+│   ├── Calibration
+│   ├── Reliability Diagram
+│   ├── Calibration Curve
+│   ├── Brier Score
+│   ├── Expected Calibration Error
+│   ├── Maximum Calibration Error
+│   ├── Platt Scaling
+│   ├── Isotonic Regression
+│   ├── Temperature Scaling
+│   ├── Calibrated Classifier
+│   └── Calibration Drift
+│
+├── 3.52 Model Explainability
+│   ├── Interpretability
+│   ├── Explainability
+│   ├── Global Explanation
+│   ├── Local Explanation
+│   ├── Intrinsic Interpretability
+│   ├── Post-Hoc Explainability
+│   ├── Linear Coefficients
+│   ├── Odds Ratios
+│   ├── Tree Rules
+│   ├── Feature Importance
+│   ├── Permutation Importance
+│   ├── Partial Dependence Plot
+│   ├── Individual Conditional Expectation
+│   ├── Accumulated Local Effects
+│   ├── SHAP
+│   ├── LIME
+│   ├── Counterfactual Explanations
+│   ├── Surrogate Models
+│   └── Explanation Stability
+│
+├── 3.53 Error Analysis
+│   ├── Residual Analysis
+│   ├── False Positive Analysis
+│   ├── False Negative Analysis
+│   ├── Segment-Level Evaluation
+│   ├── Slice-Based Evaluation
+│   ├── Worst-Case Analysis
+│   ├── Confidence Analysis
+│   ├── Error Clustering
+│   ├── Label Audit
+│   ├── Data-Quality Audit
+│   ├── Feature-Quality Audit
+│   ├── Outlier Analysis
+│   ├── Distribution Analysis
+│   └── Business-Impact Analysis
+│
+├── 3.54 Data Leakage
+│   ├── Target Leakage
+│   ├── Future Leakage
+│   ├── Temporal Leakage
+│   ├── Train-Test Contamination
+│   ├── Preprocessing Leakage
+│   ├── Scaling Leakage
+│   ├── Encoding Leakage
+│   ├── Feature-Selection Leakage
+│   ├── Imputation Leakage
+│   ├── Duplicate Leakage
+│   ├── Group Leakage
+│   ├── Cross-Validation Leakage
+│   └── Leakage Detection
+│
+├── 3.55 Model Selection
+│   ├── Metric Selection
+│   ├── Cross-Validation Performance
+│   ├── Generalization
+│   ├── Model Complexity
+│   ├── Interpretability
+│   ├── Latency
+│   ├── Throughput
+│   ├── Memory Usage
+│   ├── Training Time
+│   ├── Inference Cost
+│   ├── Stability
+│   ├── Fairness
+│   ├── Calibration
+│   ├── Maintainability
+│   └── Business Value
+│
+├── 3.56 Time-Series Machine Learning
+│   ├── Time Index
+│   ├── Trend
+│   ├── Seasonality
+│   ├── Cyclic Pattern
+│   ├── Noise
+│   ├── Stationarity
+│   ├── Autocorrelation
+│   ├── Partial Autocorrelation
+│   ├── Lag Features
+│   ├── Rolling Features
+│   ├── Expanding Features
+│   ├── Differencing
+│   ├── Resampling
+│   ├── Forecast Horizon
+│   ├── Univariate Forecasting
+│   ├── Multivariate Forecasting
+│   ├── Direct Forecasting
+│   ├── Recursive Forecasting
+│   └── Multi-Step Forecasting
+│
+├── 3.57 Classical Time-Series Models
+│   ├── Naive Forecast
+│   ├── Seasonal Naive Forecast
+│   ├── Moving Average
+│   ├── Weighted Moving Average
+│   ├── Exponential Smoothing
+│   ├── Simple Exponential Smoothing
+│   ├── Holt’s Linear Trend
+│   ├── Holt-Winters
+│   ├── Autoregressive Model
+│   ├── Moving-Average Model
+│   ├── ARMA
+│   ├── ARIMA
+│   ├── SARIMA
+│   ├── SARIMAX
+│   ├── Vector Autoregression
+│   ├── State-Space Models
+│   └── Kalman Filters
+│
+├── 3.58 ML Time-Series Models
+│   ├── Linear Regression with Lag Features
+│   ├── Random Forest Forecasting
+│   ├── Gradient Boosting Forecasting
+│   ├── XGBoost Forecasting
+│   ├── LightGBM Forecasting
+│   ├── CatBoost Forecasting
+│   ├── Quantile Forecasting
+│   ├── Global Forecasting Models
+│   ├── Hierarchical Forecasting
+│   ├── Probabilistic Forecasting
+│   └── Forecast Reconciliation
+│
+├── 3.59 Time-Series Evaluation
+│   ├── Time-Based Split
+│   ├── Walk-Forward Validation
+│   ├── Backtesting
+│   ├── Rolling-Origin Evaluation
+│   ├── MAE
+│   ├── RMSE
+│   ├── MAPE
+│   ├── SMAPE
+│   ├── MASE
+│   ├── RMSLE
+│   ├── Forecast Bias
+│   ├── Prediction Intervals
+│   ├── Coverage Probability
+│   └── Pinball Loss
+│
+├── 3.60 Recommender Systems
+│   ├── User
+│   ├── Item
+│   ├── Rating
+│   ├── Interaction
+│   ├── Explicit Feedback
+│   ├── Implicit Feedback
+│   ├── Popularity-Based Recommendation
+│   ├── Content-Based Filtering
+│   ├── Collaborative Filtering
+│   ├── User-Based Collaborative Filtering
+│   ├── Item-Based Collaborative Filtering
+│   ├── Matrix Factorization
+│   ├── Singular Value Decomposition
+│   ├── Alternating Least Squares
+│   ├── Non-Negative Matrix Factorization
+│   ├── Hybrid Recommenders
+│   ├── Cold-Start Problem
+│   ├── Candidate Generation
+│   ├── Ranking
+│   ├── Diversity
+│   ├── Novelty
+│   ├── Serendipity
+│   └── Recommendation Evaluation
+│
+├── 3.61 Ranking Models
+│   ├── Pointwise Ranking
+│   ├── Pairwise Ranking
+│   ├── Listwise Ranking
+│   ├── Learning to Rank
+│   ├── RankNet
+│   ├── LambdaRank
+│   ├── LambdaMART
+│   ├── Pairwise Preferences
+│   ├── Ranking Loss
+│   ├── Mean Reciprocal Rank
+│   ├── Mean Average Precision
+│   ├── NDCG
+│   ├── Precision at K
+│   └── Recall at K
+│
+├── 3.62 Probabilistic Machine Learning
+│   ├── Probability Models
+│   ├── Likelihood
+│   ├── Maximum Likelihood Estimation
+│   ├── Maximum A Posteriori Estimation
+│   ├── Bayesian Inference
+│   ├── Prior Distribution
+│   ├── Posterior Distribution
+│   ├── Predictive Distribution
+│   ├── Conjugate Priors
+│   ├── Latent Variables
+│   ├── Mixture Models
+│   ├── Expectation-Maximization
+│   ├── Bayesian Networks
+│   ├── Markov Random Fields
+│   ├── Hidden Markov Models
+│   ├── Gaussian Processes
+│   ├── Monte Carlo Methods
+│   ├── Markov Chain Monte Carlo
+│   └── Variational Inference
+│
+├── 3.63 Semi-Supervised Learning
+│   ├── Labelled Data
+│   ├── Unlabelled Data
+│   ├── Pseudo-Labelling
+│   ├── Self-Training
+│   ├── Co-Training
+│   ├── Label Propagation
+│   ├── Label Spreading
+│   ├── Graph-Based Semi-Supervised Learning
+│   ├── Consistency Regularization
+│   ├── Entropy Minimization
+│   └── Teacher-Student Models
+│
+├── 3.64 Self-Supervised Learning
+│   ├── Pretext Task
+│   ├── Representation Learning
+│   ├── Contrastive Learning
+│   ├── Positive Pairs
+│   ├── Negative Pairs
+│   ├── Contrastive Loss
+│   ├── Masked Prediction
+│   ├── Autoencoding
+│   ├── Context Prediction
+│   ├── SimCLR
+│   ├── MoCo
+│   └── BYOL
+│
+├── 3.65 Active Learning
+│   ├── Label Querying
+│   ├── Pool-Based Sampling
+│   ├── Stream-Based Sampling
+│   ├── Membership Query Synthesis
+│   ├── Uncertainty Sampling
+│   ├── Margin Sampling
+│   ├── Entropy Sampling
+│   ├── Query-by-Committee
+│   ├── Diversity Sampling
+│   ├── Expected Model Change
+│   └── Human-in-the-Loop Labelling
+│
+├── 3.66 Online Learning
+│   ├── Streaming Data
+│   ├── Incremental Updates
+│   ├── Partial Fit
+│   ├── Online Gradient Descent
+│   ├── Passive-Aggressive Algorithms
+│   ├── Adaptive Learning Rate
+│   ├── Concept Drift
+│   ├── Sliding Window
+│   ├── Forgetting Factor
+│   ├── Drift Detection
+│   ├── ADWIN
+│   ├── Page-Hinkley Test
+│   └── Online Evaluation
+│
+├── 3.67 Transfer Learning
+│   ├── Source Domain
+│   ├── Target Domain
+│   ├── Source Task
+│   ├── Target Task
+│   ├── Feature Transfer
+│   ├── Parameter Transfer
+│   ├── Domain Adaptation
+│   ├── Fine-Tuning
+│   ├── Frozen Features
+│   ├── Negative Transfer
+│   └── Few-Shot Learning
+│
+├── 3.68 Multi-Task Learning
+│   ├── Shared Representation
+│   ├── Task-Specific Heads
+│   ├── Hard Parameter Sharing
+│   ├── Soft Parameter Sharing
+│   ├── Auxiliary Tasks
+│   ├── Task Weighting
+│   ├── Negative Transfer
+│   └── Multi-Objective Loss
+│
+├── 3.69 Meta-Learning
+│   ├── Learning to Learn
+│   ├── Few-Shot Learning
+│   ├── N-Way K-Shot Learning
+│   ├── Metric-Based Meta-Learning
+│   ├── Optimization-Based Meta-Learning
+│   ├── Model-Based Meta-Learning
+│   ├── Matching Networks
+│   ├── Prototypical Networks
+│   ├── MAML
+│   └── Reptile
+│
+├── 3.70 Causal Machine Learning
+│   ├── Correlation
+│   ├── Causation
+│   ├── Treatment
+│   ├── Outcome
+│   ├── Confounder
+│   ├── Collider
+│   ├── Mediator
+│   ├── Causal Graph
+│   ├── Directed Acyclic Graph
+│   ├── Potential Outcomes
+│   ├── Average Treatment Effect
+│   ├── Conditional Average Treatment Effect
+│   ├── Propensity Score
+│   ├── Matching
+│   ├── Inverse Probability Weighting
+│   ├── Difference-in-Differences
+│   ├── Instrumental Variables
+│   ├── Regression Discontinuity
+│   ├── Double Machine Learning
+│   ├── Causal Forest
+│   └── Uplift Modelling
+│
+├── 3.71 Survival Machine Learning
+│   ├── Time-to-Event Data
+│   ├── Event
+│   ├── Censoring
+│   ├── Right Censoring
+│   ├── Survival Function
+│   ├── Hazard Function
+│   ├── Kaplan-Meier Estimator
+│   ├── Log-Rank Test
+│   ├── Cox Proportional Hazards
+│   ├── Accelerated Failure-Time Model
+│   ├── Survival Trees
+│   ├── Random Survival Forest
+│   ├── Concordance Index
+│   └── Integrated Brier Score
+│
+├── 3.72 Reinforcement Learning Foundations
+│   ├── Agent
+│   ├── Environment
+│   ├── State
+│   ├── Action
+│   ├── Reward
+│   ├── Policy
+│   ├── Value Function
+│   ├── Action-Value Function
+│   ├── Episode
+│   ├── Return
+│   ├── Discount Factor
+│   ├── Exploration
+│   ├── Exploitation
+│   ├── Markov Decision Process
+│   ├── Bellman Equation
+│   ├── Q-Learning
+│   ├── SARSA
+│   ├── Policy Gradient
+│   ├── Actor-Critic
+│   └── Multi-Armed Bandits
+│
+├── 3.73 ML Optimization
+│   ├── Objective Function
+│   ├── Gradient
+│   ├── Gradient Descent
+│   ├── Batch Gradient Descent
+│   ├── Stochastic Gradient Descent
+│   ├── Mini-Batch Gradient Descent
+│   ├── Learning Rate
+│   ├── Momentum
+│   ├── Nesterov Momentum
+│   ├── AdaGrad
+│   ├── RMSProp
+│   ├── Adam
+│   ├── AdamW
+│   ├── Coordinate Descent
+│   ├── Newton’s Method
+│   ├── Quasi-Newton Methods
+│   ├── Convex Optimization
+│   ├── Non-Convex Optimization
+│   ├── Local Minimum
+│   ├── Global Minimum
+│   └── Saddle Point
+│
+├── 3.74 Loss Functions
+│   ├── Squared Error Loss
+│   ├── Absolute Error Loss
+│   ├── Huber Loss
+│   ├── Quantile Loss
+│   ├── Log-Cosh Loss
+│   ├── Binary Cross-Entropy
+│   ├── Categorical Cross-Entropy
+│   ├── Hinge Loss
+│   ├── Squared Hinge Loss
+│   ├── Focal Loss
+│   ├── Contrastive Loss
+│   ├── Triplet Loss
+│   ├── Ranking Loss
+│   ├── Pairwise Loss
+│   ├── Poisson Loss
+│   └── Custom Business Loss
+│
+├── 3.75 Statistical Learning Theory
+│   ├── Hypothesis Space
+│   ├── Empirical Risk Minimization
+│   ├── Structural Risk Minimization
+│   ├── Generalization Bound
+│   ├── VC Dimension
+│   ├── PAC Learning
+│   ├── Sample Complexity
+│   ├── Uniform Convergence
+│   ├── Concentration Inequalities
+│   ├── Regularization
+│   ├── No Free Lunch Theorem
+│   ├── Occam’s Razor
+│   ├── Minimum Description Length
+│   └── Bias-Variance Decomposition
+│
+├── 3.76 Model Robustness
+│   ├── Noise Robustness
+│   ├── Outlier Robustness
+│   ├── Distribution Shift
+│   ├── Covariate Shift
+│   ├── Label Shift
+│   ├── Concept Drift
+│   ├── Adversarial Examples
+│   ├── Stress Testing
+│   ├── Sensitivity Analysis
+│   ├── Perturbation Testing
+│   ├── Worst-Case Evaluation
+│   ├── Robust Loss Functions
+│   └── Uncertainty Estimation
+│
+├── 3.77 Uncertainty Estimation
+│   ├── Aleatoric Uncertainty
+│   ├── Epistemic Uncertainty
+│   ├── Predictive Uncertainty
+│   ├── Confidence Intervals
+│   ├── Prediction Intervals
+│   ├── Bootstrap Uncertainty
+│   ├── Bayesian Models
+│   ├── Ensemble Uncertainty
+│   ├── Quantile Models
+│   ├── Conformal Prediction
+│   ├── Calibration
+│   └── Out-of-Distribution Detection
+│
+├── 3.78 Conformal Prediction
+│   ├── Conformity Score
+│   ├── Non-Conformity Score
+│   ├── Prediction Set
+│   ├── Prediction Interval
+│   ├── Coverage Guarantee
+│   ├── Marginal Coverage
+│   ├── Split Conformal Prediction
+│   ├── Cross-Conformal Prediction
+│   ├── Conformal Classification
+│   ├── Conformal Regression
+│   └── Adaptive Conformal Prediction
+│
+├── 3.79 Fairness in Machine Learning
+│   ├── Protected Attribute
+│   ├── Sensitive Feature
+│   ├── Group Fairness
+│   ├── Individual Fairness
+│   ├── Demographic Parity
+│   ├── Equal Opportunity
+│   ├── Equalized Odds
+│   ├── Predictive Parity
+│   ├── Calibration Across Groups
+│   ├── Disparate Impact
+│   ├── Fairness Metrics
+│   ├── Preprocessing Mitigation
+│   ├── In-Processing Mitigation
+│   ├── Post-Processing Mitigation
+│   └── Fairness-Accuracy Trade-Off
+│
+├── 3.80 Privacy-Preserving Machine Learning
+│   ├── Data Anonymization
+│   ├── Pseudonymization
+│   ├── Data Masking
+│   ├── Differential Privacy
+│   ├── Privacy Budget
+│   ├── Federated Learning
+│   ├── Secure Aggregation
+│   ├── Homomorphic Encryption
+│   ├── Secure Multi-Party Computation
+│   ├── Membership-Inference Attacks
+│   ├── Model-Inversion Attacks
+│   └── Privacy-Utility Trade-Off
+│
+├── 3.81 Experimentation and A/B Testing
+│   ├── Control Group
+│   ├── Treatment Group
+│   ├── Randomization
+│   ├── Hypothesis
+│   ├── Primary Metric
+│   ├── Guardrail Metric
+│   ├── Sample Size
+│   ├── Statistical Power
+│   ├── Significance Level
+│   ├── P-Value
+│   ├── Confidence Interval
+│   ├── Effect Size
+│   ├── Multiple Testing
+│   ├── Sequential Testing
+│   ├── Online Experiments
+│   └── Champion-Challenger Testing
+│
+├── 3.82 Machine Learning Pipelines
+│   ├── Data Ingestion
+│   ├── Data Validation
+│   ├── Data Cleaning
+│   ├── Feature Transformation
+│   ├── Feature Selection
+│   ├── Training
+│   ├── Validation
+│   ├── Hyperparameter Tuning
+│   ├── Evaluation
+│   ├── Model Packaging
+│   ├── Model Registration
+│   ├── Deployment
+│   ├── Monitoring
+│   ├── Retraining
+│   └── Rollback
+│
+├── 3.83 Model Deployment
+│   ├── Model Serialization
+│   ├── Model Deserialization
+│   ├── Real-Time Inference
+│   ├── Batch Inference
+│   ├── Streaming Inference
+│   ├── Online Prediction
+│   ├── Offline Prediction
+│   ├── Edge Inference
+│   ├── Prediction API
+│   ├── Model Server
+│   ├── Containerization
+│   ├── Serverless Deployment
+│   ├── CPU Inference
+│   ├── GPU Inference
+│   ├── Horizontal Scaling
+│   └── Autoscaling
+│
+├── 3.84 Deployment Strategies
+│   ├── Direct Deployment
+│   ├── Shadow Deployment
+│   ├── Canary Deployment
+│   ├── Blue-Green Deployment
+│   ├── A/B Deployment
+│   ├── Champion-Challenger Deployment
+│   ├── Rolling Deployment
+│   ├── Model Rollback
+│   ├── Multi-Model Serving
+│   └── Version Routing
+│
+├── 3.85 Model Monitoring
+│   ├── Service Availability
+│   ├── Latency
+│   ├── Throughput
+│   ├── Error Rate
+│   ├── CPU Usage
+│   ├── Memory Usage
+│   ├── Input Schema
+│   ├── Missing Values
+│   ├── Invalid Values
+│   ├── Feature Drift
+│   ├── Prediction Drift
+│   ├── Label Drift
+│   ├── Concept Drift
+│   ├── Calibration Drift
+│   ├── Performance Degradation
+│   ├── Fairness Drift
+│   ├── Business KPI Drift
+│   └── Alerting
+│
+├── 3.86 Data and Concept Drift
+│   ├── Covariate Shift
+│   ├── Feature Drift
+│   ├── Label Shift
+│   ├── Prior-Probability Shift
+│   ├── Concept Drift
+│   ├── Sudden Drift
+│   ├── Gradual Drift
+│   ├── Incremental Drift
+│   ├── Recurring Drift
+│   ├── Population Stability Index
+│   ├── Kolmogorov-Smirnov Test
+│   ├── Chi-Square Test
+│   ├── KL Divergence
+│   ├── Jensen-Shannon Divergence
+│   ├── Wasserstein Distance
+│   └── Drift Thresholds
+│
+├── 3.87 Model Retraining
+│   ├── Scheduled Retraining
+│   ├── Trigger-Based Retraining
+│   ├── Drift-Based Retraining
+│   ├── Performance-Based Retraining
+│   ├── New-Data Retraining
+│   ├── Full Retraining
+│   ├── Incremental Retraining
+│   ├── Warm-Start Training
+│   ├── Human Approval
+│   ├── Model Revalidation
+│   ├── Champion-Challenger Comparison
+│   └── Automated Rollback
+│
+├── 3.88 MLOps Foundations
+│   ├── Experiment Tracking
+│   ├── Dataset Versioning
+│   ├── Feature Versioning
+│   ├── Code Versioning
+│   ├── Model Versioning
+│   ├── Model Registry
+│   ├── Pipeline Orchestration
+│   ├── Reproducible Training
+│   ├── CI for ML
+│   ├── Continuous Training
+│   ├── Continuous Deployment
+│   ├── Metadata Tracking
+│   ├── Artifact Management
+│   ├── Lineage
+│   └── Governance
+│
+├── 3.89 ML Testing
+│   ├── Data Unit Tests
+│   ├── Schema Tests
+│   ├── Range Tests
+│   ├── Feature Tests
+│   ├── Transformation Tests
+│   ├── Model Unit Tests
+│   ├── Metric Tests
+│   ├── Inference Tests
+│   ├── Integration Tests
+│   ├── Pipeline Tests
+│   ├── Regression Tests
+│   ├── Performance Tests
+│   ├── Load Tests
+│   ├── Drift Tests
+│   ├── Fairness Tests
+│   └── Reproducibility Tests
+│
+├── 3.90 ML System Design
+│   ├── Problem Definition
+│   ├── Requirement Gathering
+│   ├── Data Sources
+│   ├── Data Storage
+│   ├── Label Generation
+│   ├── Feature Pipeline
+│   ├── Feature Store
+│   ├── Training Pipeline
+│   ├── Model Registry
+│   ├── Batch Architecture
+│   ├── Online Architecture
+│   ├── Streaming Architecture
+│   ├── Prediction Service
+│   ├── Cache
+│   ├── Queue
+│   ├── Scalability
+│   ├── Availability
+│   ├── Consistency
+│   ├── Latency
+│   ├── Cost
+│   ├── Security
+│   ├── Monitoring
+│   ├── Retraining
+│   └── Failure Handling
+│
+└── 3.91 Advanced and Research-Level ML
+    ├── Statistical Learning Theory
+    ├── Bayesian Machine Learning
+    ├── Gaussian Processes
+    ├── Probabilistic Graphical Models
+    ├── Causal Machine Learning
+    ├── Meta-Learning
+    ├── Multi-Task Learning
+    ├── Continual Learning
+    ├── Lifelong Learning
+    ├── Few-Shot Learning
+    ├── Zero-Shot Learning
+    ├── Domain Adaptation
+    ├── Domain Generalization
+    ├── Federated Learning
+    ├── Privacy-Preserving ML
+    ├── Robust Machine Learning
+    ├── Adversarial Machine Learning
+    ├── Uncertainty Quantification
+    ├── Conformal Prediction
+    ├── AutoML
+    ├── Neural Architecture Search
+    ├── Graph Machine Learning
+    ├── Geometric Deep Learning
+    ├── Neuro-Symbolic Learning
+    ├── Energy-Based Models
+    ├── Foundation Models
+    └── Responsible AI
