@@ -1,0 +1,344 @@
+5. ADVANCED MACHINE LEARNING
+│
+├── 5.1 Ensemble Learning
+│   ├── Weak Learners
+│   ├── Strong Learners
+│   ├── Model Diversity
+│   ├── Bagging
+│   ├── Boosting
+│   ├── Voting
+│   ├── Averaging
+│   ├── Stacking
+│   ├── Blending
+│   ├── Bootstrap Aggregation
+│   ├── Hard Voting
+│   ├── Soft Voting
+│   └── Weighted Voting
+│
+├── 5.2 Bagging Models
+│   ├── Bagging Classifier
+│   ├── Bagging Regressor
+│   ├── Random Forest
+│   ├── Extra Trees
+│   ├── Random Subspaces
+│   ├── Random Patches
+│   ├── Out-of-Bag Evaluation
+│   └── Quantile Regression Forest
+│
+├── 5.3 Boosting Models
+│   ├── AdaBoost
+│   ├── Gradient Boosting
+│   ├── Stochastic Gradient Boosting
+│   ├── Histogram Gradient Boosting
+│   ├── XGBoost
+│   ├── LightGBM
+│   ├── CatBoost
+│   ├── Gradient-Based Residual Fitting
+│   ├── Learning Rate
+│   ├── Number of Estimators
+│   ├── Shrinkage
+│   └── Early Stopping
+│
+├── 5.4 Advanced Regression
+│   ├── Robust Regression
+│   ├── Huber Regression
+│   ├── RANSAC
+│   ├── Quantile Regression
+│   ├── Poisson Regression
+│   ├── Gamma Regression
+│   ├── Tweedie Regression
+│   ├── Generalized Linear Models
+│   ├── Generalized Additive Models
+│   ├── Spline Regression
+│   ├── Isotonic Regression
+│   ├── Bayesian Regression
+│   └── Gaussian Process Regression
+│
+├── 5.5 Advanced Classification
+│   ├── Ordinal Classification
+│   ├── Hierarchical Classification
+│   ├── Cost-Sensitive Classification
+│   ├── One-vs-Rest
+│   ├── One-vs-One
+│   ├── Error-Correcting Output Codes
+│   ├── Multilabel Classification
+│   ├── Classifier Chains
+│   ├── Label Powerset
+│   └── Open-Set Classification
+│
+├── 5.6 Advanced Clustering
+│   ├── K-Medoids
+│   ├── Fuzzy C-Means
+│   ├── Spectral Clustering
+│   ├── BIRCH
+│   ├── OPTICS
+│   ├── HDBSCAN
+│   ├── Gaussian Mixture Models
+│   ├── Bayesian Gaussian Mixtures
+│   ├── Co-Clustering
+│   ├── Biclustering
+│   └── Consensus Clustering
+│
+├── 5.7 Probabilistic Machine Learning
+│   ├── Likelihood
+│   ├── Maximum Likelihood Estimation
+│   ├── Maximum A Posteriori Estimation
+│   ├── Bayesian Inference
+│   ├── Prior Distribution
+│   ├── Posterior Distribution
+│   ├── Predictive Distribution
+│   ├── Conjugate Priors
+│   ├── Latent Variables
+│   ├── Mixture Models
+│   ├── Expectation-Maximization
+│   ├── Bayesian Networks
+│   ├── Markov Random Fields
+│   ├── Hidden Markov Models
+│   ├── Gaussian Processes
+│   └── Variational Inference
+│
+├── 5.8 Bayesian Machine Learning
+│   ├── Bayesian Linear Regression
+│   ├── Bayesian Logistic Regression
+│   ├── Bayesian Neural Networks
+│   ├── Bayesian Optimization
+│   ├── Hierarchical Bayesian Models
+│   ├── Posterior Predictive Checks
+│   ├── MCMC
+│   ├── Gibbs Sampling
+│   ├── Metropolis-Hastings
+│   ├── Hamiltonian Monte Carlo
+│   └── No-U-Turn Sampler
+│
+├── 5.9 Semi-Supervised Learning
+│   ├── Pseudo-Labelling
+│   ├── Self-Training
+│   ├── Co-Training
+│   ├── Label Propagation
+│   ├── Label Spreading
+│   ├── Graph-Based Learning
+│   ├── Consistency Regularization
+│   ├── Entropy Minimization
+│   ├── Teacher-Student Models
+│   └── Mean Teacher
+│
+├── 5.10 Self-Supervised Learning
+│   ├── Pretext Tasks
+│   ├── Representation Learning
+│   ├── Contrastive Learning
+│   ├── Positive Pairs
+│   ├── Negative Pairs
+│   ├── Contrastive Loss
+│   ├── Masked Prediction
+│   ├── Context Prediction
+│   ├── SimCLR
+│   ├── MoCo
+│   ├── BYOL
+│   └── DINO
+│
+├── 5.11 Active Learning
+│   ├── Pool-Based Sampling
+│   ├── Stream-Based Sampling
+│   ├── Membership Query Synthesis
+│   ├── Uncertainty Sampling
+│   ├── Margin Sampling
+│   ├── Entropy Sampling
+│   ├── Query-by-Committee
+│   ├── Diversity Sampling
+│   ├── Expected Model Change
+│   └── Human-in-the-Loop Learning
+│
+├── 5.12 Online Learning
+│   ├── Incremental Learning
+│   ├── Streaming Learning
+│   ├── Online Gradient Descent
+│   ├── Passive-Aggressive Models
+│   ├── Partial-Fit Learning
+│   ├── Sliding Windows
+│   ├── Forgetting Factors
+│   ├── Adaptive Models
+│   ├── Drift Detection
+│   └── Online Evaluation
+│
+├── 5.13 Transfer Learning
+│   ├── Source Domain
+│   ├── Target Domain
+│   ├── Feature Transfer
+│   ├── Parameter Transfer
+│   ├── Domain Adaptation
+│   ├── Fine-Tuning
+│   ├── Frozen Features
+│   ├── Negative Transfer
+│   ├── Few-Shot Transfer
+│   └── Zero-Shot Transfer
+│
+├── 5.14 Multi-Task Learning
+│   ├── Shared Representation
+│   ├── Task-Specific Heads
+│   ├── Hard Parameter Sharing
+│   ├── Soft Parameter Sharing
+│   ├── Auxiliary Tasks
+│   ├── Task Weighting
+│   ├── Multi-Objective Loss
+│   └── Negative Transfer
+│
+├── 5.15 Meta-Learning
+│   ├── Learning to Learn
+│   ├── Few-Shot Learning
+│   ├── N-Way K-Shot Learning
+│   ├── Metric-Based Meta-Learning
+│   ├── Optimization-Based Meta-Learning
+│   ├── Model-Based Meta-Learning
+│   ├── Matching Networks
+│   ├── Prototypical Networks
+│   ├── MAML
+│   └── Reptile
+│
+├── 5.16 Continual Learning
+│   ├── Lifelong Learning
+│   ├── Sequential Tasks
+│   ├── Catastrophic Forgetting
+│   ├── Rehearsal Methods
+│   ├── Replay Buffers
+│   ├── Regularization Methods
+│   ├── Dynamic Architectures
+│   ├── Task-Incremental Learning
+│   ├── Class-Incremental Learning
+│   └── Domain-Incremental Learning
+│
+├── 5.17 Federated Learning
+│   ├── Client Models
+│   ├── Central Aggregation
+│   ├── Federated Averaging
+│   ├── Non-IID Data
+│   ├── Cross-Device Federation
+│   ├── Cross-Silo Federation
+│   ├── Secure Aggregation
+│   ├── Client Selection
+│   ├── Communication Efficiency
+│   └── Federated Evaluation
+│
+├── 5.18 Causal Machine Learning
+│   ├── Causal Graphs
+│   ├── Directed Acyclic Graphs
+│   ├── Treatment
+│   ├── Outcome
+│   ├── Confounders
+│   ├── Colliders
+│   ├── Mediators
+│   ├── Potential Outcomes
+│   ├── Average Treatment Effect
+│   ├── Conditional Treatment Effect
+│   ├── Propensity Scores
+│   ├── Matching
+│   ├── Inverse Probability Weighting
+│   ├── Difference-in-Differences
+│   ├── Instrumental Variables
+│   ├── Regression Discontinuity
+│   ├── Double Machine Learning
+│   ├── Causal Forests
+│   └── Uplift Modelling
+│
+├── 5.19 Survival Machine Learning
+│   ├── Time-to-Event Data
+│   ├── Censoring
+│   ├── Survival Function
+│   ├── Hazard Function
+│   ├── Kaplan-Meier Estimator
+│   ├── Log-Rank Test
+│   ├── Cox Proportional Hazards
+│   ├── Accelerated Failure-Time Models
+│   ├── Survival Trees
+│   ├── Random Survival Forests
+│   ├── Concordance Index
+│   └── Integrated Brier Score
+│
+├── 5.20 Graph Machine Learning
+│   ├── Graph Representation
+│   ├── Nodes
+│   ├── Edges
+│   ├── Node Features
+│   ├── Edge Features
+│   ├── Adjacency Matrix
+│   ├── Graph Embeddings
+│   ├── Node Classification
+│   ├── Link Prediction
+│   ├── Graph Classification
+│   ├── Community Detection
+│   ├── Message Passing
+│   └── Graph Neural Networks
+│
+├── 5.21 AutoML
+│   ├── Automated Preprocessing
+│   ├── Automated Feature Engineering
+│   ├── Automated Model Selection
+│   ├── Automated Hyperparameter Tuning
+│   ├── Pipeline Search
+│   ├── Ensemble Search
+│   ├── Neural Architecture Search
+│   ├── Multi-Fidelity Optimization
+│   ├── Meta-Learning for AutoML
+│   └── AutoML Evaluation
+│
+├── 5.22 Robust Machine Learning
+│   ├── Robust Loss Functions
+│   ├── Outlier Resistance
+│   ├── Noise Resistance
+│   ├── Distribution Shift
+│   ├── Covariate Shift
+│   ├── Label Shift
+│   ├── Concept Drift
+│   ├── Adversarial Examples
+│   ├── Adversarial Training
+│   ├── Stress Testing
+│   └── Worst-Case Optimization
+│
+├── 5.23 Uncertainty Quantification
+│   ├── Aleatoric Uncertainty
+│   ├── Epistemic Uncertainty
+│   ├── Predictive Uncertainty
+│   ├── Confidence Intervals
+│   ├── Prediction Intervals
+│   ├── Bayesian Uncertainty
+│   ├── Ensemble Uncertainty
+│   ├── Bootstrap Uncertainty
+│   ├── Quantile Models
+│   └── Out-of-Distribution Detection
+│
+├── 5.24 Conformal Prediction
+│   ├── Non-Conformity Scores
+│   ├── Prediction Sets
+│   ├── Prediction Intervals
+│   ├── Coverage Guarantees
+│   ├── Split Conformal Prediction
+│   ├── Cross-Conformal Prediction
+│   ├── Conformal Classification
+│   ├── Conformal Regression
+│   └── Adaptive Conformal Prediction
+│
+├── 5.25 Statistical Learning Theory
+│   ├── Hypothesis Space
+│   ├── Empirical Risk Minimization
+│   ├── Structural Risk Minimization
+│   ├── VC Dimension
+│   ├── PAC Learning
+│   ├── Sample Complexity
+│   ├── Generalization Bounds
+│   ├── Uniform Convergence
+│   ├── Concentration Inequalities
+│   ├── No-Free-Lunch Theorem
+│   └── Minimum Description Length
+│
+└── 5.26 Research-Level Topics
+    ├── Geometric Deep Learning
+    ├── Neuro-Symbolic Learning
+    ├── Energy-Based Models
+    ├── Foundation Models
+    ├── Representation Learning
+    ├── Domain Generalization
+    ├── Weak Supervision
+    ├── Multimodal Learning
+    ├── Privacy-Preserving ML
+    ├── Adversarial ML
+    ├── Interpretable ML
+    └── Responsible AI
