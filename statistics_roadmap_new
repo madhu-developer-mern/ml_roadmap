@@ -1,0 +1,975 @@
+1. BASIC ALGEBRA
+│
+├── 1.1 Number System
+│   ├── Natural Numbers
+│   ├── Whole Numbers
+│   ├── Integers
+│   ├── Rational Numbers
+│   ├── Irrational Numbers
+│   ├── Real Numbers
+│   ├── Absolute Value
+│   ├── Number Line
+│   ├── Fractions
+│   ├── Decimals
+│   ├── Percentages
+│   ├── Ratios
+│   └── Proportions
+│
+├── 1.2 Arithmetic Operations
+│   ├── Addition
+│   ├── Subtraction
+│   ├── Multiplication
+│   ├── Division
+│   ├── Order of Operations
+│   ├── Factors
+│   ├── Multiples
+│   ├── Prime Numbers
+│   ├── LCM
+│   └── HCF
+│
+├── 1.3 Algebraic Foundations
+│   ├── Variables
+│   ├── Constants
+│   ├── Coefficients
+│   ├── Terms
+│   ├── Expressions
+│   ├── Like Terms
+│   ├── Algebraic Simplification
+│   ├── Substitution
+│   ├── Distributive Property
+│   ├── Commutative Property
+│   ├── Associative Property
+│   └── Algebraic Identities
+│
+├── 1.4 Equations
+│   ├── One-Step Equations
+│   ├── Two-Step Equations
+│   ├── Multi-Step Equations
+│   ├── Linear Equations
+│   ├── Fractional Equations
+│   ├── Literal Equations
+│   ├── Simultaneous Equations
+│   ├── Systems of Linear Equations
+│   ├── Substitution Method
+│   ├── Elimination Method
+│   ├── Graphical Method
+│   └── Matrix Method
+│
+├── 1.5 Inequalities
+│   ├── Linear Inequalities
+│   ├── Compound Inequalities
+│   ├── Absolute-Value Inequalities
+│   ├── Interval Notation
+│   ├── Inequality Graphs
+│   ├── Systems of Inequalities
+│   └── Quadratic Inequalities
+│
+├── 1.6 Exponents and Roots
+│   ├── Squares
+│   ├── Cubes
+│   ├── Square Roots
+│   ├── Cube Roots
+│   ├── Exponent Laws
+│   ├── Negative Exponents
+│   ├── Fractional Exponents
+│   ├── Radical Expressions
+│   ├── Scientific Notation
+│   └── Surds
+│
+├── 1.7 Logarithms
+│   ├── Exponential Form
+│   ├── Logarithmic Form
+│   ├── Natural Logarithm
+│   ├── Common Logarithm
+│   ├── Logarithm Laws
+│   ├── Exponential Equations
+│   ├── Logarithmic Equations
+│   ├── Exponential Growth
+│   └── Exponential Decay
+│
+├── 1.8 Coordinate Geometry
+│   ├── Cartesian Plane
+│   ├── Coordinates
+│   ├── Quadrants
+│   ├── Distance Formula
+│   ├── Midpoint Formula
+│   ├── Slope
+│   ├── Intercept
+│   ├── Slope-Intercept Form
+│   ├── Point-Slope Form
+│   ├── Parallel Lines
+│   └── Perpendicular Lines
+│
+├── 1.9 Functions
+│   ├── Function Definition
+│   ├── Function Notation
+│   ├── Domain
+│   ├── Range
+│   ├── Input and Output
+│   ├── Function Graphs
+│   ├── Linear Functions
+│   ├── Quadratic Functions
+│   ├── Polynomial Functions
+│   ├── Rational Functions
+│   ├── Absolute-Value Functions
+│   ├── Exponential Functions
+│   ├── Logarithmic Functions
+│   ├── Piecewise Functions
+│   ├── Composite Functions
+│   ├── Inverse Functions
+│   ├── Even and Odd Functions
+│   ├── Increasing and Decreasing Functions
+│   ├── Maximum and Minimum
+│   └── Function Transformations
+│
+├── 1.10 Polynomials
+│   ├── Monomials
+│   ├── Binomials
+│   ├── Trinomials
+│   ├── Polynomial Degree
+│   ├── Polynomial Addition
+│   ├── Polynomial Subtraction
+│   ├── Polynomial Multiplication
+│   ├── Polynomial Division
+│   ├── Factorization
+│   ├── Difference of Squares
+│   ├── Perfect-Square Trinomials
+│   ├── Polynomial Roots
+│   ├── Remainder Theorem
+│   └── Factor Theorem
+│
+└── 1.11 Quadratic Mathematics
+    ├── Quadratic Equations
+    ├── Factorization Method
+    ├── Completing the Square
+    ├── Quadratic Formula
+    ├── Discriminant
+    ├── Roots
+    ├── Parabolas
+    ├── Vertex
+    ├── Axis of Symmetry
+    └── Quadratic Optimization  
+
+
+
+    2. STATISTICS
+│
+├── 2.1 Statistical Foundations
+│   ├── Data
+│   ├── Dataset
+│   ├── Observation
+│   ├── Variable
+│   ├── Population
+│   ├── Sample
+│   ├── Parameter
+│   ├── Statistic
+│   ├── Census
+│   └── Sampling
+│
+├── 2.2 Types of Data
+│   ├── Qualitative Data
+│   ├── Quantitative Data
+│   ├── Categorical Data
+│   ├── Numerical Data
+│   ├── Nominal Data
+│   ├── Ordinal Data
+│   ├── Discrete Data
+│   ├── Continuous Data
+│   ├── Interval Data
+│   ├── Ratio Data
+│   ├── Cross-Sectional Data
+│   └── Time-Series Data
+│
+├── 2.3 Descriptive Statistics
+│   ├── Frequency
+│   ├── Frequency Distribution
+│   ├── Relative Frequency
+│   ├── Cumulative Frequency
+│   ├── Mean
+│   ├── Weighted Mean
+│   ├── Geometric Mean
+│   ├── Harmonic Mean
+│   ├── Median
+│   ├── Mode
+│   ├── Minimum
+│   ├── Maximum
+│   ├── Range
+│   ├── Quartiles
+│   ├── Percentiles
+│   ├── Interquartile Range
+│   └── Five-Number Summary
+│
+├── 2.4 Measures of Dispersion
+│   ├── Range
+│   ├── Mean Absolute Deviation
+│   ├── Variance
+│   ├── Population Variance
+│   ├── Sample Variance
+│   ├── Standard Deviation
+│   ├── Coefficient of Variation
+│   └── Standard Error
+│
+├── 2.5 Distribution Shape
+│   ├── Symmetric Distribution
+│   ├── Skewness
+│   ├── Positive Skew
+│   ├── Negative Skew
+│   ├── Kurtosis
+│   ├── Mesokurtic
+│   ├── Leptokurtic
+│   ├── Platykurtic
+│   ├── Outliers
+│   └── Heavy-Tailed Distributions
+│
+├── 2.6 Data Visualization
+│   ├── Frequency Table
+│   ├── Histogram
+│   ├── Bar Chart
+│   ├── Pie Chart
+│   ├── Box Plot
+│   ├── Scatter Plot
+│   ├── Line Chart
+│   ├── Density Plot
+│   ├── Violin Plot
+│   ├── Q-Q Plot
+│   ├── Heatmap
+│   └── Pair Plot
+│
+├── 2.7 Standardization
+│   ├── Z-Score
+│   ├── Standard Score
+│   ├── Percentile Rank
+│   ├── Normalization
+│   ├── Standardization
+│   └── Robust Scaling
+│
+├── 2.8 Covariance and Correlation
+│   ├── Covariance
+│   ├── Positive Covariance
+│   ├── Negative Covariance
+│   ├── Pearson Correlation
+│   ├── Spearman Correlation
+│   ├── Kendall Correlation
+│   ├── Partial Correlation
+│   ├── Correlation Matrix
+│   ├── Multicollinearity
+│   ├── Variance Inflation Factor
+│   └── Correlation versus Causation
+│
+├── 2.9 Sampling
+│   ├── Random Sampling
+│   ├── Simple Random Sampling
+│   ├── Stratified Sampling
+│   ├── Systematic Sampling
+│   ├── Cluster Sampling
+│   ├── Convenience Sampling
+│   ├── Sampling Bias
+│   ├── Selection Bias
+│   ├── Non-Response Bias
+│   ├── Sampling Distribution
+│   ├── Law of Large Numbers
+│   └── Central Limit Theorem
+│
+├── 2.10 Statistical Estimation
+│   ├── Point Estimation
+│   ├── Interval Estimation
+│   ├── Confidence Interval
+│   ├── Confidence Level
+│   ├── Margin of Error
+│   ├── Standard Error
+│   ├── Bias of Estimator
+│   ├── Consistency
+│   ├── Efficiency
+│   └── Maximum Likelihood Estimation
+│
+├── 2.11 Hypothesis Testing
+│   ├── Null Hypothesis
+│   ├── Alternative Hypothesis
+│   ├── Test Statistic
+│   ├── Significance Level
+│   ├── P-Value
+│   ├── Critical Value
+│   ├── Rejection Region
+│   ├── Type I Error
+│   ├── Type II Error
+│   ├── Statistical Power
+│   ├── One-Tailed Test
+│   ├── Two-Tailed Test
+│   ├── Effect Size
+│   └── Practical Significance
+│
+├── 2.12 Parametric Tests
+│   ├── Z-Test
+│   ├── One-Sample T-Test
+│   ├── Independent T-Test
+│   ├── Paired T-Test
+│   ├── One-Way ANOVA
+│   ├── Two-Way ANOVA
+│   ├── Repeated-Measures ANOVA
+│   ├── F-Test
+│   └── ANCOVA
+│
+├── 2.13 Non-Parametric Tests
+│   ├── Chi-Square Test
+│   ├── Mann-Whitney U Test
+│   ├── Wilcoxon Signed-Rank Test
+│   ├── Kruskal-Wallis Test
+│   ├── Friedman Test
+│   ├── Kolmogorov-Smirnov Test
+│   └── Shapiro-Wilk Test
+│
+├── 2.14 Regression Statistics
+│   ├── Simple Linear Regression
+│   ├── Multiple Linear Regression
+│   ├── Least Squares
+│   ├── Residuals
+│   ├── Sum of Squared Errors
+│   ├── Total Sum of Squares
+│   ├── Regression Sum of Squares
+│   ├── R-Squared
+│   ├── Adjusted R-Squared
+│   ├── Regression Coefficients
+│   ├── Coefficient Standard Error
+│   ├── Coefficient Confidence Interval
+│   ├── Regression Assumptions
+│   ├── Homoscedasticity
+│   ├── Heteroscedasticity
+│   ├── Autocorrelation
+│   └── Residual Analysis
+│
+├── 2.15 Experimental Statistics
+│   ├── Experimental Design
+│   ├── Control Group
+│   ├── Treatment Group
+│   ├── Randomization
+│   ├── Confounding Variables
+│   ├── Blocking
+│   ├── Blinding
+│   ├── A/B Testing
+│   ├── Factorial Design
+│   └── Multiple-Testing Correction
+│
+└── 2.16 Advanced Statistics
+    ├── Bayesian Statistics
+    ├── Frequentist Statistics
+    ├── Bootstrap
+    ├── Jackknife
+    ├── Monte Carlo Methods
+    ├── Survival Analysis
+    ├── Kaplan-Meier Estimator
+    ├── Cox Proportional Hazards
+    ├── Causal Inference
+    ├── Propensity Scores
+    ├── Instrumental Variables
+    ├── Time-Series Statistics
+    ├── Autocorrelation Function
+    ├── Partial Autocorrelation Function
+    ├── Stationarity
+    └── Statistical Learning Theory 
+
+
+
+    3. PROBABILITY
+│
+├── 3.1 Probability Foundations
+│   ├── Random Experiment
+│   ├── Outcome
+│   ├── Sample Space
+│   ├── Event
+│   ├── Complement
+│   ├── Union
+│   ├── Intersection
+│   ├── Mutually Exclusive Events
+│   ├── Exhaustive Events
+│   └── Equally Likely Events
+│
+├── 3.2 Set Theory
+│   ├── Sets
+│   ├── Subsets
+│   ├── Universal Set
+│   ├── Empty Set
+│   ├── Union
+│   ├── Intersection
+│   ├── Complement
+│   ├── Difference
+│   ├── Cartesian Product
+│   ├── Venn Diagrams
+│   └── De Morgan’s Laws
+│
+├── 3.3 Counting Principles
+│   ├── Addition Rule
+│   ├── Multiplication Rule
+│   ├── Factorial
+│   ├── Permutations
+│   ├── Combinations
+│   ├── Permutations with Repetition
+│   ├── Combinations with Repetition
+│   ├── Binomial Coefficients
+│   └── Inclusion-Exclusion Principle
+│
+├── 3.4 Probability Rules
+│   ├── Probability Axioms
+│   ├── Addition Rule
+│   ├── Multiplication Rule
+│   ├── Complement Rule
+│   ├── Conditional Probability
+│   ├── Joint Probability
+│   ├── Marginal Probability
+│   ├── Total Probability Theorem
+│   └── Chain Rule of Probability
+│
+├── 3.5 Dependence
+│   ├── Independent Events
+│   ├── Dependent Events
+│   ├── Conditional Independence
+│   ├── Pairwise Independence
+│   └── Mutual Independence
+│
+├── 3.6 Bayes’ Theorem
+│   ├── Prior Probability
+│   ├── Likelihood
+│   ├── Evidence
+│   ├── Posterior Probability
+│   ├── Bayesian Updating
+│   ├── Naive Bayes Assumption
+│   └── Maximum A Posteriori Estimation
+│
+├── 3.7 Random Variables
+│   ├── Discrete Random Variables
+│   ├── Continuous Random Variables
+│   ├── Probability Mass Function
+│   ├── Probability Density Function
+│   ├── Cumulative Distribution Function
+│   ├── Joint Random Variables
+│   ├── Marginal Distribution
+│   └── Conditional Distribution
+│
+├── 3.8 Expected Values
+│   ├── Expected Value
+│   ├── Expected Value of a Function
+│   ├── Variance
+│   ├── Standard Deviation
+│   ├── Covariance
+│   ├── Correlation
+│   ├── Moments
+│   ├── Moment-Generating Function
+│   └── Characteristic Function
+│
+├── 3.9 Discrete Probability Distributions
+│   ├── Bernoulli Distribution
+│   ├── Binomial Distribution
+│   ├── Multinomial Distribution
+│   ├── Geometric Distribution
+│   ├── Negative Binomial Distribution
+│   ├── Hypergeometric Distribution
+│   ├── Poisson Distribution
+│   └── Discrete Uniform Distribution
+│
+├── 3.10 Continuous Probability Distributions
+│   ├── Continuous Uniform Distribution
+│   ├── Normal Distribution
+│   ├── Standard Normal Distribution
+│   ├── Exponential Distribution
+│   ├── Gamma Distribution
+│   ├── Beta Distribution
+│   ├── Chi-Square Distribution
+│   ├── Student’s T-Distribution
+│   ├── F-Distribution
+│   ├── Weibull Distribution
+│   ├── Log-Normal Distribution
+│   ├── Laplace Distribution
+│   └── Cauchy Distribution
+│
+├── 3.11 Multivariate Distributions
+│   ├── Joint Distribution
+│   ├── Joint PMF
+│   ├── Joint PDF
+│   ├── Marginal Distribution
+│   ├── Conditional Distribution
+│   ├── Covariance Matrix
+│   ├── Multivariate Normal Distribution
+│   └── Gaussian Mixture Models
+│
+├── 3.12 Limit Theorems
+│   ├── Law of Large Numbers
+│   ├── Weak Law of Large Numbers
+│   ├── Strong Law of Large Numbers
+│   ├── Central Limit Theorem
+│   ├── Convergence in Probability
+│   ├── Convergence in Distribution
+│   ├── Almost-Sure Convergence
+│   └── Mean-Square Convergence
+│
+├── 3.13 Information Theory
+│   ├── Information Content
+│   ├── Entropy
+│   ├── Joint Entropy
+│   ├── Conditional Entropy
+│   ├── Cross-Entropy
+│   ├── Mutual Information
+│   ├── Kullback-Leibler Divergence
+│   ├── Jensen-Shannon Divergence
+│   └── Information Gain
+│
+├── 3.14 Stochastic Processes
+│   ├── Random Process
+│   ├── Markov Property
+│   ├── Markov Chains
+│   ├── Transition Matrix
+│   ├── State Space
+│   ├── Stationary Distribution
+│   ├── Hidden Markov Models
+│   ├── Poisson Process
+│   ├── Random Walk
+│   └── Gaussian Process
+│
+└── 3.15 Advanced Probability
+    ├── Bayesian Networks
+    ├── Markov Random Fields
+    ├── Monte Carlo Sampling
+    ├── Importance Sampling
+    ├── Rejection Sampling
+    ├── Markov Chain Monte Carlo
+    ├── Gibbs Sampling
+    ├── Metropolis-Hastings
+    ├── Variational Inference
+    └── Probabilistic Graphical Models 
+
+
+
+
+    4. LINEAR ALGEBRA
+│
+├── 4.1 Scalar Foundations
+│   ├── Scalars
+│   ├── Real Numbers
+│   ├── Complex Numbers
+│   ├── Scalar Operations
+│   └── Fields
+│
+├── 4.2 Vectors
+│   ├── Vector Definition
+│   ├── Row Vectors
+│   ├── Column Vectors
+│   ├── Vector Components
+│   ├── Vector Addition
+│   ├── Vector Subtraction
+│   ├── Scalar Multiplication
+│   ├── Vector Magnitude
+│   ├── Unit Vectors
+│   ├── Direction
+│   ├── Distance
+│   └── Angle Between Vectors
+│
+├── 4.3 Vector Products
+│   ├── Dot Product
+│   ├── Inner Product
+│   ├── Outer Product
+│   ├── Cross Product
+│   ├── Orthogonality
+│   ├── Orthogonal Vectors
+│   ├── Orthonormal Vectors
+│   ├── Vector Projection
+│   └── Cosine Similarity
+│
+├── 4.4 Vector Spaces
+│   ├── Vector Space
+│   ├── Subspace
+│   ├── Span
+│   ├── Linear Combination
+│   ├── Linear Independence
+│   ├── Linear Dependence
+│   ├── Basis
+│   ├── Standard Basis
+│   ├── Dimension
+│   ├── Column Space
+│   ├── Row Space
+│   └── Null Space
+│
+├── 4.5 Matrices
+│   ├── Matrix Definition
+│   ├── Matrix Dimensions
+│   ├── Row Matrix
+│   ├── Column Matrix
+│   ├── Square Matrix
+│   ├── Rectangular Matrix
+│   ├── Zero Matrix
+│   ├── Identity Matrix
+│   ├── Diagonal Matrix
+│   ├── Scalar Matrix
+│   ├── Symmetric Matrix
+│   ├── Skew-Symmetric Matrix
+│   ├── Triangular Matrix
+│   ├── Sparse Matrix
+│   └── Block Matrix
+│
+├── 4.6 Matrix Operations
+│   ├── Matrix Addition
+│   ├── Matrix Subtraction
+│   ├── Scalar Multiplication
+│   ├── Matrix Multiplication
+│   ├── Element-Wise Multiplication
+│   ├── Hadamard Product
+│   ├── Matrix Transpose
+│   ├── Matrix Power
+│   └── Matrix Trace
+│
+├── 4.7 Systems of Linear Equations
+│   ├── Linear Systems
+│   ├── Coefficient Matrix
+│   ├── Augmented Matrix
+│   ├── Gaussian Elimination
+│   ├── Gauss-Jordan Elimination
+│   ├── Row-Echelon Form
+│   ├── Reduced Row-Echelon Form
+│   ├── Consistent Systems
+│   ├── Inconsistent Systems
+│   ├── Unique Solution
+│   ├── Infinite Solutions
+│   └── Homogeneous Systems
+│
+├── 4.8 Matrix Determinants
+│   ├── Determinant
+│   ├── Cofactor
+│   ├── Minor
+│   ├── Laplace Expansion
+│   ├── Determinant Properties
+│   ├── Singular Matrix
+│   ├── Non-Singular Matrix
+│   └── Geometric Interpretation
+│
+├── 4.9 Matrix Inverse
+│   ├── Inverse Matrix
+│   ├── Invertibility
+│   ├── Adjoint Method
+│   ├── Row-Reduction Method
+│   ├── Pseudoinverse
+│   └── Moore-Penrose Pseudoinverse
+│
+├── 4.10 Rank
+│   ├── Matrix Rank
+│   ├── Row Rank
+│   ├── Column Rank
+│   ├── Full Rank
+│   ├── Rank Deficiency
+│   ├── Rank-Nullity Theorem
+│   └── Low-Rank Matrices
+│
+├── 4.11 Linear Transformations
+│   ├── Linear Transformation
+│   ├── Transformation Matrix
+│   ├── Rotation
+│   ├── Reflection
+│   ├── Scaling
+│   ├── Shearing
+│   ├── Projection
+│   ├── Kernel
+│   ├── Image
+│   └── Change of Basis
+│
+├── 4.12 Eigenvalues and Eigenvectors
+│   ├── Eigenvalue
+│   ├── Eigenvector
+│   ├── Characteristic Equation
+│   ├── Characteristic Polynomial
+│   ├── Eigenspace
+│   ├── Algebraic Multiplicity
+│   ├── Geometric Multiplicity
+│   ├── Diagonalization
+│   ├── Spectral Decomposition
+│   └── Power Iteration
+│
+├── 4.13 Matrix Decompositions
+│   ├── LU Decomposition
+│   ├── QR Decomposition
+│   ├── Cholesky Decomposition
+│   ├── Eigendecomposition
+│   ├── Singular Value Decomposition
+│   ├── Polar Decomposition
+│   └── Non-Negative Matrix Factorization
+│
+├── 4.14 Norms
+│   ├── Vector Norm
+│   ├── L0 Norm
+│   ├── L1 Norm
+│   ├── L2 Norm
+│   ├── L-Infinity Norm
+│   ├── Frobenius Norm
+│   ├── Matrix Norm
+│   └── Nuclear Norm
+│
+├── 4.15 Distances and Similarity
+│   ├── Euclidean Distance
+│   ├── Manhattan Distance
+│   ├── Minkowski Distance
+│   ├── Chebyshev Distance
+│   ├── Mahalanobis Distance
+│   ├── Cosine Distance
+│   ├── Hamming Distance
+│   └── Jaccard Similarity
+│
+├── 4.16 Positive-Definite Matrices
+│   ├── Positive-Definite Matrix
+│   ├── Positive-Semidefinite Matrix
+│   ├── Negative-Definite Matrix
+│   ├── Quadratic Forms
+│   ├── Covariance Matrices
+│   └── Gram Matrices
+│
+├── 4.17 Numerical Linear Algebra
+│   ├── Floating-Point Arithmetic
+│   ├── Numerical Stability
+│   ├── Matrix Conditioning
+│   ├── Condition Number
+│   ├── Iterative Solvers
+│   ├── Conjugate Gradient
+│   ├── Sparse Matrix Operations
+│   └── Approximate Matrix Factorization
+│
+└── 4.18 ML Applications
+    ├── Linear Regression Matrix Form
+    ├── Normal Equation
+    ├── Ridge Regression Matrix Form
+    ├── PCA
+    ├── SVD for Dimensionality Reduction
+    ├── Covariance Matrix
+    ├── Embedding Spaces
+    ├── Attention Matrices
+    ├── Neural-Network Weight Matrices
+    ├── Matrix Factorization
+    └── Recommender Systems
+
+
+
+    5. CALCULUS
+│
+├── 5.1 Function Foundations
+│   ├── Functions
+│   ├── Domain
+│   ├── Range
+│   ├── Function Composition
+│   ├── Inverse Functions
+│   ├── Piecewise Functions
+│   ├── Polynomial Functions
+│   ├── Exponential Functions
+│   └── Logarithmic Functions
+│
+├── 5.2 Limits
+│   ├── Limit Definition
+│   ├── Left-Hand Limit
+│   ├── Right-Hand Limit
+│   ├── Finite Limits
+│   ├── Infinite Limits
+│   ├── Limits at Infinity
+│   ├── Limit Laws
+│   ├── Indeterminate Forms
+│   ├── Squeeze Theorem
+│   └── L’Hôpital’s Rule
+│
+├── 5.3 Continuity
+│   ├── Continuous Functions
+│   ├── Discontinuity
+│   ├── Removable Discontinuity
+│   ├── Jump Discontinuity
+│   ├── Infinite Discontinuity
+│   ├── Intermediate Value Theorem
+│   └── Extreme Value Theorem
+│
+├── 5.4 Derivatives
+│   ├── Derivative Definition
+│   ├── Difference Quotient
+│   ├── Tangent Slope
+│   ├── Rate of Change
+│   ├── Power Rule
+│   ├── Constant Rule
+│   ├── Sum Rule
+│   ├── Difference Rule
+│   ├── Product Rule
+│   ├── Quotient Rule
+│   └── Chain Rule
+│
+├── 5.5 Derivatives of Functions
+│   ├── Polynomial Derivatives
+│   ├── Exponential Derivatives
+│   ├── Logarithmic Derivatives
+│   ├── Trigonometric Derivatives
+│   ├── Inverse-Function Derivatives
+│   ├── Implicit Differentiation
+│   └── Higher-Order Derivatives
+│
+├── 5.6 Derivative Applications
+│   ├── Increasing Functions
+│   ├── Decreasing Functions
+│   ├── Critical Points
+│   ├── Local Minimum
+│   ├── Local Maximum
+│   ├── Global Minimum
+│   ├── Global Maximum
+│   ├── Concavity
+│   ├── Inflection Points
+│   ├── First-Derivative Test
+│   ├── Second-Derivative Test
+│   └── Curve Sketching
+│
+├── 5.7 Partial Derivatives
+│   ├── Multivariable Functions
+│   ├── Partial Derivative
+│   ├── First-Order Partial Derivatives
+│   ├── Second-Order Partial Derivatives
+│   ├── Mixed Partial Derivatives
+│   ├── Total Derivative
+│   ├── Directional Derivative
+│   └── Multivariable Chain Rule
+│
+├── 5.8 Gradients
+│   ├── Gradient Vector
+│   ├── Gradient Direction
+│   ├── Directional Derivative
+│   ├── Level Curves
+│   ├── Level Surfaces
+│   ├── Jacobian Matrix
+│   ├── Hessian Matrix
+│   ├── Gradient Field
+│   └── Vector Calculus Basics
+│
+├── 5.9 Integration
+│   ├── Antiderivatives
+│   ├── Indefinite Integrals
+│   ├── Definite Integrals
+│   ├── Fundamental Theorem of Calculus
+│   ├── Area Under a Curve
+│   ├── Substitution Method
+│   ├── Integration by Parts
+│   ├── Partial Fractions
+│   ├── Improper Integrals
+│   └── Numerical Integration
+│
+├── 5.10 Multivariable Integration
+│   ├── Double Integrals
+│   ├── Triple Integrals
+│   ├── Change of Variables
+│   ├── Jacobian Determinant
+│   ├── Line Integrals
+│   └── Surface Integrals
+│
+├── 5.11 Series
+│   ├── Sequences
+│   ├── Infinite Series
+│   ├── Convergence
+│   ├── Divergence
+│   ├── Geometric Series
+│   ├── Taylor Series
+│   ├── Maclaurin Series
+│   ├── Power Series
+│   └── Approximation Error
+│
+├── 5.12 Differential Equations
+│   ├── Ordinary Differential Equations
+│   ├── First-Order ODE
+│   ├── Second-Order ODE
+│   ├── Initial-Value Problems
+│   ├── Linear ODE
+│   ├── Nonlinear ODE
+│   ├── Dynamical Systems
+│   └── Numerical ODE Methods
+│
+└── 5.13 Calculus for ML
+    ├── Loss Functions
+    ├── Cost Functions
+    ├── Gradient of MSE
+    ├── Gradient of Cross-Entropy
+    ├── Logistic-Regression Derivatives
+    ├── Regularization Derivatives
+    ├── Backpropagation
+    ├── Computational Graphs
+    ├── Automatic Differentiation
+    ├── Vanishing Gradients
+    └── Exploding Gradients 
+
+
+
+    6. OPTIMIZATION
+│
+├── 6.1 Optimization Foundations
+│   ├── Objective Function
+│   ├── Decision Variables
+│   ├── Constraints
+│   ├── Feasible Region
+│   ├── Minimum
+│   ├── Maximum
+│   ├── Local Optimum
+│   ├── Global Optimum
+│   └── Saddle Point
+│
+├── 6.2 Convex Optimization
+│   ├── Convex Sets
+│   ├── Convex Functions
+│   ├── Strict Convexity
+│   ├── Concave Functions
+│   ├── Convex Combinations
+│   ├── Jensen’s Inequality
+│   ├── First-Order Condition
+│   └── Second-Order Condition
+│
+├── 6.3 Gradient-Based Optimization
+│   ├── Gradient Descent
+│   ├── Batch Gradient Descent
+│   ├── Stochastic Gradient Descent
+│   ├── Mini-Batch Gradient Descent
+│   ├── Learning Rate
+│   ├── Learning-Rate Scheduling
+│   ├── Momentum
+│   ├── Nesterov Momentum
+│   ├── AdaGrad
+│   ├── RMSProp
+│   ├── Adam
+│   ├── AdamW
+│   └── L-BFGS
+│
+├── 6.4 Constrained Optimization
+│   ├── Equality Constraints
+│   ├── Inequality Constraints
+│   ├── Lagrange Multipliers
+│   ├── Lagrangian
+│   ├── Duality
+│   ├── Primal Problem
+│   ├── Dual Problem
+│   ├── KKT Conditions
+│   └── Projected Gradient Descent
+│
+├── 6.5 Numerical Optimization
+│   ├── Line Search
+│   ├── Newton’s Method
+│   ├── Quasi-Newton Methods
+│   ├── Coordinate Descent
+│   ├── Subgradient Methods
+│   ├── Proximal Gradient Methods
+│   ├── Convergence Rate
+│   ├── Numerical Stability
+│   └── Stopping Criteria
+│
+├── 6.6 Regularization
+│   ├── L1 Regularization
+│   ├── L2 Regularization
+│   ├── Elastic Net
+│   ├── Weight Decay
+│   ├── Sparsity
+│   ├── Norm Constraints
+│   ├── Early Stopping
+│   └── Regularization Paths
+│
+└── 6.7 Advanced Optimization
+    ├── Non-Convex Optimization
+    ├── Stochastic Optimization
+    ├── Bayesian Optimization
+    ├── Evolutionary Optimization
+    ├── Genetic Algorithms
+    ├── Simulated Annealing
+    ├── Particle Swarm Optimization
+    ├── Multi-Objective Optimization
+    ├── Hyperparameter Optimization
+    └── Reinforcement-Learning Optimization 
+
+
+
+    
