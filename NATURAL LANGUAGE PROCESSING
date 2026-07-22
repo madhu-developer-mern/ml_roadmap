@@ -1,0 +1,257 @@
+8. NATURAL LANGUAGE PROCESSING
+│
+├── 8.1 NLP Foundations
+│   ├── Natural Language
+│   ├── Corpus
+│   ├── Document
+│   ├── Sentence
+│   ├── Token
+│   ├── Vocabulary
+│   ├── Language Model
+│   ├── Sequence
+│   ├── Context
+│   └── Linguistic Structure
+│
+├── 8.2 Linguistic Foundations
+│   ├── Phonetics
+│   ├── Phonology
+│   ├── Morphology
+│   ├── Syntax
+│   ├── Semantics
+│   ├── Pragmatics
+│   ├── Discourse
+│   ├── Ambiguity
+│   └── Coreference
+│
+├── 8.3 Text Cleaning
+│   ├── Lowercasing
+│   ├── Unicode Normalization
+│   ├── Punctuation Removal
+│   ├── Whitespace Normalization
+│   ├── HTML Removal
+│   ├── URL Removal
+│   ├── Emoji Handling
+│   ├── Contraction Expansion
+│   ├── Spelling Correction
+│   ├── Noise Removal
+│   └── Language Detection
+│
+├── 8.4 Tokenization
+│   ├── Sentence Tokenization
+│   ├── Word Tokenization
+│   ├── Character Tokenization
+│   ├── Subword Tokenization
+│   ├── Byte-Pair Encoding
+│   ├── WordPiece
+│   ├── SentencePiece
+│   ├── Unigram Tokenization
+│   └── Byte-Level Tokenization
+│
+├── 8.5 Text Normalization
+│   ├── Stop-Word Removal
+│   ├── Stemming
+│   ├── Lemmatization
+│   ├── Part-of-Speech-Aware Lemmatization
+│   ├── Number Normalization
+│   ├── Date Normalization
+│   └── Entity Normalization
+│
+├── 8.6 Traditional Text Representation
+│   ├── One-Hot Representation
+│   ├── Bag of Words
+│   ├── N-Grams
+│   ├── Term Frequency
+│   ├── Inverse Document Frequency
+│   ├── TF-IDF
+│   ├── Hashing Vectorizer
+│   └── Co-Occurrence Matrix
+│
+├── 8.7 Word Embeddings
+│   ├── Dense Vectors
+│   ├── Distributional Semantics
+│   ├── Word2Vec
+│   ├── CBOW
+│   ├── Skip-Gram
+│   ├── Negative Sampling
+│   ├── GloVe
+│   ├── FastText
+│   ├── Contextual Embeddings
+│   └── Sentence Embeddings
+│
+├── 8.8 Language Modelling
+│   ├── N-Gram Language Models
+│   ├── Markov Assumption
+│   ├── Smoothing
+│   ├── Perplexity
+│   ├── Autoregressive Modelling
+│   ├── Masked Language Modelling
+│   ├── Causal Language Modelling
+│   └── Sequence Probability
+│
+├── 8.9 Traditional NLP Models
+│   ├── Naive Bayes
+│   ├── Logistic Regression
+│   ├── Support Vector Machines
+│   ├── Hidden Markov Models
+│   ├── Conditional Random Fields
+│   ├── Maximum Entropy Models
+│   └── Topic Models
+│
+├── 8.10 Sequence Models
+│   ├── RNN
+│   ├── LSTM
+│   ├── GRU
+│   ├── Bidirectional RNN
+│   ├── Encoder-Decoder
+│   ├── Seq2Seq
+│   ├── Teacher Forcing
+│   ├── Beam Search
+│   └── Attention
+│
+├── 8.11 Transformer NLP
+│   ├── Self-Attention
+│   ├── Multi-Head Attention
+│   ├── Positional Encoding
+│   ├── Encoder Models
+│   ├── Decoder Models
+│   ├── Encoder-Decoder Models
+│   ├── BERT
+│   ├── GPT
+│   ├── T5
+│   ├── RoBERTa
+│   └── Sentence Transformers
+│
+├── 8.12 Text Classification
+│   ├── Binary Classification
+│   ├── Multiclass Classification
+│   ├── Multilabel Classification
+│   ├── Intent Classification
+│   ├── Topic Classification
+│   ├── Spam Detection
+│   ├── Toxicity Detection
+│   └── Emotion Classification
+│
+├── 8.13 Sentiment Analysis
+│   ├── Positive Sentiment
+│   ├── Negative Sentiment
+│   ├── Neutral Sentiment
+│   ├── Aspect-Based Sentiment
+│   ├── Emotion Detection
+│   ├── Sarcasm Detection
+│   └── Opinion Mining
+│
+├── 8.14 Named Entity Recognition
+│   ├── Person Entity
+│   ├── Organization Entity
+│   ├── Location Entity
+│   ├── Date Entity
+│   ├── Product Entity
+│   ├── BIO Tagging
+│   ├── Entity Linking
+│   ├── Entity Normalization
+│   └── Nested Entities
+│
+├── 8.15 Information Extraction
+│   ├── Relation Extraction
+│   ├── Event Extraction
+│   ├── Slot Filling
+│   ├── Keyphrase Extraction
+│   ├── Template Filling
+│   ├── Open Information Extraction
+│   └── Knowledge-Graph Construction
+│
+├── 8.16 Topic Modelling
+│   ├── Latent Semantic Analysis
+│   ├── Probabilistic Latent Semantic Analysis
+│   ├── Latent Dirichlet Allocation
+│   ├── Non-Negative Matrix Factorization
+│   ├── Neural Topic Models
+│   ├── Topic Coherence
+│   └── Dynamic Topic Models
+│
+├── 8.17 Text Similarity
+│   ├── Cosine Similarity
+│   ├── Jaccard Similarity
+│   ├── Edit Distance
+│   ├── Levenshtein Distance
+│   ├── Semantic Similarity
+│   ├── Sentence Similarity
+│   ├── Cross-Encoder Scoring
+│   └── Bi-Encoder Retrieval
+│
+├── 8.18 Search and Retrieval
+│   ├── Inverted Index
+│   ├── Boolean Retrieval
+│   ├── TF-IDF Retrieval
+│   ├── BM25
+│   ├── Dense Retrieval
+│   ├── Sparse Retrieval
+│   ├── Hybrid Search
+│   ├── Reranking
+│   ├── Query Expansion
+│   └── Learning to Rank
+│
+├── 8.19 Question Answering
+│   ├── Extractive QA
+│   ├── Generative QA
+│   ├── Open-Domain QA
+│   ├── Closed-Domain QA
+│   ├── Reading Comprehension
+│   ├── Multi-Hop QA
+│   ├── Knowledge-Based QA
+│   └── Retrieval-Augmented QA
+│
+├── 8.20 Text Summarization
+│   ├── Extractive Summarization
+│   ├── Abstractive Summarization
+│   ├── Single-Document Summarization
+│   ├── Multi-Document Summarization
+│   ├── Query-Focused Summarization
+│   ├── Faithfulness
+│   └── Coverage
+│
+├── 8.21 Machine Translation
+│   ├── Statistical Machine Translation
+│   ├── Neural Machine Translation
+│   ├── Encoder-Decoder Translation
+│   ├── Attention Translation
+│   ├── Transformer Translation
+│   ├── Multilingual Models
+│   └── Zero-Shot Translation
+│
+├── 8.22 Dialogue Systems
+│   ├── Intent Detection
+│   ├── Slot Filling
+│   ├── Dialogue State Tracking
+│   ├── Response Generation
+│   ├── Task-Oriented Dialogue
+│   ├── Open-Domain Dialogue
+│   ├── Context Management
+│   └── Conversation Memory
+│
+├── 8.23 NLP Evaluation
+│   ├── Accuracy
+│   ├── Precision
+│   ├── Recall
+│   ├── F1-Score
+│   ├── BLEU
+│   ├── ROUGE
+│   ├── METEOR
+│   ├── BERTScore
+│   ├── Perplexity
+│   ├── Exact Match
+│   ├── Semantic Similarity
+│   ├── Faithfulness
+│   └── Human Evaluation
+│
+└── 8.24 Advanced NLP
+    ├── Multilingual NLP
+    ├── Cross-Lingual Transfer
+    ├── Low-Resource NLP
+    ├── Multimodal NLP
+    ├── Retrieval-Augmented Generation
+    ├── Knowledge-Graph NLP
+    ├── Long-Context NLP
+    ├── Responsible NLP
+    ├── Hallucination Evaluation
+    └── NLP Agents
