@@ -1,0 +1,190 @@
+ARTIFICIAL INTELLIGENCE
+│
+├── 1. MATHEMATICS
+│   │
+│   ├── Basic Algebra
+│   ├── Statistics
+│   ├── Probability
+│   ├── Linear Algebra
+│   └── Calculus
+│
+├── 2. DATA UNDERSTANDING
+│   │
+│   ├── Data Collection
+│   ├── Data Cleaning
+│   ├── Exploratory Data Analysis
+│   ├── Data Visualization
+│   ├── Data Preprocessing
+│   └── Feature Engineering
+│
+├── 3. MACHINE LEARNING
+│   │
+│   ├── Supervised Learning
+│   │   │
+│   │   ├── Regression
+│   │   │   ├── Linear Regression
+│   │   │   ├── Multiple Linear Regression
+│   │   │   ├── Polynomial Regression
+│   │   │   ├── Ridge Regression
+│   │   │   ├── Lasso Regression
+│   │   │   └── Elastic Net
+│   │   │
+│   │   └── Classification
+│   │       ├── Logistic Regression
+│   │       ├── K-Nearest Neighbours
+│   │       ├── Naive Bayes
+│   │       ├── Decision Tree
+│   │       ├── Random Forest
+│   │       ├── Support Vector Machine
+│   │       └── Gradient Boosting
+│   │
+│   ├── Unsupervised Learning
+│   │   ├── Clustering
+│   │   ├── PCA
+│   │   ├── Dimensionality Reduction
+│   │   ├── Association Rules
+│   │   └── Anomaly Detection
+│   │
+│   ├── Semi-Supervised Learning
+│   └── Reinforcement Learning
+│
+├── 4. MODEL EVALUATION
+│   │
+│   ├── Regression Metrics
+│   │   ├── MAE
+│   │   ├── MSE
+│   │   ├── RMSE
+│   │   └── R²
+│   │
+│   ├── Classification Metrics
+│   │   ├── Accuracy
+│   │   ├── Precision
+│   │   ├── Recall
+│   │   ├── F1-Score
+│   │   └── ROC-AUC
+│   │
+│   ├── Train–Validation–Test Split
+│   ├── Cross-Validation
+│   ├── Bias and Variance
+│   ├── Underfitting
+│   ├── Overfitting
+│   └── Hyperparameter Tuning
+│
+├── 5. ADVANCED MACHINE LEARNING
+│   │
+│   ├── Ensemble Learning
+│   │   ├── Bagging
+│   │   ├── Boosting
+│   │   ├── Voting
+│   │   └── Stacking
+│   │
+│   ├── Random Forest
+│   ├── AdaBoost
+│   ├── Gradient Boosting
+│   ├── XGBoost
+│   ├── LightGBM
+│   └── CatBoost
+│
+├── 6. TIME-SERIES LEARNING
+│   │
+│   ├── Trend
+│   ├── Seasonality
+│   ├── Lag Features
+│   ├── Rolling Windows
+│   ├── ARIMA
+│   ├── SARIMA
+│   ├── Exponential Smoothing
+│   └── Forecast Evaluation
+│
+├── 7. DEEP LEARNING
+│   │
+│   ├── Neural Networks
+│   ├── Forward Propagation
+│   ├── Loss Functions
+│   ├── Gradient Descent
+│   ├── Backpropagation
+│   ├── Activation Functions
+│   ├── Optimizers
+│   ├── CNN
+│   ├── RNN
+│   ├── LSTM
+│   ├── GRU
+│   └── Transformers
+│
+├── 8. NATURAL LANGUAGE PROCESSING
+│   │
+│   ├── Text Cleaning
+│   ├── Tokenization
+│   ├── Stemming
+│   ├── Lemmatization
+│   ├── Bag of Words
+│   ├── TF-IDF
+│   ├── Word Embeddings
+│   ├── Text Classification
+│   ├── Sentiment Analysis
+│   ├── Named Entity Recognition
+│   ├── Attention
+│   └── Transformers
+│
+├── 9. COMPUTER VISION
+│   │
+│   ├── Image Processing
+│   ├── Convolution
+│   ├── CNN
+│   ├── Image Classification
+│   ├── Object Detection
+│   ├── Image Segmentation
+│   ├── OCR
+│   └── Vision Transformers
+│
+├── 10. GENERATIVE AI
+│   │
+│   ├── Large Language Models
+│   ├── Tokens
+│   ├── Prompt Engineering
+│   ├── Embeddings
+│   ├── Vector Databases
+│   ├── RAG
+│   ├── Fine-Tuning
+│   ├── AI Agents
+│   ├── Tool Calling
+│   └── LLM Evaluation
+│
+├── 11. MODEL DEPLOYMENT
+│   │
+│   ├── Saving Models
+│   ├── Prediction APIs
+│   ├── Batch Inference
+│   ├── Real-Time Inference
+│   ├── Streaming Inference
+│   ├── Containers
+│   ├── Cloud Deployment
+│   ├── Scaling
+│   └── Security
+│
+├── 12. MLOPS
+│   │
+│   ├── Experiment Tracking
+│   ├── Data Versioning
+│   ├── Model Versioning
+│   ├── Model Registry
+│   ├── Training Pipelines
+│   ├── CI/CD
+│   ├── Model Monitoring
+│   ├── Data Drift
+│   ├── Concept Drift
+│   ├── Retraining
+│   └── Rollback
+│
+└── 13. ML SYSTEM DESIGN
+    │
+    ├── Business Problem
+    ├── Data Pipeline
+    ├── Training Architecture
+    ├── Inference Architecture
+    ├── Database and Storage
+    ├── Scalability
+    ├── Monitoring
+    ├── Security
+    ├── Cost Optimization
+    └── Failure Handling
