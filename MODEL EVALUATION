@@ -1,0 +1,304 @@
+4. MODEL EVALUATION
+│
+├── 4.1 Evaluation Foundations
+│   ├── Training Performance
+│   ├── Validation Performance
+│   ├── Test Performance
+│   ├── Generalization
+│   ├── Generalization Error
+│   ├── Empirical Risk
+│   ├── Expected Risk
+│   ├── Evaluation Metric
+│   ├── Baseline Model
+│   ├── Benchmark Model
+│   ├── Offline Evaluation
+│   ├── Online Evaluation
+│   ├── Business Evaluation
+│   └── Statistical Evaluation
+│
+├── 4.2 Dataset Splitting
+│   ├── Training Set
+│   ├── Validation Set
+│   ├── Test Set
+│   ├── Holdout Split
+│   ├── Random Split
+│   ├── Stratified Split
+│   ├── Group-Based Split
+│   ├── User-Based Split
+│   ├── Geographic Split
+│   ├── Time-Based Split
+│   ├── Out-of-Time Split
+│   ├── Rolling-Window Split
+│   └── Expanding-Window Split
+│
+├── 4.3 Cross-Validation
+│   ├── K-Fold Cross-Validation
+│   ├── Stratified K-Fold
+│   ├── Repeated K-Fold
+│   ├── Leave-One-Out
+│   ├── Leave-P-Out
+│   ├── Group K-Fold
+│   ├── Stratified Group K-Fold
+│   ├── Nested Cross-Validation
+│   ├── Time-Series Cross-Validation
+│   ├── Walk-Forward Validation
+│   ├── Purged Cross-Validation
+│   └── Embargo Cross-Validation
+│
+├── 4.4 Regression Metrics
+│   ├── Mean Absolute Error
+│   ├── Mean Squared Error
+│   ├── Root Mean Squared Error
+│   ├── Median Absolute Error
+│   ├── Mean Absolute Percentage Error
+│   ├── Symmetric MAPE
+│   ├── Weighted MAPE
+│   ├── Mean Squared Logarithmic Error
+│   ├── Root Mean Squared Logarithmic Error
+│   ├── R-Squared
+│   ├── Adjusted R-Squared
+│   ├── Explained Variance
+│   ├── Mean Absolute Scaled Error
+│   ├── Pinball Loss
+│   └── Huber Loss
+│
+├── 4.5 Classification Metrics
+│   ├── Confusion Matrix
+│   ├── True Positive
+│   ├── True Negative
+│   ├── False Positive
+│   ├── False Negative
+│   ├── Accuracy
+│   ├── Precision
+│   ├── Recall
+│   ├── Sensitivity
+│   ├── Specificity
+│   ├── F1-Score
+│   ├── F-Beta Score
+│   ├── Balanced Accuracy
+│   ├── Matthews Correlation Coefficient
+│   ├── Cohen’s Kappa
+│   ├── Jaccard Score
+│   ├── Log Loss
+│   └── Brier Score
+│
+├── 4.6 ROC and Precision-Recall Evaluation
+│   ├── True Positive Rate
+│   ├── False Positive Rate
+│   ├── ROC Curve
+│   ├── ROC-AUC
+│   ├── Precision-Recall Curve
+│   ├── Average Precision
+│   ├── PR-AUC
+│   ├── Partial AUC
+│   ├── No-Skill Baseline
+│   ├── Operating Point
+│   └── Threshold Movement
+│
+├── 4.7 Multiclass Evaluation
+│   ├── Per-Class Accuracy
+│   ├── Per-Class Precision
+│   ├── Per-Class Recall
+│   ├── Per-Class F1
+│   ├── Macro Averaging
+│   ├── Micro Averaging
+│   ├── Weighted Averaging
+│   ├── Multiclass Confusion Matrix
+│   ├── One-vs-Rest ROC-AUC
+│   ├── One-vs-One ROC-AUC
+│   ├── Top-K Accuracy
+│   └── Hierarchical Metrics
+│
+├── 4.8 Multilabel Evaluation
+│   ├── Hamming Loss
+│   ├── Subset Accuracy
+│   ├── Micro F1
+│   ├── Macro F1
+│   ├── Label Ranking Loss
+│   ├── Coverage Error
+│   ├── Precision at K
+│   ├── Recall at K
+│   └── Average Precision
+│
+├── 4.9 Clustering Evaluation
+│   ├── Inertia
+│   ├── Silhouette Score
+│   ├── Davies-Bouldin Index
+│   ├── Calinski-Harabasz Index
+│   ├── Dunn Index
+│   ├── Rand Index
+│   ├── Adjusted Rand Index
+│   ├── Mutual Information
+│   ├── Normalized Mutual Information
+│   ├── Homogeneity
+│   ├── Completeness
+│   ├── V-Measure
+│   └── Cluster Stability
+│
+├── 4.10 Ranking Evaluation
+│   ├── Precision at K
+│   ├── Recall at K
+│   ├── Hit Rate
+│   ├── Mean Reciprocal Rank
+│   ├── Mean Average Precision
+│   ├── Average Precision
+│   ├── Discounted Cumulative Gain
+│   ├── Normalized DCG
+│   ├── Pairwise Accuracy
+│   └── Ranking Correlation
+│
+├── 4.11 Recommendation Evaluation
+│   ├── Precision at K
+│   ├── Recall at K
+│   ├── Hit Rate
+│   ├── NDCG
+│   ├── Mean Reciprocal Rank
+│   ├── Coverage
+│   ├── Diversity
+│   ├── Novelty
+│   ├── Serendipity
+│   ├── Personalization
+│   ├── Popularity Bias
+│   └── Cold-Start Performance
+│
+├── 4.12 Forecast Evaluation
+│   ├── Backtesting
+│   ├── Walk-Forward Validation
+│   ├── Rolling-Origin Evaluation
+│   ├── Forecast Horizon
+│   ├── Forecast Bias
+│   ├── MAE
+│   ├── RMSE
+│   ├── MAPE
+│   ├── SMAPE
+│   ├── MASE
+│   ├── RMSSE
+│   ├── Pinball Loss
+│   ├── Prediction-Interval Coverage
+│   └── Weighted Quantile Loss
+│
+├── 4.13 Bias and Variance
+│   ├── Bias
+│   ├── Variance
+│   ├── Irreducible Error
+│   ├── Bias-Variance Decomposition
+│   ├── High Bias
+│   ├── High Variance
+│   ├── Underfitting
+│   ├── Overfitting
+│   ├── Model Complexity
+│   ├── Double Descent
+│   └── Generalization Gap
+│
+├── 4.14 Learning and Validation Curves
+│   ├── Training Curve
+│   ├── Validation Curve
+│   ├── Learning Curve
+│   ├── Sample Size
+│   ├── Training Error
+│   ├── Validation Error
+│   ├── Model Complexity Curve
+│   ├── Hyperparameter Curve
+│   └── Convergence Analysis
+│
+├── 4.15 Threshold Optimization
+│   ├── Default Threshold
+│   ├── Custom Threshold
+│   ├── Precision-Recall Trade-Off
+│   ├── Sensitivity-Specificity Trade-Off
+│   ├── Youden’s J Statistic
+│   ├── Cost-Based Threshold
+│   ├── Profit-Based Threshold
+│   ├── Recall-Constrained Threshold
+│   ├── Precision-Constrained Threshold
+│   ├── F1-Optimal Threshold
+│   └── Segment-Specific Threshold
+│
+├── 4.16 Probability Calibration
+│   ├── Calibration Curve
+│   ├── Reliability Diagram
+│   ├── Calibration Error
+│   ├── Expected Calibration Error
+│   ├── Maximum Calibration Error
+│   ├── Brier Score
+│   ├── Platt Scaling
+│   ├── Isotonic Regression
+│   ├── Temperature Scaling
+│   ├── Beta Calibration
+│   └── Calibration Drift
+│
+├── 4.17 Error Analysis
+│   ├── Residual Analysis
+│   ├── False Positive Analysis
+│   ├── False Negative Analysis
+│   ├── Segment-Level Analysis
+│   ├── Slice-Based Evaluation
+│   ├── Error Clustering
+│   ├── Worst-Case Analysis
+│   ├── Confidence Analysis
+│   ├── Outlier Analysis
+│   ├── Label Audit
+│   ├── Feature Audit
+│   └── Data-Quality Audit
+│
+├── 4.18 Statistical Significance
+│   ├── Confidence Interval
+│   ├── Bootstrap Confidence Interval
+│   ├── Hypothesis Testing
+│   ├── P-Value
+│   ├── Effect Size
+│   ├── Paired Model Comparison
+│   ├── McNemar’s Test
+│   ├── DeLong Test
+│   ├── Permutation Test
+│   ├── Multiple Testing
+│   └── Statistical Power
+│
+├── 4.19 Robustness Evaluation
+│   ├── Noise Testing
+│   ├── Missing-Feature Testing
+│   ├── Outlier Testing
+│   ├── Perturbation Testing
+│   ├── Distribution-Shift Testing
+│   ├── Stress Testing
+│   ├── Adversarial Testing
+│   ├── Worst-Case Testing
+│   ├── Sensitivity Analysis
+│   └── Stability Analysis
+│
+├── 4.20 Fairness Evaluation
+│   ├── Demographic Parity
+│   ├── Equal Opportunity
+│   ├── Equalized Odds
+│   ├── Predictive Parity
+│   ├── Calibration Across Groups
+│   ├── Disparate Impact
+│   ├── Subgroup Performance
+│   ├── Intersectional Fairness
+│   └── Fairness-Accuracy Trade-Off
+│
+├── 4.21 Business Evaluation
+│   ├── Business KPI
+│   ├── Revenue Impact
+│   ├── Cost Reduction
+│   ├── Risk Reduction
+│   ├── Conversion Rate
+│   ├── Retention Rate
+│   ├── Customer Lifetime Value
+│   ├── Operational Efficiency
+│   ├── Decision Cost
+│   ├── False Positive Cost
+│   ├── False Negative Cost
+│   └── Return on Investment
+│
+└── 4.22 Evaluation Leakage
+    ├── Train-Test Contamination
+    ├── Target Leakage
+    ├── Future Leakage
+    ├── Temporal Leakage
+    ├── Duplicate Leakage
+    ├── Group Leakage
+    ├── Feature-Selection Leakage
+    ├── Preprocessing Leakage
+    ├── Tuning Leakage
+    └── Cross-Validation Leakage
