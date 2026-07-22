@@ -1,0 +1,322 @@
+10. GENERATIVE AI
+│
+├── 10.1 Generative-AI Foundations
+│   ├── Generative Models
+│   ├── Discriminative Models
+│   ├── Probability Distribution
+│   ├── Sampling
+│   ├── Latent Space
+│   ├── Generation
+│   ├── Conditioning
+│   ├── Multimodal Generation
+│   └── Foundation Models
+│
+├── 10.2 Large Language Models
+│   ├── Tokens
+│   ├── Tokenization
+│   ├── Vocabulary
+│   ├── Embeddings
+│   ├── Context Window
+│   ├── Transformer
+│   ├── Parameters
+│   ├── Pretraining
+│   ├── Fine-Tuning
+│   ├── Inference
+│   └── Decoding
+│
+├── 10.3 Transformer Architecture
+│   ├── Query
+│   ├── Key
+│   ├── Value
+│   ├── Self-Attention
+│   ├── Multi-Head Attention
+│   ├── Positional Encoding
+│   ├── Feed-Forward Network
+│   ├── Residual Connections
+│   ├── Layer Normalization
+│   ├── Causal Mask
+│   ├── Encoder
+│   ├── Decoder
+│   └── KV Cache
+│
+├── 10.4 LLM Training
+│   ├── Pretraining Data
+│   ├── Next-Token Prediction
+│   ├── Masked Language Modelling
+│   ├── Supervised Fine-Tuning
+│   ├── Instruction Tuning
+│   ├── Preference Data
+│   ├── Reward Models
+│   ├── RLHF
+│   ├── RLAIF
+│   ├── Direct Preference Optimization
+│   └── Constitutional Training
+│
+├── 10.5 Prompt Engineering
+│   ├── Zero-Shot Prompting
+│   ├── One-Shot Prompting
+│   ├── Few-Shot Prompting
+│   ├── System Prompt
+│   ├── User Prompt
+│   ├── Context Prompt
+│   ├── Role Prompting
+│   ├── Structured Prompting
+│   ├── Prompt Templates
+│   ├── Prompt Variables
+│   ├── Output Schemas
+│   ├── Chain-of-Thought Prompting
+│   ├── Self-Consistency
+│   ├── ReAct
+│   └── Prompt Injection Defence
+│
+├── 10.6 LLM Inference Parameters
+│   ├── Temperature
+│   ├── Top-K
+│   ├── Top-P
+│   ├── Maximum Tokens
+│   ├── Stop Sequences
+│   ├── Frequency Penalty
+│   ├── Presence Penalty
+│   ├── Repetition Penalty
+│   ├── Seed
+│   ├── Streaming
+│   └── Log Probabilities
+│
+├── 10.7 Embeddings
+│   ├── Token Embeddings
+│   ├── Word Embeddings
+│   ├── Sentence Embeddings
+│   ├── Document Embeddings
+│   ├── Image Embeddings
+│   ├── Multimodal Embeddings
+│   ├── Embedding Dimensions
+│   ├── Cosine Similarity
+│   ├── Dot-Product Similarity
+│   └── Embedding Normalization
+│
+├── 10.8 Vector Databases
+│   ├── Vector Index
+│   ├── Approximate Nearest Neighbours
+│   ├── HNSW
+│   ├── IVF
+│   ├── Product Quantization
+│   ├── Metadata
+│   ├── Metadata Filtering
+│   ├── Similarity Search
+│   ├── Hybrid Search
+│   ├── Index Updates
+│   └── Vector Compression
+│
+├── 10.9 Retrieval-Augmented Generation
+│   ├── Data Ingestion
+│   ├── Document Parsing
+│   ├── Cleaning
+│   ├── Chunking
+│   ├── Chunk Size
+│   ├── Chunk Overlap
+│   ├── Embedding Generation
+│   ├── Vector Storage
+│   ├── Query Embedding
+│   ├── Retrieval
+│   ├── Reranking
+│   ├── Context Assembly
+│   ├── Prompt Construction
+│   ├── Grounded Generation
+│   └── Citations
+│
+├── 10.10 Advanced RAG
+│   ├── Sparse Retrieval
+│   ├── Dense Retrieval
+│   ├── Hybrid Retrieval
+│   ├── Multi-Query Retrieval
+│   ├── Query Rewriting
+│   ├── Query Expansion
+│   ├── Parent-Child Retrieval
+│   ├── Multi-Vector Retrieval
+│   ├── Contextual Compression
+│   ├── Reranking
+│   ├── Knowledge-Graph RAG
+│   ├── Agentic RAG
+│   ├── Multimodal RAG
+│   ├── Corrective RAG
+│   └── Self-RAG
+│
+├── 10.11 RAG Evaluation
+│   ├── Retrieval Precision
+│   ├── Retrieval Recall
+│   ├── Mean Reciprocal Rank
+│   ├── NDCG
+│   ├── Context Relevance
+│   ├── Context Recall
+│   ├── Faithfulness
+│   ├── Answer Relevance
+│   ├── Answer Correctness
+│   ├── Citation Accuracy
+│   ├── Hallucination Rate
+│   ├── Latency
+│   └── Cost
+│
+├── 10.12 Fine-Tuning
+│   ├── Full Fine-Tuning
+│   ├── Supervised Fine-Tuning
+│   ├── Instruction Fine-Tuning
+│   ├── Domain Fine-Tuning
+│   ├── Task Fine-Tuning
+│   ├── Parameter-Efficient Fine-Tuning
+│   ├── LoRA
+│   ├── QLoRA
+│   ├── Adapters
+│   ├── Prefix Tuning
+│   ├── Prompt Tuning
+│   └── Soft Prompts
+│
+├── 10.13 Model Quantization
+│   ├── FP32
+│   ├── FP16
+│   ├── BF16
+│   ├── INT8
+│   ├── INT4
+│   ├── Post-Training Quantization
+│   ├── Quantization-Aware Training
+│   ├── Weight-Only Quantization
+│   ├── Activation Quantization
+│   └── Quantized Inference
+│
+├── 10.14 LLM Compression
+│   ├── Quantization
+│   ├── Pruning
+│   ├── Knowledge Distillation
+│   ├── Low-Rank Approximation
+│   ├── Sparsity
+│   ├── Speculative Decoding
+│   └── Model Merging
+│
+├── 10.15 AI Agents
+│   ├── Agent
+│   ├── Goal
+│   ├── State
+│   ├── Memory
+│   ├── Planning
+│   ├── Reasoning
+│   ├── Tool Calling
+│   ├── Observation
+│   ├── Action
+│   ├── Workflow
+│   ├── Retry
+│   ├── Reflection
+│   ├── Human Approval
+│   └── Guardrails
+│
+├── 10.16 Agent Architectures
+│   ├── ReAct Agent
+│   ├── Planner-Executor
+│   ├── Router Agent
+│   ├── Supervisor Agent
+│   ├── Tool-Using Agent
+│   ├── Multi-Agent System
+│   ├── Hierarchical Agents
+│   ├── Event-Driven Agents
+│   ├── Stateful Agents
+│   └── Human-in-the-Loop Agents
+│
+├── 10.17 Agent Memory
+│   ├── Short-Term Memory
+│   ├── Long-Term Memory
+│   ├── Working Memory
+│   ├── Episodic Memory
+│   ├── Semantic Memory
+│   ├── Conversation Memory
+│   ├── Vector Memory
+│   ├── Memory Summarization
+│   └── Memory Retrieval
+│
+├── 10.18 Tool Calling
+│   ├── Function Calling
+│   ├── Tool Schema
+│   ├── Argument Generation
+│   ├── Tool Selection
+│   ├── Tool Execution
+│   ├── Tool Error Handling
+│   ├── Parallel Tool Calls
+│   ├── Tool Permissions
+│   └── Tool Result Grounding
+│
+├── 10.19 Multimodal Generative AI
+│   ├── Text-to-Image
+│   ├── Image-to-Text
+│   ├── Image-to-Image
+│   ├── Text-to-Audio
+│   ├── Speech-to-Text
+│   ├── Text-to-Speech
+│   ├── Video Generation
+│   ├── Vision-Language Models
+│   └── Multimodal RAG
+│
+├── 10.20 LLM Evaluation
+│   ├── Exact Match
+│   ├── Semantic Similarity
+│   ├── BLEU
+│   ├── ROUGE
+│   ├── BERTScore
+│   ├── Task Accuracy
+│   ├── Faithfulness
+│   ├── Helpfulness
+│   ├── Relevance
+│   ├── Safety
+│   ├── Toxicity
+│   ├── Bias
+│   ├── Hallucination
+│   ├── Human Evaluation
+│   └── LLM-as-Judge
+│
+├── 10.21 LLM Observability
+│   ├── Prompt Logging
+│   ├── Response Logging
+│   ├── Token Usage
+│   ├── Latency
+│   ├── Cost
+│   ├── Error Rate
+│   ├── Tool Calls
+│   ├── Retrieval Traces
+│   ├── User Feedback
+│   ├── Hallucination Monitoring
+│   └── Quality Dashboards
+│
+├── 10.22 LLM Security
+│   ├── Prompt Injection
+│   ├── Indirect Prompt Injection
+│   ├── Jailbreaking
+│   ├── Data Exfiltration
+│   ├── Tool Misuse
+│   ├── Sensitive-Data Leakage
+│   ├── Model Extraction
+│   ├── Membership Inference
+│   ├── Output Filtering
+│   ├── Input Validation
+│   ├── Sandboxing
+│   └── Permission Controls
+│
+├── 10.23 Responsible Generative AI
+│   ├── Bias
+│   ├── Fairness
+│   ├── Hallucination
+│   ├── Transparency
+│   ├── Explainability
+│   ├── Copyright
+│   ├── Privacy
+│   ├── Safety
+│   ├── Human Oversight
+│   └── Model Governance
+│
+└── 10.24 Advanced Generative AI
+    ├── Mixture-of-Experts
+    ├── Long-Context Models
+    ├── Sparse Attention
+    ├── Multimodal Foundation Models
+    ├── Synthetic Data Generation
+    ├── Model Distillation
+    ├── Model Merging
+    ├── Reasoning Models
+    ├── World Models
+    ├── Embodied Agents
+    └── Autonomous Agent Systems
