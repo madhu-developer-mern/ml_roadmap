@@ -1,0 +1,242 @@
+9. COMPUTER VISION
+│
+├── 9.1 Image Foundations
+│   ├── Pixel
+│   ├── Resolution
+│   ├── Width
+│   ├── Height
+│   ├── Channels
+│   ├── RGB
+│   ├── Grayscale
+│   ├── Alpha Channel
+│   ├── Bit Depth
+│   ├── Image Tensor
+│   └── Image Coordinates
+│
+├── 9.2 Image Formats
+│   ├── JPEG
+│   ├── PNG
+│   ├── BMP
+│   ├── TIFF
+│   ├── WebP
+│   ├── RAW
+│   ├── DICOM
+│   └── Compression
+│
+├── 9.3 Image Preprocessing
+│   ├── Resizing
+│   ├── Cropping
+│   ├── Padding
+│   ├── Normalization
+│   ├── Standardization
+│   ├── Color Conversion
+│   ├── Denoising
+│   ├── Sharpening
+│   ├── Contrast Enhancement
+│   └── Histogram Equalization
+│
+├── 9.4 Classical Image Processing
+│   ├── Convolution
+│   ├── Kernels
+│   ├── Gaussian Blur
+│   ├── Median Filtering
+│   ├── Edge Detection
+│   ├── Sobel Operator
+│   ├── Canny Edge Detection
+│   ├── Thresholding
+│   ├── Morphological Operations
+│   ├── Erosion
+│   ├── Dilation
+│   └── Contours
+│
+├── 9.5 Image Features
+│   ├── Color Histograms
+│   ├── Texture Features
+│   ├── Shape Features
+│   ├── Corners
+│   ├── Keypoints
+│   ├── SIFT
+│   ├── SURF
+│   ├── ORB
+│   ├── HOG
+│   └── Feature Matching
+│
+├── 9.6 Image Augmentation
+│   ├── Rotation
+│   ├── Translation
+│   ├── Flipping
+│   ├── Scaling
+│   ├── Cropping
+│   ├── Shearing
+│   ├── Brightness
+│   ├── Contrast
+│   ├── Color Jitter
+│   ├── Blur
+│   ├── Noise
+│   ├── Cutout
+│   ├── Mixup
+│   └── CutMix
+│
+├── 9.7 CNN Foundations
+│   ├── Convolutional Layer
+│   ├── Kernel
+│   ├── Filter
+│   ├── Feature Map
+│   ├── Stride
+│   ├── Padding
+│   ├── Pooling
+│   ├── Receptive Field
+│   ├── Dilation
+│   ├── Depthwise Convolution
+│   └── Separable Convolution
+│
+├── 9.8 Image Classification
+│   ├── Binary Classification
+│   ├── Multiclass Classification
+│   ├── Multilabel Classification
+│   ├── Fine-Grained Classification
+│   ├── Transfer Learning
+│   ├── Feature Extraction
+│   ├── Fine-Tuning
+│   └── Class Activation Maps
+│
+├── 9.9 Object Detection
+│   ├── Bounding Boxes
+│   ├── Intersection over Union
+│   ├── Anchor Boxes
+│   ├── Region Proposals
+│   ├── Non-Maximum Suppression
+│   ├── One-Stage Detectors
+│   ├── Two-Stage Detectors
+│   ├── R-CNN
+│   ├── Fast R-CNN
+│   ├── Faster R-CNN
+│   ├── SSD
+│   ├── YOLO
+│   ├── RetinaNet
+│   └── DETR
+│
+├── 9.10 Image Segmentation
+│   ├── Semantic Segmentation
+│   ├── Instance Segmentation
+│   ├── Panoptic Segmentation
+│   ├── Pixel Classification
+│   ├── Segmentation Mask
+│   ├── U-Net
+│   ├── FCN
+│   ├── DeepLab
+│   ├── Mask R-CNN
+│   └── Segment Anything
+│
+├── 9.11 Pose Estimation
+│   ├── Keypoint Detection
+│   ├── Skeleton
+│   ├── Human Pose
+│   ├── Single-Person Pose
+│   ├── Multi-Person Pose
+│   ├── 2D Pose
+│   ├── 3D Pose
+│   └── Temporal Pose Tracking
+│
+├── 9.12 Face Analysis
+│   ├── Face Detection
+│   ├── Face Alignment
+│   ├── Face Recognition
+│   ├── Face Verification
+│   ├── Facial Landmarks
+│   ├── Face Embeddings
+│   ├── Liveness Detection
+│   └── Emotion Recognition
+│
+├── 9.13 OCR and Document Vision
+│   ├── Text Detection
+│   ├── Text Recognition
+│   ├── Handwriting Recognition
+│   ├── Document Layout Analysis
+│   ├── Table Extraction
+│   ├── Form Understanding
+│   ├── Document Classification
+│   ├── Visual Question Answering
+│   └── Multimodal Document Models
+│
+├── 9.14 Video Understanding
+│   ├── Frame Extraction
+│   ├── Temporal Features
+│   ├── Action Recognition
+│   ├── Event Detection
+│   ├── Video Classification
+│   ├── Object Tracking
+│   ├── Multi-Object Tracking
+│   ├── Optical Flow
+│   ├── Video Segmentation
+│   └── Video Transformers
+│
+├── 9.15 Object Tracking
+│   ├── Single-Object Tracking
+│   ├── Multi-Object Tracking
+│   ├── Detection-Based Tracking
+│   ├── Kalman Filtering
+│   ├── Hungarian Algorithm
+│   ├── SORT
+│   ├── DeepSORT
+│   ├── Track Association
+│   └── Re-Identification
+│
+├── 9.16 3D Computer Vision
+│   ├── Depth Estimation
+│   ├── Stereo Vision
+│   ├── Point Clouds
+│   ├── LiDAR
+│   ├── 3D Reconstruction
+│   ├── Structure from Motion
+│   ├── SLAM
+│   ├── NeRF
+│   └── Gaussian Splatting
+│
+├── 9.17 Vision Transformers
+│   ├── Image Patches
+│   ├── Patch Embeddings
+│   ├── Positional Embeddings
+│   ├── Self-Attention
+│   ├── Vision Transformer
+│   ├── Swin Transformer
+│   ├── DeiT
+│   ├── DETR
+│   └── Masked Image Modelling
+│
+├── 9.18 Generative Vision
+│   ├── Autoencoders
+│   ├── Variational Autoencoders
+│   ├── GANs
+│   ├── Diffusion Models
+│   ├── Image-to-Image Translation
+│   ├── Super-Resolution
+│   ├── Inpainting
+│   ├── Style Transfer
+│   └── Text-to-Image Generation
+│
+├── 9.19 Vision Evaluation
+│   ├── Accuracy
+│   ├── Precision
+│   ├── Recall
+│   ├── F1-Score
+│   ├── IoU
+│   ├── Dice Score
+│   ├── Mean Average Precision
+│   ├── Pixel Accuracy
+│   ├── PSNR
+│   ├── SSIM
+│   ├── FID
+│   └── Human Evaluation
+│
+└── 9.20 Advanced Computer Vision
+    ├── Few-Shot Vision
+    ├── Zero-Shot Vision
+    ├── Open-Vocabulary Detection
+    ├── Multimodal Vision-Language Models
+    ├── Self-Supervised Vision
+    ├── Medical Imaging
+    ├── Remote Sensing
+    ├── Edge Vision
+    ├── Embodied Vision
+    └── Robotics Vision
