@@ -1,0 +1,859 @@
+2. DATA UNDERSTANDING
+│
+├── 2.1 Data Foundations
+│   ├── Data
+│   ├── Information
+│   ├── Dataset
+│   ├── Database
+│   ├── Observation
+│   ├── Record
+│   ├── Row
+│   ├── Column
+│   ├── Attribute
+│   ├── Variable
+│   ├── Feature
+│   ├── Target
+│   ├── Label
+│   ├── Dimension
+│   ├── Schema
+│   ├── Metadata
+│   ├── Data Point
+│   ├── Sample
+│   └── Population
+│
+├── 2.2 Types of Data
+│   ├── Structured Data
+│   ├── Semi-Structured Data
+│   ├── Unstructured Data
+│   ├── Numerical Data
+│   ├── Categorical Data
+│   ├── Text Data
+│   ├── Image Data
+│   ├── Audio Data
+│   ├── Video Data
+│   ├── Time-Series Data
+│   ├── Spatial Data
+│   ├── Geospatial Data
+│   ├── Graph Data
+│   ├── Transactional Data
+│   ├── Streaming Data
+│   └── Event Data
+│
+├── 2.3 Numerical Data
+│   ├── Discrete Data
+│   ├── Continuous Data
+│   ├── Integer Data
+│   ├── Floating-Point Data
+│   ├── Binary Data
+│   ├── Interval Data
+│   ├── Ratio Data
+│   ├── Counts
+│   ├── Measurements
+│   ├── Rates
+│   ├── Ratios
+│   └── Percentages
+│
+├── 2.4 Categorical Data
+│   ├── Nominal Data
+│   ├── Ordinal Data
+│   ├── Binary Categories
+│   ├── Multiclass Categories
+│   ├── High-Cardinality Categories
+│   ├── Low-Cardinality Categories
+│   ├── Hierarchical Categories
+│   ├── Labels
+│   ├── Codes
+│   └── Categories with Natural Order
+│
+├── 2.5 Measurement Scales
+│   ├── Nominal Scale
+│   ├── Ordinal Scale
+│   ├── Interval Scale
+│   ├── Ratio Scale
+│   ├── Absolute Scale
+│   ├── Measurement Units
+│   ├── Unit Conversion
+│   └── Measurement Precision
+│
+├── 2.6 Data Roles in Machine Learning
+│   ├── Independent Variables
+│   ├── Dependent Variable
+│   ├── Input Features
+│   ├── Target Variable
+│   ├── Predictor Variables
+│   ├── Response Variable
+│   ├── Labels
+│   ├── Ground Truth
+│   ├── Training Features
+│   ├── Derived Features
+│   ├── Metadata Features
+│   └── Identifier Columns
+│
+├── 2.7 Data Sources
+│   ├── CSV Files
+│   ├── Excel Files
+│   ├── JSON Files
+│   ├── XML Files
+│   ├── Parquet Files
+│   ├── Databases
+│   ├── Data Warehouses
+│   ├── Data Lakes
+│   ├── APIs
+│   ├── Application Logs
+│   ├── Sensors
+│   ├── IoT Devices
+│   ├── Web Applications
+│   ├── Mobile Applications
+│   ├── Surveys
+│   ├── Experiments
+│   ├── Third-Party Data
+│   ├── Public Datasets
+│   ├── Web Scraping
+│   └── Streaming Platforms
+│
+├── 2.8 Data Collection
+│   ├── Primary Data Collection
+│   ├── Secondary Data Collection
+│   ├── Observational Data
+│   ├── Experimental Data
+│   ├── Survey Data
+│   ├── Sensor Data
+│   ├── Transaction Data
+│   ├── Log Data
+│   ├── Manual Data Entry
+│   ├── API Collection
+│   ├── Batch Collection
+│   ├── Real-Time Collection
+│   ├── Event-Driven Collection
+│   ├── Sampling Strategy
+│   ├── Collection Frequency
+│   ├── Collection Bias
+│   └── Data Provenance
+│
+├── 2.9 Data Storage
+│   ├── Flat Files
+│   ├── Relational Databases
+│   ├── NoSQL Databases
+│   ├── Document Databases
+│   ├── Key-Value Databases
+│   ├── Columnar Databases
+│   ├── Graph Databases
+│   ├── Time-Series Databases
+│   ├── Object Storage
+│   ├── Data Warehouses
+│   ├── Data Lakes
+│   ├── Lakehouses
+│   ├── Data Marts
+│   ├── File Formats
+│   ├── Compression
+│   ├── Partitioning
+│   ├── Indexing
+│   └── Archiving
+│
+├── 2.10 Database Concepts
+│   ├── Tables
+│   ├── Rows
+│   ├── Columns
+│   ├── Primary Keys
+│   ├── Foreign Keys
+│   ├── Relationships
+│   ├── One-to-One Relationships
+│   ├── One-to-Many Relationships
+│   ├── Many-to-Many Relationships
+│   ├── Normalization
+│   ├── Denormalization
+│   ├── Joins
+│   ├── Constraints
+│   ├── Indexes
+│   ├── Transactions
+│   └── Referential Integrity
+│
+├── 2.11 Data Profiling
+│   ├── Row Count
+│   ├── Column Count
+│   ├── Column Names
+│   ├── Data Types
+│   ├── Unique Values
+│   ├── Cardinality
+│   ├── Missing-Value Count
+│   ├── Duplicate Count
+│   ├── Minimum Value
+│   ├── Maximum Value
+│   ├── Mean
+│   ├── Median
+│   ├── Standard Deviation
+│   ├── Percentiles
+│   ├── Value Frequencies
+│   ├── Distribution Shape
+│   ├── Pattern Detection
+│   └── Schema Validation
+│
+├── 2.12 Data Quality
+│   ├── Accuracy
+│   ├── Completeness
+│   ├── Consistency
+│   ├── Validity
+│   ├── Uniqueness
+│   ├── Timeliness
+│   ├── Freshness
+│   ├── Reliability
+│   ├── Integrity
+│   ├── Relevance
+│   ├── Precision
+│   ├── Traceability
+│   ├── Availability
+│   ├── Representativeness
+│   └── Fitness for Purpose
+│
+├── 2.13 Data Validation
+│   ├── Schema Validation
+│   ├── Type Validation
+│   ├── Range Validation
+│   ├── Format Validation
+│   ├── Category Validation
+│   ├── Uniqueness Validation
+│   ├── Null Validation
+│   ├── Cross-Field Validation
+│   ├── Referential Validation
+│   ├── Temporal Validation
+│   ├── Business-Rule Validation
+│   ├── Distribution Validation
+│   ├── Statistical Validation
+│   ├── Drift Validation
+│   └── Constraint Validation
+│
+├── 2.14 Missing Data
+│   ├── Missing Completely at Random
+│   ├── Missing at Random
+│   ├── Missing Not at Random
+│   ├── Null Values
+│   ├── Blank Values
+│   ├── Invalid Placeholders
+│   ├── Missing-Value Patterns
+│   ├── Row Deletion
+│   ├── Column Deletion
+│   ├── Mean Imputation
+│   ├── Median Imputation
+│   ├── Mode Imputation
+│   ├── Constant Imputation
+│   ├── Forward Fill
+│   ├── Backward Fill
+│   ├── Interpolation
+│   ├── KNN Imputation
+│   ├── Regression Imputation
+│   ├── Multiple Imputation
+│   └── Missing-Indicator Features
+│
+├── 2.15 Duplicate Data
+│   ├── Exact Duplicates
+│   ├── Partial Duplicates
+│   ├── Near Duplicates
+│   ├── Entity Duplicates
+│   ├── Duplicate Keys
+│   ├── Duplicate Transactions
+│   ├── Fuzzy Matching
+│   ├── Record Linkage
+│   ├── Entity Resolution
+│   ├── Deduplication Rules
+│   └── Canonical Records
+│
+├── 2.16 Inconsistent Data
+│   ├── Inconsistent Capitalization
+│   ├── Inconsistent Spelling
+│   ├── Inconsistent Units
+│   ├── Inconsistent Date Formats
+│   ├── Inconsistent Categories
+│   ├── Inconsistent Naming
+│   ├── Inconsistent Precision
+│   ├── Inconsistent Time Zones
+│   ├── Inconsistent Boolean Values
+│   ├── Inconsistent Identifiers
+│   └── Standardization Rules
+│
+├── 2.17 Invalid and Corrupted Data
+│   ├── Impossible Values
+│   ├── Out-of-Range Values
+│   ├── Malformed Records
+│   ├── Parsing Errors
+│   ├── Encoding Errors
+│   ├── Corrupted Files
+│   ├── Truncated Records
+│   ├── Sensor Failures
+│   ├── Default Placeholder Values
+│   ├── Overflow Values
+│   ├── Underflow Values
+│   └── Faulty Measurements
+│
+├── 2.18 Outliers
+│   ├── Global Outliers
+│   ├── Contextual Outliers
+│   ├── Collective Outliers
+│   ├── Univariate Outliers
+│   ├── Multivariate Outliers
+│   ├── Z-Score Method
+│   ├── Modified Z-Score
+│   ├── IQR Method
+│   ├── Box-Plot Method
+│   ├── Percentile Method
+│   ├── Mahalanobis Distance
+│   ├── Isolation Forest
+│   ├── Local Outlier Factor
+│   ├── Domain-Based Detection
+│   ├── Outlier Removal
+│   ├── Outlier Capping
+│   ├── Winsorization
+│   └── Outlier Transformation
+│
+├── 2.19 Exploratory Data Analysis
+│   ├── Univariate Analysis
+│   ├── Bivariate Analysis
+│   ├── Multivariate Analysis
+│   ├── Distribution Analysis
+│   ├── Central-Tendency Analysis
+│   ├── Dispersion Analysis
+│   ├── Frequency Analysis
+│   ├── Relationship Analysis
+│   ├── Correlation Analysis
+│   ├── Group Comparison
+│   ├── Segmentation Analysis
+│   ├── Trend Analysis
+│   ├── Pattern Discovery
+│   ├── Anomaly Investigation
+│   ├── Target Analysis
+│   └── Feature Analysis
+│
+├── 2.20 Univariate Analysis
+│   ├── Value Counts
+│   ├── Frequency Tables
+│   ├── Mean
+│   ├── Median
+│   ├── Mode
+│   ├── Variance
+│   ├── Standard Deviation
+│   ├── Minimum
+│   ├── Maximum
+│   ├── Quartiles
+│   ├── Percentiles
+│   ├── Skewness
+│   ├── Kurtosis
+│   ├── Histogram
+│   ├── Box Plot
+│   └── Density Plot
+│
+├── 2.21 Bivariate Analysis
+│   ├── Numerical versus Numerical
+│   ├── Numerical versus Categorical
+│   ├── Categorical versus Categorical
+│   ├── Scatter Plot
+│   ├── Correlation
+│   ├── Covariance
+│   ├── Grouped Statistics
+│   ├── Cross-Tabulation
+│   ├── Chi-Square Analysis
+│   ├── T-Test
+│   ├── ANOVA
+│   ├── Trend Comparison
+│   └── Conditional Distribution
+│
+├── 2.22 Multivariate Analysis
+│   ├── Correlation Matrix
+│   ├── Pairwise Relationships
+│   ├── Pair Plot
+│   ├── Heatmap
+│   ├── Multicollinearity
+│   ├── Variance Inflation Factor
+│   ├── Principal Component Analysis
+│   ├── Factor Analysis
+│   ├── Cluster Analysis
+│   ├── Multivariate Outliers
+│   └── Interaction Analysis
+│
+├── 2.23 Data Visualization
+│   ├── Bar Chart
+│   ├── Grouped Bar Chart
+│   ├── Stacked Bar Chart
+│   ├── Histogram
+│   ├── Box Plot
+│   ├── Violin Plot
+│   ├── Scatter Plot
+│   ├── Bubble Chart
+│   ├── Line Chart
+│   ├── Area Chart
+│   ├── Pie Chart
+│   ├── Density Plot
+│   ├── Heatmap
+│   ├── Pair Plot
+│   ├── Q-Q Plot
+│   ├── ECDF Plot
+│   ├── Parallel Coordinates
+│   ├── Treemap
+│   ├── Sankey Diagram
+│   └── Geospatial Map
+│
+├── 2.24 Visualization Principles
+│   ├── Chart Selection
+│   ├── Axis Selection
+│   ├── Scale Selection
+│   ├── Linear Scale
+│   ├── Logarithmic Scale
+│   ├── Labels
+│   ├── Legends
+│   ├── Annotations
+│   ├── Color Usage
+│   ├── Accessibility
+│   ├── Avoiding Misleading Charts
+│   ├── Data-Ink Ratio
+│   ├── Dashboard Layout
+│   └── Visual Storytelling
+│
+├── 2.25 Data Preprocessing
+│   ├── Data Cleaning
+│   ├── Data Integration
+│   ├── Data Transformation
+│   ├── Data Reduction
+│   ├── Data Encoding
+│   ├── Feature Scaling
+│   ├── Feature Selection
+│   ├── Feature Extraction
+│   ├── Data Sampling
+│   ├── Data Splitting
+│   ├── Class Balancing
+│   └── Pipeline Construction
+│
+├── 2.26 Feature Scaling
+│   ├── Min-Max Scaling
+│   ├── Standardization
+│   ├── Robust Scaling
+│   ├── Max-Absolute Scaling
+│   ├── Unit-Vector Scaling
+│   ├── Mean Normalization
+│   ├── Decimal Scaling
+│   ├── Quantile Transformation
+│   ├── Power Transformation
+│   ├── Box-Cox Transformation
+│   └── Yeo-Johnson Transformation
+│
+├── 2.27 Categorical Encoding
+│   ├── Label Encoding
+│   ├── One-Hot Encoding
+│   ├── Ordinal Encoding
+│   ├── Binary Encoding
+│   ├── Frequency Encoding
+│   ├── Count Encoding
+│   ├── Target Encoding
+│   ├── Mean Encoding
+│   ├── Hash Encoding
+│   ├── Leave-One-Out Encoding
+│   ├── Weight-of-Evidence Encoding
+│   └── Embedding Encoding
+│
+├── 2.28 Data Transformation
+│   ├── Log Transformation
+│   ├── Square-Root Transformation
+│   ├── Reciprocal Transformation
+│   ├── Power Transformation
+│   ├── Box-Cox Transformation
+│   ├── Yeo-Johnson Transformation
+│   ├── Rank Transformation
+│   ├── Quantile Transformation
+│   ├── Clipping
+│   ├── Capping
+│   ├── Binning
+│   └── Discretization
+│
+├── 2.29 Feature Engineering
+│   ├── Domain Features
+│   ├── Interaction Features
+│   ├── Polynomial Features
+│   ├── Ratio Features
+│   ├── Difference Features
+│   ├── Aggregate Features
+│   ├── Count Features
+│   ├── Frequency Features
+│   ├── Time Features
+│   ├── Date Features
+│   ├── Lag Features
+│   ├── Rolling Features
+│   ├── Window Features
+│   ├── Text Features
+│   ├── Image Features
+│   ├── Spatial Features
+│   ├── Behavioural Features
+│   └── Cross Features
+│
+├── 2.30 Feature Selection
+│   ├── Filter Methods
+│   ├── Wrapper Methods
+│   ├── Embedded Methods
+│   ├── Correlation Selection
+│   ├── Variance Threshold
+│   ├── Chi-Square Selection
+│   ├── ANOVA Selection
+│   ├── Mutual Information
+│   ├── Recursive Feature Elimination
+│   ├── Forward Selection
+│   ├── Backward Elimination
+│   ├── Lasso Selection
+│   ├── Tree-Based Importance
+│   ├── Permutation Importance
+│   └── SHAP-Based Selection
+│
+├── 2.31 Feature Extraction
+│   ├── Principal Component Analysis
+│   ├── Linear Discriminant Analysis
+│   ├── Independent Component Analysis
+│   ├── Factor Analysis
+│   ├── Singular Value Decomposition
+│   ├── Autoencoder Features
+│   ├── Text Embeddings
+│   ├── Image Embeddings
+│   └── Latent Representations
+│
+├── 2.32 Data Splitting
+│   ├── Training Set
+│   ├── Validation Set
+│   ├── Test Set
+│   ├── Holdout Split
+│   ├── Random Split
+│   ├── Stratified Split
+│   ├── Group-Based Split
+│   ├── Time-Based Split
+│   ├── User-Based Split
+│   ├── Geographic Split
+│   ├── Cross-Validation Split
+│   └── Out-of-Time Validation
+│
+├── 2.33 Sampling
+│   ├── Random Sampling
+│   ├── Stratified Sampling
+│   ├── Systematic Sampling
+│   ├── Cluster Sampling
+│   ├── Reservoir Sampling
+│   ├── Bootstrap Sampling
+│   ├── Weighted Sampling
+│   ├── Importance Sampling
+│   ├── Downsampling
+│   ├── Upsampling
+│   └── Time-Based Sampling
+│
+├── 2.34 Imbalanced Data
+│   ├── Class Imbalance
+│   ├── Minority Class
+│   ├── Majority Class
+│   ├── Random Oversampling
+│   ├── Random Undersampling
+│   ├── SMOTE
+│   ├── Borderline SMOTE
+│   ├── ADASYN
+│   ├── Tomek Links
+│   ├── Edited Nearest Neighbours
+│   ├── Class Weights
+│   ├── Cost-Sensitive Learning
+│   ├── Threshold Adjustment
+│   └── Balanced Evaluation Metrics
+│
+├── 2.35 Data Leakage
+│   ├── Target Leakage
+│   ├── Train-Test Contamination
+│   ├── Temporal Leakage
+│   ├── Future-Information Leakage
+│   ├── Preprocessing Leakage
+│   ├── Feature-Selection Leakage
+│   ├── Group Leakage
+│   ├── Duplicate Leakage
+│   ├── Label Leakage
+│   ├── Cross-Validation Leakage
+│   └── Pipeline-Based Prevention
+│
+├── 2.36 Target Understanding
+│   ├── Target Definition
+│   ├── Label Creation
+│   ├── Label Quality
+│   ├── Label Noise
+│   ├── Delayed Labels
+│   ├── Missing Labels
+│   ├── Weak Labels
+│   ├── Proxy Labels
+│   ├── Target Distribution
+│   ├── Class Balance
+│   ├── Target Transformation
+│   ├── Target Leakage
+│   └── Ground-Truth Validation
+│
+├── 2.37 Label Quality
+│   ├── Human Annotation
+│   ├── Expert Annotation
+│   ├── Crowdsourced Annotation
+│   ├── Annotation Guidelines
+│   ├── Inter-Annotator Agreement
+│   ├── Label Consistency
+│   ├── Label Noise
+│   ├── Mislabelled Records
+│   ├── Ambiguous Labels
+│   ├── Weak Supervision
+│   ├── Active Learning
+│   └── Label Auditing
+│
+├── 2.38 Time-Series Data
+│   ├── Timestamp
+│   ├── Time Index
+│   ├── Frequency
+│   ├── Granularity
+│   ├── Trend
+│   ├── Seasonality
+│   ├── Cyclic Behaviour
+│   ├── Noise
+│   ├── Lag
+│   ├── Rolling Window
+│   ├── Expanding Window
+│   ├── Autocorrelation
+│   ├── Stationarity
+│   ├── Missing Timestamps
+│   ├── Irregular Intervals
+│   ├── Resampling
+│   ├── Interpolation
+│   ├── Time-Zone Handling
+│   └── Temporal Leakage
+│
+├── 2.39 Text Data
+│   ├── Documents
+│   ├── Sentences
+│   ├── Tokens
+│   ├── Vocabulary
+│   ├── Character Encoding
+│   ├── Unicode
+│   ├── Text Cleaning
+│   ├── Lowercasing
+│   ├── Punctuation Removal
+│   ├── Stop-Word Removal
+│   ├── Stemming
+│   ├── Lemmatization
+│   ├── Tokenization
+│   ├── N-Grams
+│   ├── Bag of Words
+│   ├── TF-IDF
+│   ├── Embeddings
+│   └── Document Metadata
+│
+├── 2.40 Image Data
+│   ├── Pixels
+│   ├── Resolution
+│   ├── Channels
+│   ├── RGB
+│   ├── Grayscale
+│   ├── Image Dimensions
+│   ├── Image Formats
+│   ├── Resizing
+│   ├── Cropping
+│   ├── Normalization
+│   ├── Augmentation
+│   ├── Annotation
+│   ├── Bounding Boxes
+│   ├── Segmentation Masks
+│   ├── Class Labels
+│   └── Image Metadata
+│
+├── 2.41 Audio Data
+│   ├── Waveform
+│   ├── Sampling Rate
+│   ├── Frequency
+│   ├── Amplitude
+│   ├── Channels
+│   ├── Duration
+│   ├── Spectrogram
+│   ├── Mel Spectrogram
+│   ├── MFCC
+│   ├── Noise Reduction
+│   ├── Segmentation
+│   └── Audio Annotation
+│
+├── 2.42 Geospatial Data
+│   ├── Latitude
+│   ├── Longitude
+│   ├── Coordinates
+│   ├── Coordinate Reference Systems
+│   ├── Distance Calculation
+│   ├── Haversine Distance
+│   ├── Geocoding
+│   ├── Reverse Geocoding
+│   ├── Geohashing
+│   ├── Spatial Joins
+│   ├── Polygons
+│   ├── Regions
+│   └── Spatial Aggregation
+│
+├── 2.43 Graph Data
+│   ├── Nodes
+│   ├── Edges
+│   ├── Directed Graphs
+│   ├── Undirected Graphs
+│   ├── Weighted Graphs
+│   ├── Adjacency Matrix
+│   ├── Adjacency List
+│   ├── Node Features
+│   ├── Edge Features
+│   ├── Graph Connectivity
+│   ├── Degree
+│   ├── Paths
+│   ├── Communities
+│   └── Graph Embeddings
+│
+├── 2.44 Streaming Data
+│   ├── Events
+│   ├── Event Time
+│   ├── Processing Time
+│   ├── Ingestion Time
+│   ├── Message Ordering
+│   ├── Late Events
+│   ├── Duplicate Events
+│   ├── Watermarks
+│   ├── Windows
+│   ├── Tumbling Windows
+│   ├── Sliding Windows
+│   ├── Session Windows
+│   ├── Exactly-Once Processing
+│   ├── At-Least-Once Processing
+│   └── At-Most-Once Processing
+│
+├── 2.45 Data Integration
+│   ├── Data Merging
+│   ├── Data Joining
+│   ├── Data Concatenation
+│   ├── Schema Matching
+│   ├── Key Matching
+│   ├── Entity Resolution
+│   ├── Data Reconciliation
+│   ├── Unit Harmonization
+│   ├── Category Harmonization
+│   ├── Temporal Alignment
+│   ├── Source Prioritization
+│   └── Master Data Management
+│
+├── 2.46 ETL and ELT
+│   ├── Extract
+│   ├── Transform
+│   ├── Load
+│   ├── ELT
+│   ├── Batch Pipelines
+│   ├── Streaming Pipelines
+│   ├── Incremental Loading
+│   ├── Full Loading
+│   ├── Change Data Capture
+│   ├── Data Orchestration
+│   ├── Pipeline Scheduling
+│   ├── Pipeline Monitoring
+│   └── Pipeline Recovery
+│
+├── 2.47 Data Versioning
+│   ├── Dataset Versions
+│   ├── Schema Versions
+│   ├── Snapshotting
+│   ├── Data Lineage
+│   ├── Reproducibility
+│   ├── Immutable Datasets
+│   ├── Version Tags
+│   ├── Change Logs
+│   ├── Rollback
+│   └── Dataset Registry
+│
+├── 2.48 Data Lineage and Provenance
+│   ├── Source Tracking
+│   ├── Transformation Tracking
+│   ├── Ownership Tracking
+│   ├── Dependency Tracking
+│   ├── Column-Level Lineage
+│   ├── Pipeline Lineage
+│   ├── Model Input Lineage
+│   ├── Audit Trail
+│   └── Reproducible Data Flow
+│
+├── 2.49 Data Governance
+│   ├── Data Ownership
+│   ├── Data Stewardship
+│   ├── Data Policies
+│   ├── Data Standards
+│   ├── Access Control
+│   ├── Role-Based Access
+│   ├── Data Classification
+│   ├── Data Catalog
+│   ├── Data Retention
+│   ├── Data Deletion
+│   ├── Data Auditing
+│   └── Regulatory Compliance
+│
+├── 2.50 Data Privacy and Security
+│   ├── Personally Identifiable Information
+│   ├── Sensitive Personal Data
+│   ├── Data Minimization
+│   ├── Consent
+│   ├── Anonymization
+│   ├── Pseudonymization
+│   ├── Masking
+│   ├── Tokenization
+│   ├── Encryption at Rest
+│   ├── Encryption in Transit
+│   ├── Access Logging
+│   ├── Least-Privilege Access
+│   ├── Differential Privacy
+│   └── Data Breach Handling
+│
+├── 2.51 Data Bias
+│   ├── Sampling Bias
+│   ├── Selection Bias
+│   ├── Historical Bias
+│   ├── Measurement Bias
+│   ├── Label Bias
+│   ├── Representation Bias
+│   ├── Survivorship Bias
+│   ├── Confirmation Bias
+│   ├── Reporting Bias
+│   ├── Temporal Bias
+│   └── Geographic Bias
+│
+├── 2.52 Data Drift
+│   ├── Feature Drift
+│   ├── Target Drift
+│   ├── Covariate Shift
+│   ├── Prior-Probability Shift
+│   ├── Concept Drift
+│   ├── Sudden Drift
+│   ├── Gradual Drift
+│   ├── Incremental Drift
+│   ├── Recurring Drift
+│   ├── Distribution Comparison
+│   ├── Population Stability Index
+│   ├── Kolmogorov-Smirnov Test
+│   ├── KL Divergence
+│   └── Jensen-Shannon Divergence
+│
+├── 2.53 Data Documentation
+│   ├── Data Dictionary
+│   ├── Column Descriptions
+│   ├── Data Types
+│   ├── Valid Ranges
+│   ├── Category Definitions
+│   ├── Units
+│   ├── Missing-Value Meaning
+│   ├── Source Description
+│   ├── Refresh Frequency
+│   ├── Ownership
+│   ├── Known Limitations
+│   └── Dataset Cards
+│
+└── 2.54 Advanced Data Understanding
+    ├── Data-Centric AI
+    ├── Semantic Layers
+    ├── Feature Stores
+    ├── Data Contracts
+    ├── Schema Evolution
+    ├── Data Observability
+    ├── Automated Data Validation
+    ├── Synthetic Data
+    ├── Weak Supervision
+    ├── Active Learning
+    ├── Data Augmentation
+    ├── Federated Data
+    ├── Multimodal Data
+    ├── Causal Data Analysis
+    ├── Data Valuation
+    └── Dataset Shift Analysis
