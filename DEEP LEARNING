@@ -1,0 +1,307 @@
+7. DEEP LEARNING
+│
+├── 7.1 Neural-Network Foundations
+│   ├── Artificial Neuron
+│   ├── Input
+│   ├── Weight
+│   ├── Bias
+│   ├── Weighted Sum
+│   ├── Activation Function
+│   ├── Layer
+│   ├── Input Layer
+│   ├── Hidden Layer
+│   ├── Output Layer
+│   ├── Forward Propagation
+│   ├── Loss Function
+│   ├── Backpropagation
+│   └── Gradient Descent
+│
+├── 7.2 Perceptrons
+│   ├── Single-Layer Perceptron
+│   ├── Multilayer Perceptron
+│   ├── Linear Separability
+│   ├── Decision Boundary
+│   ├── Perceptron Learning Rule
+│   └── XOR Problem
+│
+├── 7.3 Activation Functions
+│   ├── Linear
+│   ├── Step Function
+│   ├── Sigmoid
+│   ├── Tanh
+│   ├── ReLU
+│   ├── Leaky ReLU
+│   ├── PReLU
+│   ├── ELU
+│   ├── SELU
+│   ├── GELU
+│   ├── Swish
+│   ├── Mish
+│   └── Softmax
+│
+├── 7.4 Loss Functions
+│   ├── Mean Squared Error
+│   ├── Mean Absolute Error
+│   ├── Huber Loss
+│   ├── Binary Cross-Entropy
+│   ├── Categorical Cross-Entropy
+│   ├── Sparse Categorical Cross-Entropy
+│   ├── Hinge Loss
+│   ├── Focal Loss
+│   ├── Dice Loss
+│   ├── IoU Loss
+│   ├── Contrastive Loss
+│   ├── Triplet Loss
+│   ├── KL Divergence
+│   └── Custom Loss
+│
+├── 7.5 Backpropagation
+│   ├── Computational Graph
+│   ├── Chain Rule
+│   ├── Local Gradient
+│   ├── Upstream Gradient
+│   ├── Weight Gradient
+│   ├── Bias Gradient
+│   ├── Activation Gradient
+│   ├── Gradient Accumulation
+│   ├── Automatic Differentiation
+│   └── Gradient Checking
+│
+├── 7.6 Optimization
+│   ├── Batch Gradient Descent
+│   ├── Stochastic Gradient Descent
+│   ├── Mini-Batch Gradient Descent
+│   ├── Momentum
+│   ├── Nesterov Momentum
+│   ├── AdaGrad
+│   ├── RMSProp
+│   ├── Adam
+│   ├── AdamW
+│   ├── LAMB
+│   ├── Learning-Rate Scheduling
+│   ├── Warmup
+│   ├── Cosine Annealing
+│   └── Gradient Clipping
+│
+├── 7.7 Weight Initialization
+│   ├── Zero Initialization
+│   ├── Random Initialization
+│   ├── Xavier Initialization
+│   ├── Glorot Initialization
+│   ├── He Initialization
+│   ├── Orthogonal Initialization
+│   └── Pretrained Initialization
+│
+├── 7.8 Normalization
+│   ├── Batch Normalization
+│   ├── Layer Normalization
+│   ├── Instance Normalization
+│   ├── Group Normalization
+│   ├── Weight Normalization
+│   └── RMS Normalization
+│
+├── 7.9 Regularization
+│   ├── L1 Regularization
+│   ├── L2 Regularization
+│   ├── Weight Decay
+│   ├── Dropout
+│   ├── DropConnect
+│   ├── Early Stopping
+│   ├── Label Smoothing
+│   ├── Data Augmentation
+│   ├── Noise Injection
+│   ├── Mixup
+│   ├── CutMix
+│   └── Stochastic Depth
+│
+├── 7.10 Training Concepts
+│   ├── Epoch
+│   ├── Batch
+│   ├── Batch Size
+│   ├── Iteration
+│   ├── Learning Rate
+│   ├── Training Loop
+│   ├── Validation Loop
+│   ├── Checkpointing
+│   ├── Early Stopping
+│   ├── Gradient Accumulation
+│   ├── Mixed Precision
+│   └── Distributed Training
+│
+├── 7.11 Deep-Learning Problems
+│   ├── Vanishing Gradients
+│   ├── Exploding Gradients
+│   ├── Dead Neurons
+│   ├── Overfitting
+│   ├── Underfitting
+│   ├── Internal Covariate Shift
+│   ├── Mode Collapse
+│   ├── Catastrophic Forgetting
+│   └── Gradient Instability
+│
+├── 7.12 Convolutional Neural Networks
+│   ├── Convolution
+│   ├── Kernel
+│   ├── Filter
+│   ├── Feature Map
+│   ├── Stride
+│   ├── Padding
+│   ├── Dilation
+│   ├── Pooling
+│   ├── Max Pooling
+│   ├── Average Pooling
+│   ├── Global Average Pooling
+│   ├── Receptive Field
+│   └── Depthwise Convolution
+│
+├── 7.13 CNN Architectures
+│   ├── LeNet
+│   ├── AlexNet
+│   ├── VGG
+│   ├── Inception
+│   ├── ResNet
+│   ├── DenseNet
+│   ├── MobileNet
+│   ├── EfficientNet
+│   ├── ConvNeXt
+│   └── Vision Transformer
+│
+├── 7.14 Recurrent Neural Networks
+│   ├── Sequence Input
+│   ├── Hidden State
+│   ├── Recurrent Connection
+│   ├── Sequence-to-One
+│   ├── One-to-Sequence
+│   ├── Sequence-to-Sequence
+│   ├── Bidirectional RNN
+│   ├── Truncated Backpropagation
+│   └── Teacher Forcing
+│
+├── 7.15 LSTM and GRU
+│   ├── LSTM Cell
+│   ├── Cell State
+│   ├── Input Gate
+│   ├── Forget Gate
+│   ├── Output Gate
+│   ├── GRU
+│   ├── Reset Gate
+│   ├── Update Gate
+│   ├── Bidirectional LSTM
+│   └── Stacked LSTM
+│
+├── 7.16 Attention
+│   ├── Query
+│   ├── Key
+│   ├── Value
+│   ├── Attention Score
+│   ├── Scaled Dot-Product Attention
+│   ├── Self-Attention
+│   ├── Cross-Attention
+│   ├── Multi-Head Attention
+│   ├── Attention Mask
+│   └── Causal Attention
+│
+├── 7.17 Transformers
+│   ├── Encoder
+│   ├── Decoder
+│   ├── Encoder-Decoder
+│   ├── Positional Encoding
+│   ├── Token Embeddings
+│   ├── Self-Attention
+│   ├── Multi-Head Attention
+│   ├── Feed-Forward Network
+│   ├── Residual Connections
+│   ├── Layer Normalization
+│   ├── Attention Mask
+│   └── KV Cache
+│
+├── 7.18 Autoencoders
+│   ├── Encoder
+│   ├── Latent Space
+│   ├── Decoder
+│   ├── Reconstruction Loss
+│   ├── Undercomplete Autoencoder
+│   ├── Sparse Autoencoder
+│   ├── Denoising Autoencoder
+│   ├── Contractive Autoencoder
+│   ├── Variational Autoencoder
+│   └── Anomaly Detection
+│
+├── 7.19 Generative Adversarial Networks
+│   ├── Generator
+│   ├── Discriminator
+│   ├── Adversarial Loss
+│   ├── Latent Noise
+│   ├── Minimax Game
+│   ├── DCGAN
+│   ├── Conditional GAN
+│   ├── Wasserstein GAN
+│   ├── CycleGAN
+│   ├── StyleGAN
+│   └── Mode Collapse
+│
+├── 7.20 Diffusion Models
+│   ├── Forward Diffusion
+│   ├── Reverse Diffusion
+│   ├── Noise Schedule
+│   ├── Denoising Network
+│   ├── Score Matching
+│   ├── U-Net
+│   ├── Latent Diffusion
+│   ├── Classifier-Free Guidance
+│   ├── Sampling Steps
+│   └── Stable Diffusion
+│
+├── 7.21 Representation Learning
+│   ├── Latent Representations
+│   ├── Embeddings
+│   ├── Metric Learning
+│   ├── Contrastive Learning
+│   ├── Siamese Networks
+│   ├── Triplet Networks
+│   ├── Self-Supervised Learning
+│   └── Multimodal Representations
+│
+├── 7.22 Transfer Learning
+│   ├── Pretrained Models
+│   ├── Feature Extraction
+│   ├── Frozen Layers
+│   ├── Fine-Tuning
+│   ├── Partial Fine-Tuning
+│   ├── Full Fine-Tuning
+│   ├── Domain Adaptation
+│   └── Parameter-Efficient Fine-Tuning
+│
+├── 7.23 Distributed Deep Learning
+│   ├── Data Parallelism
+│   ├── Model Parallelism
+│   ├── Pipeline Parallelism
+│   ├── Tensor Parallelism
+│   ├── Distributed Data Parallel
+│   ├── Gradient Synchronization
+│   ├── Parameter Servers
+│   ├── Sharded Training
+│   └── Fault-Tolerant Training
+│
+├── 7.24 Deep-Learning Evaluation
+│   ├── Training Curves
+│   ├── Validation Curves
+│   ├── Loss Curves
+│   ├── Gradient Monitoring
+│   ├── Activation Monitoring
+│   ├── Confusion Matrix
+│   ├── Calibration
+│   ├── Robustness
+│   └── Ablation Studies
+│
+└── 7.25 Advanced Deep Learning
+    ├── Graph Neural Networks
+    ├── Neural ODEs
+    ├── Capsule Networks
+    ├── Spiking Neural Networks
+    ├── Energy-Based Models
+    ├── Neural Architecture Search
+    ├── Mixture-of-Experts
+    ├── Continual Learning
+    ├── Federated Deep Learning
+    └── Foundation Models
