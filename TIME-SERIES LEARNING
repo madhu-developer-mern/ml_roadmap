@@ -1,0 +1,241 @@
+6. TIME-SERIES LEARNING
+│
+├── 6.1 Time-Series Foundations
+│   ├── Time Index
+│   ├── Timestamp
+│   ├── Frequency
+│   ├── Granularity
+│   ├── Sampling Interval
+│   ├── Univariate Series
+│   ├── Multivariate Series
+│   ├── Endogenous Variables
+│   ├── Exogenous Variables
+│   ├── Regular Series
+│   └── Irregular Series
+│
+├── 6.2 Time-Series Components
+│   ├── Level
+│   ├── Trend
+│   ├── Seasonality
+│   ├── Cyclic Pattern
+│   ├── Noise
+│   ├── Residual Component
+│   ├── Additive Decomposition
+│   ├── Multiplicative Decomposition
+│   └── STL Decomposition
+│
+├── 6.3 Time-Series Preparation
+│   ├── Timestamp Parsing
+│   ├── Sorting
+│   ├── Resampling
+│   ├── Aggregation
+│   ├── Missing Timestamps
+│   ├── Interpolation
+│   ├── Forward Fill
+│   ├── Backward Fill
+│   ├── Outlier Treatment
+│   ├── Time-Zone Handling
+│   └── Duplicate Timestamp Handling
+│
+├── 6.4 Stationarity
+│   ├── Strict Stationarity
+│   ├── Weak Stationarity
+│   ├── Mean Stationarity
+│   ├── Variance Stationarity
+│   ├── Differencing
+│   ├── Seasonal Differencing
+│   ├── Log Transformation
+│   ├── Box-Cox Transformation
+│   ├── Augmented Dickey-Fuller Test
+│   ├── KPSS Test
+│   └── Phillips-Perron Test
+│
+├── 6.5 Autocorrelation
+│   ├── Autocorrelation
+│   ├── Partial Autocorrelation
+│   ├── ACF Plot
+│   ├── PACF Plot
+│   ├── Lag
+│   ├── Lag Order
+│   ├── Serial Correlation
+│   ├── White Noise
+│   └── Ljung-Box Test
+│
+├── 6.6 Time-Series Features
+│   ├── Lag Features
+│   ├── Rolling Mean
+│   ├── Rolling Median
+│   ├── Rolling Standard Deviation
+│   ├── Rolling Minimum
+│   ├── Rolling Maximum
+│   ├── Expanding Features
+│   ├── Difference Features
+│   ├── Percentage Change
+│   ├── Seasonal Features
+│   ├── Calendar Features
+│   ├── Holiday Features
+│   └── Fourier Features
+│
+├── 6.7 Baseline Forecasts
+│   ├── Mean Forecast
+│   ├── Median Forecast
+│   ├── Naive Forecast
+│   ├── Seasonal Naive Forecast
+│   ├── Drift Forecast
+│   ├── Moving Average
+│   └── Weighted Moving Average
+│
+├── 6.8 Exponential Smoothing
+│   ├── Simple Exponential Smoothing
+│   ├── Holt’s Linear Trend
+│   ├── Damped Trend
+│   ├── Holt-Winters Additive
+│   ├── Holt-Winters Multiplicative
+│   ├── Level Smoothing
+│   ├── Trend Smoothing
+│   ├── Seasonal Smoothing
+│   └── ETS Models
+│
+├── 6.9 ARIMA Family
+│   ├── Autoregressive Model
+│   ├── Moving-Average Model
+│   ├── ARMA
+│   ├── ARIMA
+│   ├── Seasonal ARIMA
+│   ├── SARIMAX
+│   ├── ARIMAX
+│   ├── Integrated Order
+│   ├── Seasonal Order
+│   ├── Model Identification
+│   ├── Residual Diagnostics
+│   └── Forecast Intervals
+│
+├── 6.10 Multivariate Time Series
+│   ├── Vector Autoregression
+│   ├── Vector Error Correction
+│   ├── Granger Causality
+│   ├── Cointegration
+│   ├── Impulse Response
+│   ├── Forecast Error Variance
+│   ├── Dynamic Regression
+│   └── Transfer-Function Models
+│
+├── 6.11 State-Space Models
+│   ├── Hidden State
+│   ├── Observation Equation
+│   ├── State Equation
+│   ├── Kalman Filter
+│   ├── Kalman Smoother
+│   ├── Dynamic Linear Models
+│   ├── Structural Time-Series Models
+│   └── Bayesian Structural Time Series
+│
+├── 6.12 Machine-Learning Forecasting
+│   ├── Linear Regression Forecasting
+│   ├── Random Forest Forecasting
+│   ├── Gradient Boosting Forecasting
+│   ├── XGBoost Forecasting
+│   ├── LightGBM Forecasting
+│   ├── CatBoost Forecasting
+│   ├── Support Vector Regression
+│   ├── KNN Forecasting
+│   └── Quantile Forecasting
+│
+├── 6.13 Deep-Learning Forecasting
+│   ├── RNN
+│   ├── LSTM
+│   ├── GRU
+│   ├── Temporal Convolutional Networks
+│   ├── Seq2Seq Forecasting
+│   ├── Attention Forecasting
+│   ├── Transformer Forecasting
+│   ├── Temporal Fusion Transformer
+│   ├── N-BEATS
+│   ├── N-HiTS
+│   └── DeepAR
+│
+├── 6.14 Forecasting Strategies
+│   ├── One-Step Forecasting
+│   ├── Multi-Step Forecasting
+│   ├── Recursive Forecasting
+│   ├── Direct Forecasting
+│   ├── Direct-Recursive Forecasting
+│   ├── Multi-Output Forecasting
+│   ├── Global Forecasting
+│   └── Local Forecasting
+│
+├── 6.15 Probabilistic Forecasting
+│   ├── Point Forecast
+│   ├── Prediction Distribution
+│   ├── Prediction Interval
+│   ├── Quantile Forecast
+│   ├── Pinball Loss
+│   ├── Coverage Probability
+│   ├── Calibration
+│   ├── Conformal Forecasting
+│   └── Scenario Forecasting
+│
+├── 6.16 Hierarchical Forecasting
+│   ├── Hierarchy
+│   ├── Aggregation Levels
+│   ├── Bottom-Up Forecasting
+│   ├── Top-Down Forecasting
+│   ├── Middle-Out Forecasting
+│   ├── Forecast Reconciliation
+│   ├── MinT Reconciliation
+│   └── Coherent Forecasts
+│
+├── 6.17 Intermittent Demand
+│   ├── Zero Demand
+│   ├── Croston’s Method
+│   ├── SBA Method
+│   ├── TSB Method
+│   ├── Demand Interval
+│   └── Demand Size
+│
+├── 6.18 Change-Point Detection
+│   ├── Mean Shift
+│   ├── Variance Shift
+│   ├── Trend Change
+│   ├── CUSUM
+│   ├── Page-Hinkley
+│   ├── Bayesian Change Points
+│   ├── PELT
+│   └── Online Change Detection
+│
+├── 6.19 Time-Series Anomaly Detection
+│   ├── Point Anomalies
+│   ├── Contextual Anomalies
+│   ├── Collective Anomalies
+│   ├── Seasonal Anomalies
+│   ├── Residual-Based Detection
+│   ├── Isolation Forest
+│   ├── Autoencoder Detection
+│   ├── Forecast-Error Detection
+│   └── Dynamic Thresholds
+│
+├── 6.20 Forecast Evaluation
+│   ├── Backtesting
+│   ├── Walk-Forward Validation
+│   ├── Rolling-Origin Evaluation
+│   ├── MAE
+│   ├── RMSE
+│   ├── MAPE
+│   ├── SMAPE
+│   ├── MASE
+│   ├── RMSSE
+│   ├── Forecast Bias
+│   ├── Pinball Loss
+│   └── Interval Coverage
+│
+└── 6.21 Time-Series Production
+    ├── Forecast Scheduling
+    ├── Data Freshness
+    ├── Feature Updating
+    ├── Forecast Storage
+    ├── Forecast Versioning
+    ├── Drift Monitoring
+    ├── Retraining
+    ├── Backfill
+    ├── Late Data
+    └── Forecast Explainability
