@@ -1,0 +1,746 @@
+hi
+
+Hi Madhu! What are we working on today?
+
+please visit all websites collect ml interview questions that are asked in realtime companies give me
+Worked for 1m 24s
+Real Machine Learning Interview Question Bank
+
+I reviewed recent candidate-reported questions and interview guides from Glassdoor, LeetCode Discuss, Exponent, InterviewQuery, DataInterview, GeeksforGeeks and similar sources. I cannot literally inspect every website, and companies change questions by team, interviewer, location and level. Treat these as reported or repeatedly observed questions, not an official company question paper.
+
+Most Machine Learning Engineer interviews currently combine:
+
+Data structures and coding
+ML fundamentals and mathematics
+ML system design
+Project deep dive
+Production and MLOps troubleshooting
+Behavioural and leadership questions
+
+This pattern appears repeatedly across Amazon, Google, Meta, Microsoft, Uber and LinkedIn interview reports.
+
+1. Amazon Machine Learning Engineer
+ML fundamentals
+What is the difference between bagging and boosting?
+Explain the bias–variance trade-off.
+Does model quantisation increase bias, variance or both?
+When would you use gradient boosting instead of a neural network?
+How would you handle a heavily imbalanced fraud dataset?
+How do you select a decision threshold?
+How do you detect data leakage?
+How would you evaluate a recommendation model?
+Why might offline model improvement not produce online business improvement?
+Explain feature importance in tree-based models.
+ML system design
+Design Amazon’s product recommendation system.
+Design a real-time payment fraud-detection system.
+Design a search-ranking model for Amazon products.
+Design a system that predicts whether an order will arrive late.
+Design a demand-forecasting system for warehouse inventory.
+How would you serve a model with very low latency?
+How would you monitor model degradation?
+How would you retrain a model when new data arrives continuously?
+How would you handle new products that have no interaction history?
+How would you roll back a bad production model?
+Coding and behavioural
+Implement K-nearest-neighbour search using basic Python.
+Reverse a linked list.
+Solve an edit-distance problem.
+Merge overlapping intervals.
+Tell me about a time you handled a difficult stakeholder.
+Tell me about a time you sacrificed a short-term result for long-term value.
+Describe a complex technical problem you owned.
+Tell me about a disagreement with your manager.
+Tell me about a time you received negative feedback.
+Describe a project that failed and what you learned.
+
+Recent Amazon guides repeatedly emphasise recommendations, fraud, low-latency serving, coding and Leadership Principle stories. Candidate question databases also report KNN implementation, quantisation, edit distance, linked lists and behavioural questions.
+
+2. Google Machine Learning Engineer
+Reported design problems
+Given a user ID, timestamp, search query and clicked links, design a system that ranks links for a new query.
+Design a spelling and grammar correction system for Google Docs.
+How would you provide corrections while the user is typing in real time?
+Design a content-moderation system.
+Design an ML system that uses traffic data.
+Given an email corpus, query and user profile, retrieve and rank relevant emails.
+How would you personalise email search results?
+Design a large-scale search-ranking system.
+Design a YouTube video recommendation system.
+Design a duplicate-content detection system.
+
+Several of these are directly described in candidate interview reports, including search-link ranking, real-time grammar correction, content moderation, traffic-related ML and personalised email retrieval.
+
+ML and coding questions
+How do you prevent leakage in time-based datasets?
+When should you use PR-AUC instead of ROC-AUC?
+Explain calibration. Why can a model have high AUC but poor calibration?
+How would you train a model when labels arrive several weeks later?
+What is the difference between pointwise, pairwise and listwise ranking?
+Explain negative sampling.
+How do embeddings represent similarity?
+How would you train on data larger than one machine can store?
+What causes training-serving skew?
+How would you debug a model whose production accuracy suddenly dropped?
+Find the diameter of a binary tree.
+Solve a House Robber-style dynamic-programming problem.
+Return or identify a palindromic subsequence.
+Solve a linked-list problem under time constraints.
+
+Recent internship reports show that even AI roles may contain substantial arrays, strings, trees, linked lists and dynamic programming.
+
+Behavioural
+What trends and challenges exist in your ML specialisation?
+Tell me about a time you overcame adversity.
+Describe a time you worked under a tight deadline.
+Tell me about an ambiguous problem you solved.
+Describe a decision you made with incomplete data.
+How did you influence a team without formal authority?
+3. Meta Machine Learning Engineer
+Frequently reported ML design questions
+Design a personalised News Feed ranking system.
+Design a product recommendation system.
+Design an evaluation framework for advertisement ranking.
+Design the “next post” selection logic for Facebook.
+Design a recommendation system for Facebook Ads.
+Design a machine-translation model.
+Design the ML components for Instagram Stories.
+Design an image copyright-violation detection system.
+Design a harmful-content detection system.
+Design an Instagram Reels recommendation system.
+Design a friend-recommendation system.
+Design a notification-ranking system.
+Follow-up questions Meta may apply
+What should the optimisation objective be?
+Which engagement signals would you use as labels?
+How would you handle position bias?
+How would you prevent the system from recommending repetitive content?
+How would you handle a new user?
+How would you handle a new post or advertisement?
+How would you generate recommendation candidates?
+How would you rank millions of candidates within the latency limit?
+What offline and online metrics would you use?
+How would you measure long-term satisfaction rather than clicks?
+How would you detect feedback loops?
+How would you add diversity and freshness?
+How would you investigate a decrease in daily active users?
+
+Meta’s reported loop includes coding, ML design, behavioural assessment and, in some 2026 interview guides, an AI-assisted coding exercise involving comprehension, debugging and extending an existing codebase.
+
+4. Microsoft Machine Learning Engineer
+How do you evaluate an ML model?
+What is a confusion matrix?
+Explain precision, recall and F1-score.
+When is accuracy a good metric?
+When is accuracy a dangerous metric?
+What transformations can be used for categorical variables?
+Compare one-hot, ordinal, target and embedding-based encoding.
+Explain overfitting and methods for controlling it.
+How would you build an end-to-end ML system?
+How would you deploy a model using cloud infrastructure?
+How would you monitor an Azure-hosted model?
+How would you create a scalable feature pipeline?
+How would you handle model versioning?
+Explain blue-green and canary model deployment.
+How would you make model predictions explainable?
+How would you detect and measure model bias?
+Describe a production system you designed.
+Solve a general problem-solving or data-structure question.
+
+Microsoft reports commonly contain ML evaluation, categorical transformation, system design, problem-solving and cloud/Azure discussions.
+
+5. Uber Machine Learning Engineer
+Reported real-world design questions
+Design an ETA prediction system for Uber trips.
+Design Uber Eats restaurant recommendations.
+Design a real-time surge-pricing prediction system.
+Design a system for detecting stolen-credit-card fraud.
+Improve rider-driver matching beyond nearest-driver dispatch.
+How would you incorporate ETA, predicted trip value and driver preferences?
+Design a driver-incentive recommendation system.
+Predict whether a rider will cancel.
+Predict whether a driver will accept a trip.
+Design a food-delivery-time prediction model.
+Design a marketplace demand-forecasting system.
+Define metrics that measure marketplace health.
+Completed trips decreased. How would you identify the cause?
+Solve shortest path in a grid containing blocked cells.
+Important Uber follow-ups
+Would ETA prediction be regression, ranking or survival analysis?
+How would you represent road, traffic, weather and driver features?
+How would you handle continuously changing traffic?
+What happens when GPS data is missing?
+How would you avoid leakage from trip-completion information?
+How would you estimate prediction uncertainty?
+How would you train models for cities with limited data?
+How would you detect concept drift during festivals or severe weather?
+How would you serve predictions within a few milliseconds?
+How would you evaluate the effect on riders and drivers separately?
+6. LinkedIn Machine Learning Engineer
+Design a professional-content recommendation system.
+Design LinkedIn’s News Feed model.
+Design a job-recommendation system.
+Design “People You May Know”.
+Design a candidate-ranking system for recruiters.
+Design a cold-start recommender.
+Explain decision trees.
+What does AUC measure?
+When is AUC misleading?
+Explain embeddings and tokenisation.
+Explain attention and BERT.
+Compare dropout and weight decay.
+Explain topic modelling.
+Compare clustering techniques.
+How would you model sparse and implicit interaction data?
+How would you create candidates before ranking?
+How would you optimise for qualified job applications rather than clicks?
+
+Candidate reports specifically mention recommender design, decision trees, AUC, embeddings, tokenisation, attention, BERT, regularisation, clustering and a cold-start recommender system.
+
+7. Walmart and E-commerce Companies
+Explain Naive Bayes and its assumptions.
+Which ML algorithms have you used in production?
+Explain an ML project from your résumé.
+Write Python code for data preprocessing.
+Design a product recommendation system.
+Design a product search-ranking system.
+Forecast demand for each store and product.
+Predict whether an item will go out of stock.
+Detect fraudulent orders or returns.
+Optimise delivery estimates.
+Write SQL to find the five highest-revenue customers in the last 30 days.
+How would you evaluate a promotion-recommendation model?
+How would you account for holidays and seasonal demand?
+What happens when a product has no sales history?
+
+Walmart reports include Naive Bayes, core algorithms, Python and résumé-based questions; Flipkart-oriented guides emphasise ML foundations, model evaluation, trees, ensembles, SQL and e-commerce applications.
+
+Most Important General ML Questions
+8. Core ML fundamentals
+Explain supervised, unsupervised, semi-supervised and reinforcement learning.
+What is the bias–variance trade-off?
+Explain overfitting and underfitting.
+What is regularisation?
+Compare L1 and L2 regularisation.
+Why does L1 produce sparse coefficients?
+Compare bagging and boosting.
+Compare Random Forest and Gradient Boosting.
+What is cross-validation?
+When should ordinary K-fold cross-validation not be used?
+What is stratified cross-validation?
+What is time-series cross-validation?
+What is data leakage?
+What is target leakage?
+What is concept drift?
+What is covariate drift?
+What is class imbalance?
+How do class weights work?
+When would you use oversampling?
+What are the risks of SMOTE?
+How do you choose a classification threshold?
+What is probability calibration?
+9. Algorithm questions
+Explain linear regression assumptions.
+How does logistic regression produce probabilities?
+Why is logistic regression considered a linear classifier?
+How does a decision tree choose a split?
+Compare Gini impurity and entropy.
+Why do deep decision trees overfit?
+How does Random Forest reduce variance?
+How does boosting correct previous errors?
+Explain gradient boosting step by step.
+Compare XGBoost, LightGBM and CatBoost.
+How does KNN classification work?
+Why must features usually be scaled for KNN?
+How do you choose K?
+Explain the curse of dimensionality.
+How does an SVM find the maximum-margin boundary?
+What is the kernel trick?
+Explain Naive Bayes.
+Why can Naive Bayes work despite its unrealistic independence assumption?
+How does K-means clustering work?
+How do you choose the number of clusters?
+Explain PCA.
+Why should features often be standardised before PCA?
+What information is lost during dimensionality reduction?
+10. Statistics and experimentation
+Explain a p-value.
+What is a confidence interval?
+What are Type I and Type II errors?
+What is statistical power?
+How do you calculate the required A/B-test sample size?
+What is a guardrail metric?
+What is the multiple-hypothesis-testing problem?
+Explain Simpson’s paradox.
+What is selection bias?
+What is survivorship bias?
+Correlation increased. Does that prove causation?
+How would you investigate a metric decrease?
+When should an experiment be stopped?
+What is novelty effect?
+What is network interference in an experiment?
+Why might an offline metric improve while the online metric declines?
+11. Deep learning, NLP and GenAI
+Why do neural networks require nonlinear activation functions?
+Compare sigmoid, tanh, ReLU and GELU.
+What causes vanishing gradients?
+What causes exploding gradients?
+What is batch normalisation?
+What is layer normalisation?
+Compare dropout and weight decay.
+Explain the attention mechanism.
+What is self-attention?
+Why are positional encodings needed?
+Explain tokenisation.
+Compare Word2Vec, contextual embeddings and transformer embeddings.
+Explain BERT’s training objectives.
+Compare encoder-only, decoder-only and encoder-decoder transformers.
+What is model quantisation?
+What is knowledge distillation?
+Compare fine-tuning, prompt engineering and RAG.
+What is LoRA?
+How do you evaluate an LLM application?
+How do you detect hallucinations?
+How would you reduce RAG latency?
+How would you evaluate retrieval separately from generation?
+What is chunking, and how do you choose chunk size?
+When should you use a reranker?
+How do you protect an LLM application from prompt injection?
+12. Production ML and MLOps
+Describe the complete ML lifecycle.
+What is a feature store?
+Why must training and serving features be consistent?
+What is training-serving skew?
+How do you version datasets, code, features and models?
+How do you monitor model performance when labels are delayed?
+Which data-quality checks should run before training?
+Which checks should run before deployment?
+What should trigger model retraining?
+How do you distinguish drift from normal variation?
+How would you deploy a model safely?
+Compare batch inference and online inference.
+Compare synchronous and asynchronous inference.
+How would you reduce inference latency?
+How would you increase model throughput?
+How do you handle model-service failure?
+What fallback should be used when the model is unavailable?
+How would you perform a canary release?
+How would you roll back a model?
+What metrics belong on an ML monitoring dashboard?
+How do you investigate prediction-distribution changes?
+How do you reproduce a prediction made three months ago?
+How would you manage sensitive training data?
+How do you support deletion of a user’s data from training pipelines?
+
+Production ML research consistently identifies data collection, experimentation, staged evaluation, monitoring, validation and versioning as central MLE responsibilities.
+
+13. Project deep-dive questions
+Explain one project from business problem to production.
+Why was ML required instead of business rules?
+What was the baseline?
+How was training data collected?
+Who created the labels?
+How did you validate label quality?
+Which features did you use?
+Which features failed?
+Which models did you compare?
+Why did you select the final model?
+What was the offline metric?
+What was the business metric?
+What was your personal contribution?
+What was the biggest technical failure?
+How did the system behave after deployment?
+How much traffic or data did it handle?
+What latency was required?
+How often was it retrained?
+How was the model monitored?
+What would you redesign today?
+How did you explain the model to non-technical stakeholders?
+What measurable impact did the project produce?
+What to prepare first
+
+For most MLE roles, prioritise these areas in this order:
+
+Your own projects — interviewers ask increasingly deep follow-ups.
+ML system design — recommendations, ranking, fraud, forecasting and real-time prediction.
+Core fundamentals — evaluation, leakage, imbalance, bias–variance and regularisation.
+Coding — arrays, strings, trees, graphs, dynamic programming and Python.
+Production ML — deployment, drift, monitoring, retraining and rollback.
+Statistics and experimentation.
+Behavioural stories showing ownership, conflict resolution, failure and impact.
+
+Start with questions 1–30, 31–60, 61–85 and 245–290 for Big Tech Machine Learning Engineer roles.
+
+Reply with a target such as “Amazon, 3 years experience” or “general ML fresher”; the next step will be a one-question-at-a-time realistic mock interview.
+
+can you bring some more
+Worked for 49s
+
+Yes. Here are 120 additional company-style ML interview questions, continuing from question 291.
+
+These combine:
+
+Questions directly reported by candidates
+Repeated company-specific interview themes
+Realistic follow-up questions interviewers ask after the initial problem
+
+Because interviews differ by team and level, not every question is guaranteed to appear. Candidate reports are also anecdotal rather than official company question banks.
+
+14. Apple Machine Learning Engineer
+
+Apple’s ML interviews vary considerably by team. Recent reports show combinations of DSA, ML fundamentals, project discussions, computer vision, NLP, on-device inference and system design.
+
+Explain the most technically difficult ML project you have completed.
+What part of that project did you personally implement?
+Why did you choose that particular model?
+What alternative models did you test?
+Implement an algorithm that balances conditions inside an array.
+Find the longest consecutive sequence in an unsorted array.
+Implement an LRU cache.
+Design an autocorrection system for a mobile keyboard.
+How would you generate correction candidates for a misspelled word?
+How would you rank autocorrection candidates?
+How would you personalise autocorrection without exposing private user data?
+Design an on-device wake-word detection system.
+How would you reduce the size of a neural network for mobile deployment?
+Compare pruning, quantisation and knowledge distillation.
+Why can quantisation reduce model accuracy?
+Compare post-training quantisation and quantisation-aware training.
+How would you measure the latency of an on-device model?
+What is the difference between CPU, GPU and Neural Engine inference?
+How would you design an image-classification feature for Apple Photos?
+How would you identify visually similar photographs?
+How would you detect duplicate photographs?
+Explain how Face ID could handle variations in lighting and appearance.
+How would you evaluate a biometric authentication model?
+Why is ordinary classification accuracy insufficient for authentication?
+Explain false-acceptance rate and false-rejection rate.
+How would you protect an ML system that processes sensitive health data?
+How would you train an ML model using federated learning?
+What problems can arise from non-IID federated-learning data?
+How would you debug a model that performs well in development but badly on one iPhone model?
+What trade-offs would you make between accuracy, battery usage, memory and latency?
+15. NVIDIA Machine Learning and Deep Learning Engineer
+
+Recent NVIDIA reports emphasise deep-learning fundamentals, transformer architecture, CUDA, GPU memory, distributed training and hardware–software co-design.
+
+Explain how a GPU differs from a CPU.
+Why are GPUs effective for deep-learning workloads?
+What is a CUDA kernel?
+Explain thread, block and grid organisation in CUDA.
+What is a warp?
+What is warp divergence?
+How does warp divergence affect performance?
+Compare global, shared, local and constant GPU memory.
+Why is coalesced memory access important?
+What is GPU occupancy?
+What limits occupancy?
+Explain arithmetic intensity.
+How can memory bandwidth become a training bottleneck?
+Why might a theoretically faster GPU kernel perform worse?
+How would you profile a slow GPU operation?
+Explain mixed-precision training.
+Why is loss scaling required with FP16?
+Compare FP32, TF32, FP16, BF16 and INT8.
+Why is BF16 often more stable than FP16?
+Explain data parallelism.
+Explain tensor parallelism.
+Explain pipeline parallelism.
+When would you combine multiple forms of parallelism?
+What is gradient accumulation?
+How does gradient accumulation differ from increasing the physical batch size?
+What is an all-reduce operation?
+Why can communication become the bottleneck in distributed training?
+Estimate the memory required to train a seven-billion-parameter model.
+What memory is consumed besides the model weights?
+Explain activation checkpointing.
+What is FlashAttention?
+Why can FlashAttention be faster without changing the attention result?
+What is a KV cache?
+How does KV-cache size grow with sequence length?
+Explain paged attention.
+What causes out-of-memory errors during LLM inference?
+How would you serve multiple LLM requests efficiently on one GPU?
+Compare dynamic batching and continuous batching.
+How would you optimise a transformer for TensorRT?
+How would you investigate low GPU utilisation during model training?
+16. Airbnb Machine Learning Engineer
+
+Airbnb-style questions commonly centre on search ranking, pricing, fraud, marketplace balance, experimentation, host–guest interactions and cold-start handling. Recent Airbnb ML work also describes search-filter recommendation aimed at increasing booking conversions.
+
+Design Airbnb’s property-search ranking system.
+What should the label be for a search-ranking model?
+Should you optimise for clicks, bookings or completed stays?
+How would you handle position bias in Airbnb search results?
+How would you generate candidate listings?
+How would you rank millions of available listings?
+How would you incorporate price, location, reviews and host quality?
+How would you avoid showing only expensive popular properties?
+How would you introduce diversity into search results?
+How would you handle a new listing with no bookings?
+How would you handle a new user with no search history?
+Design a system that recommends useful search filters.
+How would you determine which filter to recommend?
+How would you measure whether filter recommendations improve conversion?
+Design an Airbnb nightly-price recommendation system.
+How would you account for seasonality and local events?
+How would you model properties with little historical demand?
+How would you prevent suggested prices from becoming unstable?
+How would you estimate demand elasticity?
+Design a fraud-detection model for suspicious bookings.
+How would you detect fake property listings?
+How would you detect fake reviews?
+How would you construct labels when confirmed fraud is rare?
+How would you measure the cost of false positives for hosts?
+Design a cancellation-risk prediction model.
+What features might predict guest cancellation?
+How would you avoid using information unavailable at booking time?
+Bookings decreased by 8%. How would you diagnose the change?
+How would you separate search-quality problems from pricing problems?
+Design an experiment for a new search-ranking algorithm.
+17. Netflix Machine Learning Engineer
+
+Netflix interviews vary by team, but reported preparation areas include recommendation systems, experimentation, scalable ML systems, ML coding and detailed reasoning about model trade-offs.
+
+Design Netflix’s personalised homepage.
+How would you recommend titles to a completely new subscriber?
+How would you generate recommendation candidates?
+How would you rank recommendation candidates?
+What should a recommendation row represent?
+How would you decide the ordering of homepage rows?
+How would you recommend a title that has just been released?
+What implicit-feedback signals would you use?
+Is starting a video a positive label?
+Is completing a video always a positive label?
+How would you interpret rewatching behaviour?
+How would you account for multiple people using one account?
+How would you model household-level and profile-level preferences?
+How would you avoid repeatedly recommending similar content?
+How would you optimise for long-term satisfaction rather than immediate viewing?
+How would you measure recommendation diversity?
+How would you measure novelty?
+How would you detect recommendation filter bubbles?
+How would you evaluate recommendations offline?
+Why might offline NDCG improvement not increase viewing time?
+How would you A/B test a recommendation model?
+What guardrail metrics would you monitor?
+How would you handle interference between recommendation experiments?
+Design a thumbnail-personalisation system.
+Should different users see different artwork for the same programme?
+How would you label thumbnail-training data?
+How would you avoid misleading thumbnail optimisation?
+Design a system that predicts whether a user will cancel their subscription.
+What actions could be taken from a churn prediction?
+How would you distinguish correlation from causes of churn?
+18. Spotify Machine Learning Engineer
+
+Recent Spotify interview material emphasises recommendation, ranking, search, experimentation, listener experience and practical production pipelines. One candidate report noted limited ML theory and included SQL.
+
+Design Spotify’s Discover Weekly recommendation system.
+How would you represent users and songs?
+Which signals indicate that a user likes a song?
+Is skipping always a negative signal?
+How would you handle accidental skips?
+How would you treat a song that the user repeatedly plays?
+How would you recommend songs from unfamiliar artists?
+How would you balance popular and niche music?
+How would you prevent recommendations from becoming repetitive?
+Design an automatic playlist-generation system.
+How would you ensure that transitions between songs feel natural?
+How would you incorporate tempo, genre, mood and language?
+How would you personalise recommendations when a user’s listening behaviour changes?
+Design a next-song prediction model.
+How would you measure success beyond play count?
+Explain recall@K for music recommendations.
+Explain mean reciprocal rank.
+Explain normalised discounted cumulative gain.
+What is the difference between candidate generation and ranking?
+How would you perform approximate nearest-neighbour search over song embeddings?
+Write SQL to calculate each user’s daily listening duration.
+Write SQL to find the most-skipped song in each country.
+Write SQL to identify users whose listening time increased for three consecutive weeks.
+A recommendation model increases listening time but decreases artist diversity. Would you launch it?
+How would you run an experiment without negatively affecting smaller artists?
+19. Stripe Machine Learning Engineer
+
+Recent Stripe material describes practical interviews involving model debugging, production engineering, probability, statistics, DSA, Pandas and ETL-style data manipulation. Stripe has also historically favoured exercises resembling real engineering work rather than conventional whiteboard puzzles.
+
+Design a payment-fraud detection system.
+What information is available before a card transaction is authorised?
+Which information becomes available only after authorisation?
+How would you construct fraud labels?
+How would you handle chargebacks that arrive months later?
+How would you train a model with delayed labels?
+How would you detect account-takeover attempts?
+How would you evaluate fraud detection under extreme class imbalance?
+Why can ROC-AUC be misleading for fraud detection?
+When would PR-AUC be more useful?
+How would you choose the blocking threshold?
+How would you assign different costs to false positives and false negatives?
+Should suspicious transactions be blocked or manually reviewed?
+How would you combine rules and ML predictions?
+How would you detect a sudden new fraud pattern?
+How would you support merchants with very different transaction patterns?
+How would you handle a new merchant?
+Design a merchant-risk scoring system.
+A model’s recall decreased after deployment. How would you debug it?
+How would you determine whether the issue is data, features, code or model weights?
+A feature is always zero in production but normal during training. What could have happened?
+How would you detect a broken upstream feature pipeline?
+Use Pandas to group transactions by merchant and day.
+Calculate conditional fraud rates for each payment method.
+Identify merchants with an abnormal week-over-week fraud increase.
+20. Adobe Machine Learning and Generative AI Engineer
+
+Recent Adobe Staff MLE reports include transformer architecture, GPU execution, memory behaviour, distributed training, inference serving and production evaluation.
+
+Explain encoder-only, decoder-only and encoder–decoder transformers.
+Why does a decoder use causal masking?
+Explain cross-attention.
+When would you select an encoder–decoder model?
+Design a text-to-image generation system.
+Explain the forward diffusion process.
+Explain the reverse denoising process.
+What is classifier-free guidance?
+How does increasing guidance strength affect image quality and diversity?
+Explain latent diffusion.
+Why operate in latent space rather than directly on pixels?
+How would you evaluate a text-to-image model?
+Why are FID and CLIP score insufficient by themselves?
+How would you measure prompt adherence?
+How would you evaluate generated-image safety?
+How would you detect copyrighted-content memorisation?
+How would you prevent a model from reproducing training images?
+How would you construct a content-safety classifier?
+How would you optimise image-generation inference?
+How would you reduce GPU memory usage during generation?
+How would you serve several image-generation requests concurrently?
+How would you version prompts, models and safety policies?
+How would you detect model quality regression after deployment?
+Design an AI-assisted image-editing feature.
+How would you preserve parts of an image that the user did not request to change?
+21. Salesforce AI and ML Engineer
+
+Recent Salesforce interview reports and guides emphasise Python, NLP, transformers, RAG, grounding, guardrails, CRM data and production LLM systems.
+
+Design an AI assistant that answers questions about CRM records.
+When should the assistant use retrieval instead of its internal knowledge?
+How would you convert CRM records into embeddings?
+How would you handle permissions during retrieval?
+How would you ensure that one customer cannot retrieve another customer’s data?
+How would you chunk long customer-support conversations?
+How would you combine structured CRM fields with unstructured documents?
+How would you implement hybrid keyword and vector search?
+Why might vector similarity retrieve irrelevant documents?
+When should a cross-encoder reranker be used?
+How would you evaluate retrieval quality?
+Explain recall@K in a RAG system.
+Explain groundedness.
+How would you detect unsupported LLM claims?
+How would you add citations to generated answers?
+How would you protect the system from prompt injection inside retrieved documents?
+How would you prevent an LLM agent from performing an unauthorised CRM action?
+How would you design human approval for sensitive actions?
+How would you monitor token usage and response latency?
+How would you reduce RAG cost without significantly lowering quality?
+22. Indian Product Companies
+Flipkart
+
+Recent candidate reports mention SQL joins, statistical testing, Random Forest, clustering, bagging versus boosting and business scenarios.
+
+Design a product recommendation system for Flipkart.
+Design a product-search ranking system.
+How would you identify duplicate product listings?
+How would you detect fake product reviews?
+How would you forecast demand for a new product?
+Explain bagging versus boosting.
+Explain Random Forest using an e-commerce example.
+When would clustering help an e-commerce company?
+Explain a t-test and when you would use one.
+Write SQL joins between customer, order and product tables.
+Meesho
+
+Candidate material includes coding, system design, SQL ranking and practical ML-system thinking.
+
+Design a recommendation system for low-cost marketplace products.
+How would you recommend products to users with little purchase history?
+How would you rank products when many listings have limited metadata?
+Design a system for detecting fraudulent sellers.
+How would you detect duplicate or copied product images?
+Write SQL to rank the top three users by downloads or purchases each day.
+Explain the RANK, DENSE_RANK and ROW_NUMBER window functions.
+Design a Snake and Ladder application using object-oriented principles.
+How would you design an online experimentation platform?
+How would you measure whether recommendations improve actual purchases?
+Swiggy
+
+Recent reports mention Python, Pandas, SQL, DSA, missing-data handling and business-case discussions.
+
+Design Swiggy’s restaurant-ranking system.
+Design a food-delivery-time prediction model.
+What features affect delivery time?
+How would you model traffic, rain and restaurant preparation time?
+How would you predict order cancellation?
+Design a delivery-partner allocation system.
+How would you balance customer ETA and delivery-partner workload?
+Explain Pandas groupby.
+Write SQL using a correlated subquery.
+Solve the stock buy-and-sell coding problem.
+23. Accenture and Service-Company AI Roles
+
+Recent Accenture India candidate reports include Azure AI services, Azure Machine Learning, RAG, inference engineering, production deployment, MLOps, transfer learning, embeddings and detailed questions about previous GenAI projects.
+
+Describe a GenAI project you have personally implemented.
+What exact components did you build?
+What is a vector embedding?
+How are embeddings generated?
+How would you store and search embeddings?
+Explain RAG from document ingestion to answer generation.
+What is inference engineering?
+How would you deploy an ML model using Azure Machine Learning?
+Explain model endpoints in Azure ML.
+How would you deploy an LLM application using DevOps and MLOps?
+What is transfer learning?
+When should transfer learning not be used?
+How would you monitor a deployed Azure model?
+How would you protect enterprise documents in a RAG system?
+What have you learned during the last six months?
+
+That last continuous-learning question has been publicly described by Accenture’s CEO as one she asks candidates and employees.
+
+24. Advanced Scenario Questions Asked Across Companies
+Your training accuracy is 96%, validation accuracy is 91%, and production accuracy is 72%. Investigate the problem.
+A model performs well globally but poorly for one region. What would you check?
+Your model’s prediction distribution changed overnight. What are the possible causes?
+Model latency doubled without any model-code change. How would you investigate?
+A feature’s average value changed by 40%. Should the model automatically be retrained?
+Labels arrive 30 days after predictions. How would you monitor the model immediately?
+A retrained model improves accuracy but doubles inference cost. Would you deploy it?
+A model has high precision but very low recall. What changes could improve recall?
+A business team asks for 99% accuracy on a dataset where 99% of observations belong to one class. What would you explain?
+A recommendation system increases clicks but decreases purchases. What might be happening?
+Your A/B test is statistically significant but the improvement is commercially tiny. Should you launch?
+Two experiments are running on overlapping users. Why might their results be unreliable?
+A fraud model blocks a large number of genuine customers from one country. What should you do?
+Your LLM provides a fluent answer supported by the wrong retrieved document. Which component failed?
+Retrieval recall is high, but final-answer accuracy is low. What would you investigate?
+Your RAG system retrieves correct chunks, but the LLM ignores them. How would you improve it?
+Increasing chunk size improves context but reduces retrieval precision. How would you choose a balance?
+Your model was trained on personally identifiable data. How would you safely remove one user’s information?
+A model trained six months ago cannot be reproduced. Which versioning information was probably missing?
+Your model is accurate but business users do not trust it. How would you improve adoption?
+Highest-priority questions from this new set
+
+For a general Machine Learning Engineer interview, study these first:
+
+291–320: Apple-style applied ML
+321–360: NVIDIA and deep learning
+361–390: ranking and marketplace systems
+391–445: recommendation systems
+446–470: fraud detection and model debugging
+496–515: RAG and LLM engineering
+561–580: real production scenarios
+
+A strong interview answer should normally cover:
+
+Problem definition → data → labels → features → model → evaluation → deployment → monitoring → business trade-offs.
