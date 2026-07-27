@@ -1,0 +1,1191 @@
+DEEP LEARNING
+│
+├── 7.0 Prerequisites
+│   │
+│   ├── Programming
+│   │   ├── Python
+│   │   ├── Functions
+│   │   ├── Classes
+│   │   ├── Object-Oriented Programming
+│   │   ├── NumPy
+│   │   ├── Pandas
+│   │   ├── Matplotlib
+│   │   ├── Virtual Environments
+│   │   └── Git
+│   │
+│   ├── Mathematics
+│   │   ├── Scalars
+│   │   ├── Vectors
+│   │   ├── Matrices
+│   │   ├── Tensors
+│   │   ├── Matrix Multiplication
+│   │   ├── Dot Product
+│   │   ├── Transpose
+│   │   ├── Derivatives
+│   │   ├── Partial Derivatives
+│   │   ├── Chain Rule
+│   │   ├── Gradients
+│   │   ├── Probability
+│   │   ├── Statistics
+│   │   ├── Mean
+│   │   ├── Variance
+│   │   ├── Standard Deviation
+│   │   └── Probability Distributions
+│   │
+│   └── Machine-Learning Foundations
+│       ├── Features
+│       ├── Labels
+│       ├── Training Data
+│       ├── Validation Data
+│       ├── Test Data
+│       ├── Supervised Learning
+│       ├── Unsupervised Learning
+│       ├── Regression
+│       ├── Classification
+│       ├── Overfitting
+│       ├── Underfitting
+│       ├── Bias
+│       ├── Variance
+│       ├── Data Leakage
+│       ├── Feature Scaling
+│       └── Evaluation Metrics
+│
+├── 7.1 Tensor Foundations
+│   ├── Scalar Tensor
+│   ├── Vector Tensor
+│   ├── Matrix Tensor
+│   ├── Higher-Dimensional Tensor
+│   ├── Tensor Shape
+│   ├── Tensor Rank
+│   ├── Tensor Data Type
+│   ├── Tensor Reshaping
+│   ├── Tensor Indexing
+│   ├── Tensor Slicing
+│   ├── Broadcasting
+│   ├── Element-Wise Operations
+│   ├── Matrix Multiplication
+│   ├── Tensor Concatenation
+│   ├── Tensor Stacking
+│   ├── CPU Tensor
+│   ├── GPU Tensor
+│   └── Computational Graph
+│
+├── 7.2 Neural-Network Foundations
+│   ├── Biological Neuron
+│   ├── Artificial Neuron
+│   ├── Input
+│   ├── Feature
+│   ├── Weight
+│   ├── Bias
+│   ├── Weighted Sum
+│   ├── Activation Function
+│   ├── Prediction
+│   ├── Target
+│   ├── Layer
+│   ├── Input Layer
+│   ├── Hidden Layer
+│   ├── Output Layer
+│   ├── Network Depth
+│   ├── Network Width
+│   ├── Model Parameters
+│   ├── Hyperparameters
+│   ├── Forward Propagation
+│   ├── Loss Function
+│   ├── Backpropagation
+│   └── Gradient Descent
+│
+├── 7.3 Perceptrons
+│   ├── Perceptron
+│   ├── Single-Layer Perceptron
+│   ├── Multilayer Perceptron
+│   ├── Binary Input
+│   ├── Binary Output
+│   ├── Linear Separability
+│   ├── Decision Boundary
+│   ├── Perceptron Learning Rule
+│   ├── Weight Update
+│   ├── Bias Update
+│   ├── AND Problem
+│   ├── OR Problem
+│   ├── NOT Problem
+│   ├── XOR Problem
+│   └── Universal Approximation
+│
+├── 7.4 Forward Propagation
+│   ├── Input Passing
+│   ├── Weighted Sum
+│   ├── Bias Addition
+│   ├── Activation Calculation
+│   ├── Layer-by-Layer Processing
+│   ├── Hidden-Layer Output
+│   ├── Final-Layer Output
+│   ├── Prediction Probability
+│   ├── Logits
+│   └── Model Output
+│
+├── 7.5 Activation Functions
+│   ├── Linear
+│   ├── Binary Step
+│   ├── Sigmoid
+│   ├── Tanh
+│   ├── ReLU
+│   ├── Leaky ReLU
+│   ├── PReLU
+│   ├── RReLU
+│   ├── ELU
+│   ├── SELU
+│   ├── GELU
+│   ├── Swish
+│   ├── SiLU
+│   ├── Mish
+│   ├── Softplus
+│   ├── Softsign
+│   ├── Hard Sigmoid
+│   ├── Hard Swish
+│   ├── Softmax
+│   └── Log Softmax
+│
+├── 7.6 Loss Functions
+│   │
+│   ├── Regression Losses
+│   │   ├── Mean Squared Error
+│   │   ├── Mean Absolute Error
+│   │   ├── Root Mean Squared Error
+│   │   ├── Huber Loss
+│   │   ├── Log-Cosh Loss
+│   │   └── Quantile Loss
+│   │
+│   ├── Classification Losses
+│   │   ├── Binary Cross-Entropy
+│   │   ├── Categorical Cross-Entropy
+│   │   ├── Sparse Categorical Cross-Entropy
+│   │   ├── Negative Log-Likelihood
+│   │   ├── Hinge Loss
+│   │   ├── Squared Hinge Loss
+│   │   ├── Focal Loss
+│   │   └── Label-Smoothed Cross-Entropy
+│   │
+│   ├── Segmentation Losses
+│   │   ├── Dice Loss
+│   │   ├── IoU Loss
+│   │   ├── Jaccard Loss
+│   │   ├── Tversky Loss
+│   │   └── Focal Tversky Loss
+│   │
+│   ├── Representation Losses
+│   │   ├── Contrastive Loss
+│   │   ├── Triplet Loss
+│   │   ├── Cosine Embedding Loss
+│   │   ├── InfoNCE Loss
+│   │   └── Centre Loss
+│   │
+│   ├── Generative Losses
+│   │   ├── Reconstruction Loss
+│   │   ├── Adversarial Loss
+│   │   ├── KL Divergence
+│   │   ├── Wasserstein Loss
+│   │   └── Perceptual Loss
+│   │
+│   └── Custom Loss Functions
+│
+├── 7.7 Backpropagation
+│   ├── Computational Graph
+│   ├── Forward Pass
+│   ├── Loss Calculation
+│   ├── Backward Pass
+│   ├── Chain Rule
+│   ├── Local Gradient
+│   ├── Upstream Gradient
+│   ├── Downstream Gradient
+│   ├── Weight Gradient
+│   ├── Bias Gradient
+│   ├── Activation Gradient
+│   ├── Partial Derivative
+│   ├── Gradient Flow
+│   ├── Gradient Accumulation
+│   ├── Automatic Differentiation
+│   ├── Reverse-Mode Differentiation
+│   ├── Dynamic Computational Graph
+│   ├── Static Computational Graph
+│   ├── Gradient Checking
+│   ├── Zeroing Gradients
+│   └── Detaching Gradients
+│
+├── 7.8 Optimization
+│   │
+│   ├── Gradient-Descent Types
+│   │   ├── Batch Gradient Descent
+│   │   ├── Stochastic Gradient Descent
+│   │   └── Mini-Batch Gradient Descent
+│   │
+│   ├── Momentum-Based Optimizers
+│   │   ├── Momentum
+│   │   ├── Nesterov Momentum
+│   │   └── Nesterov Accelerated Gradient
+│   │
+│   ├── Adaptive Optimizers
+│   │   ├── AdaGrad
+│   │   ├── AdaDelta
+│   │   ├── RMSProp
+│   │   ├── Adam
+│   │   ├── AdamW
+│   │   ├── Adamax
+│   │   ├── Nadam
+│   │   ├── AMSGrad
+│   │   ├── RAdam
+│   │   ├── Lion
+│   │   └── LAMB
+│   │
+│   ├── Learning-Rate Control
+│   │   ├── Constant Learning Rate
+│   │   ├── Step Decay
+│   │   ├── Exponential Decay
+│   │   ├── Reduce on Plateau
+│   │   ├── Warmup
+│   │   ├── Linear Warmup
+│   │   ├── Cosine Annealing
+│   │   ├── Cosine Warm Restarts
+│   │   ├── Cyclical Learning Rate
+│   │   └── One-Cycle Policy
+│   │
+│   └── Gradient Management
+│       ├── Gradient Clipping
+│       ├── Gradient Norm Clipping
+│       ├── Gradient Value Clipping
+│       ├── Gradient Accumulation
+│       └── Gradient Scaling
+│
+├── 7.9 Weight Initialization
+│   ├── Zero Initialization
+│   ├── Constant Initialization
+│   ├── Random Initialization
+│   ├── Uniform Initialization
+│   ├── Normal Initialization
+│   ├── Xavier Initialization
+│   ├── Glorot Initialization
+│   ├── He Initialization
+│   ├── Kaiming Initialization
+│   ├── LeCun Initialization
+│   ├── Orthogonal Initialization
+│   ├── Sparse Initialization
+│   ├── Bias Initialization
+│   └── Pretrained Initialization
+│
+├── 7.10 Normalization
+│   ├── Input Normalization
+│   ├── Batch Normalization
+│   ├── Layer Normalization
+│   ├── Instance Normalization
+│   ├── Group Normalization
+│   ├── Weight Normalization
+│   ├── Spectral Normalization
+│   ├── Local Response Normalization
+│   ├── RMS Normalization
+│   ├── Pre-Normalization
+│   └── Post-Normalization
+│
+├── 7.11 Regularization
+│   ├── L1 Regularization
+│   ├── L2 Regularization
+│   ├── Weight Decay
+│   ├── Dropout
+│   ├── Spatial Dropout
+│   ├── Recurrent Dropout
+│   ├── DropConnect
+│   ├── Early Stopping
+│   ├── Label Smoothing
+│   ├── Data Augmentation
+│   ├── Noise Injection
+│   ├── Input Noise
+│   ├── Weight Noise
+│   ├── Mixup
+│   ├── CutMix
+│   ├── Random Erasing
+│   ├── Stochastic Depth
+│   ├── Knowledge Distillation
+│   └── Ensemble Learning
+│
+├── 7.12 Training Concepts
+│   ├── Dataset
+│   ├── Training Dataset
+│   ├── Validation Dataset
+│   ├── Test Dataset
+│   ├── Sample
+│   ├── Batch
+│   ├── Batch Size
+│   ├── Iteration
+│   ├── Epoch
+│   ├── Learning Rate
+│   ├── Optimizer
+│   ├── Loss
+│   ├── Metric
+│   ├── Training Loop
+│   ├── Validation Loop
+│   ├── Testing Loop
+│   ├── Forward Pass
+│   ├── Backward Pass
+│   ├── Optimizer Step
+│   ├── Zero Gradients
+│   ├── Training Mode
+│   ├── Evaluation Mode
+│   ├── Checkpointing
+│   ├── Best-Model Saving
+│   ├── Early Stopping
+│   ├── Gradient Accumulation
+│   ├── Mixed Precision
+│   ├── FP32 Training
+│   ├── FP16 Training
+│   ├── BF16 Training
+│   ├── Reproducibility
+│   ├── Random Seeds
+│   └── Distributed Training
+│
+├── 7.13 Deep-Learning Problems
+│   ├── Vanishing Gradients
+│   ├── Exploding Gradients
+│   ├── Dead Neurons
+│   ├── Saturating Activations
+│   ├── Gradient Instability
+│   ├── Overfitting
+│   ├── Underfitting
+│   ├── High Bias
+│   ├── High Variance
+│   ├── Internal Covariate Shift
+│   ├── Covariate Shift
+│   ├── Data Imbalance
+│   ├── Data Leakage
+│   ├── Slow Convergence
+│   ├── Unstable Training
+│   ├── Mode Collapse
+│   ├── Catastrophic Forgetting
+│   ├── Spurious Correlations
+│   ├── Distribution Shift
+│   └── Out-of-Distribution Data
+│
+├── 7.14 Deep-Learning Frameworks
+│   │
+│   ├── PyTorch
+│   │   ├── Tensor
+│   │   ├── Autograd
+│   │   ├── nn.Module
+│   │   ├── Forward Method
+│   │   ├── Dataset
+│   │   ├── DataLoader
+│   │   ├── Optimizer
+│   │   ├── Loss Functions
+│   │   ├── State Dictionary
+│   │   ├── Model Saving
+│   │   ├── Model Loading
+│   │   ├── Device Management
+│   │   ├── Hooks
+│   │   └── Distributed Data Parallel
+│   │
+│   ├── TensorFlow
+│   │   ├── Tensor
+│   │   ├── GradientTape
+│   │   ├── TensorFlow Dataset
+│   │   ├── TensorFlow Function
+│   │   ├── TensorBoard
+│   │   └── Distributed Strategy
+│   │
+│   ├── Keras
+│   │   ├── Sequential API
+│   │   ├── Functional API
+│   │   ├── Model Subclassing
+│   │   ├── Layers
+│   │   ├── Callbacks
+│   │   ├── Compile
+│   │   ├── Fit
+│   │   ├── Evaluate
+│   │   └── Predict
+│   │
+│   ├── JAX
+│   ├── Flax
+│   ├── Hugging Face Transformers
+│   ├── PyTorch Lightning
+│   └── FastAI
+│
+├── 7.15 Deep-Learning Data Pipelines
+│   ├── Data Collection
+│   ├── Data Labelling
+│   ├── Data Cleaning
+│   ├── Data Validation
+│   ├── Missing-Data Handling
+│   ├── Duplicate Removal
+│   ├── Outlier Handling
+│   ├── Train-Validation-Test Split
+│   ├── Stratified Split
+│   ├── Data Sampling
+│   ├── Random Sampling
+│   ├── Oversampling
+│   ├── Undersampling
+│   ├── Class Weights
+│   ├── Data Augmentation
+│   ├── Batch Loading
+│   ├── Data Shuffling
+│   ├── Data Prefetching
+│   ├── Data Caching
+│   ├── Parallel Data Loading
+│   ├── Synthetic Data
+│   ├── Dataset Versioning
+│   ├── Data-Lineage Tracking
+│   └── Data Leakage Prevention
+│
+├── 7.16 Convolutional Neural Networks
+│   ├── Image Tensor
+│   ├── Convolution
+│   ├── Kernel
+│   ├── Filter
+│   ├── Feature Map
+│   ├── Input Channels
+│   ├── Output Channels
+│   ├── Stride
+│   ├── Padding
+│   ├── Valid Padding
+│   ├── Same Padding
+│   ├── Dilation
+│   ├── Pooling
+│   ├── Max Pooling
+│   ├── Average Pooling
+│   ├── Global Average Pooling
+│   ├── Receptive Field
+│   ├── Flattening
+│   ├── Fully Connected Layer
+│   ├── One-Dimensional Convolution
+│   ├── Two-Dimensional Convolution
+│   ├── Three-Dimensional Convolution
+│   ├── Transposed Convolution
+│   ├── Dilated Convolution
+│   ├── Depthwise Convolution
+│   ├── Pointwise Convolution
+│   ├── Depthwise-Separable Convolution
+│   └── Grouped Convolution
+│
+├── 7.17 CNN Architectures
+│   ├── LeNet
+│   ├── AlexNet
+│   ├── ZFNet
+│   ├── VGG
+│   ├── GoogLeNet
+│   ├── Inception
+│   ├── ResNet
+│   ├── Residual Block
+│   ├── Skip Connection
+│   ├── DenseNet
+│   ├── SqueezeNet
+│   ├── ShuffleNet
+│   ├── MobileNet
+│   ├── Xception
+│   ├── EfficientNet
+│   ├── RegNet
+│   ├── ConvNeXt
+│   ├── Vision Transformer
+│   └── Swin Transformer
+│
+├── 7.18 Computer-Vision Tasks
+│   ├── Image Classification
+│   ├── Multilabel Image Classification
+│   ├── Object Localisation
+│   ├── Object Detection
+│   ├── Semantic Segmentation
+│   ├── Instance Segmentation
+│   ├── Panoptic Segmentation
+│   ├── Key-Point Detection
+│   ├── Pose Estimation
+│   ├── Face Recognition
+│   ├── Optical Character Recognition
+│   ├── Image Captioning
+│   ├── Visual Question Answering
+│   ├── Image Retrieval
+│   ├── Super Resolution
+│   ├── Image Restoration
+│   └── Image Generation
+│
+├── 7.19 Recurrent Neural Networks
+│   ├── Sequential Data
+│   ├── Time Step
+│   ├── Sequence Input
+│   ├── Hidden State
+│   ├── Recurrent Connection
+│   ├── Recurrent Weight
+│   ├── Shared Weights
+│   ├── Unrolled Network
+│   ├── Many-to-One
+│   ├── One-to-Many
+│   ├── Many-to-Many
+│   ├── Sequence-to-One
+│   ├── One-to-Sequence
+│   ├── Sequence-to-Sequence
+│   ├── Stateful RNN
+│   ├── Stateless RNN
+│   ├── Bidirectional RNN
+│   ├── Deep RNN
+│   ├── Backpropagation Through Time
+│   ├── Truncated Backpropagation
+│   └── Teacher Forcing
+│
+├── 7.20 LSTM and GRU
+│   │
+│   ├── LSTM
+│   │   ├── LSTM Cell
+│   │   ├── Cell State
+│   │   ├── Hidden State
+│   │   ├── Input Gate
+│   │   ├── Forget Gate
+│   │   ├── Output Gate
+│   │   ├── Candidate State
+│   │   ├── Bidirectional LSTM
+│   │   ├── Stacked LSTM
+│   │   └── Peephole LSTM
+│   │
+│   └── GRU
+│       ├── GRU Cell
+│       ├── Hidden State
+│       ├── Reset Gate
+│       ├── Update Gate
+│       ├── Candidate State
+│       ├── Bidirectional GRU
+│       └── Stacked GRU
+│
+├── 7.21 Sequence Models
+│   ├── Sequence Classification
+│   ├── Sequence Labelling
+│   ├── Sequence Generation
+│   ├── Language Modelling
+│   ├── Time-Series Forecasting
+│   ├── Machine Translation
+│   ├── Speech Recognition
+│   ├── Encoder-Decoder RNN
+│   ├── Context Vector
+│   ├── Beam Search
+│   └── Exposure Bias
+│
+├── 7.22 Attention
+│   ├── Query
+│   ├── Key
+│   ├── Value
+│   ├── Attention Score
+│   ├── Similarity Score
+│   ├── Dot-Product Attention
+│   ├── Scaled Dot-Product Attention
+│   ├── Additive Attention
+│   ├── Bahdanau Attention
+│   ├── Luong Attention
+│   ├── Self-Attention
+│   ├── Cross-Attention
+│   ├── Multi-Head Attention
+│   ├── Attention Head
+│   ├── Attention Matrix
+│   ├── Attention Mask
+│   ├── Padding Mask
+│   ├── Causal Mask
+│   ├── Causal Attention
+│   ├── Global Attention
+│   ├── Local Attention
+│   └── Sparse Attention
+│
+├── 7.23 Transformers
+│   ├── Transformer Architecture
+│   ├── Encoder
+│   ├── Decoder
+│   ├── Encoder-Decoder
+│   ├── Token Embeddings
+│   ├── Positional Encoding
+│   ├── Absolute Positional Encoding
+│   ├── Relative Positional Encoding
+│   ├── Rotary Positional Embeddings
+│   ├── Self-Attention
+│   ├── Masked Self-Attention
+│   ├── Cross-Attention
+│   ├── Multi-Head Attention
+│   ├── Feed-Forward Network
+│   ├── Residual Connections
+│   ├── Skip Connections
+│   ├── Layer Normalization
+│   ├── Dropout
+│   ├── Attention Mask
+│   ├── Padding Mask
+│   ├── Causal Mask
+│   ├── KV Cache
+│   ├── Pre-Normalization
+│   └── Post-Normalization
+│
+├── 7.24 Transformer Families
+│   │
+│   ├── Encoder-Only Models
+│   │   ├── BERT
+│   │   ├── RoBERTa
+│   │   ├── ALBERT
+│   │   ├── DistilBERT
+│   │   └── DeBERTa
+│   │
+│   ├── Decoder-Only Models
+│   │   ├── GPT
+│   │   ├── Llama
+│   │   ├── Qwen
+│   │   ├── Mistral
+│   │   ├── Gemma
+│   │   └── Phi
+│   │
+│   ├── Encoder-Decoder Models
+│   │   ├── T5
+│   │   ├── BART
+│   │   ├── FLAN-T5
+│   │   └── mT5
+│   │
+│   └── Vision Transformers
+│       ├── ViT
+│       ├── DeiT
+│       ├── Swin Transformer
+│       └── BEiT
+│
+├── 7.25 Representation Learning
+│   ├── Feature Representation
+│   ├── Latent Representation
+│   ├── Dense Representation
+│   ├── Sparse Representation
+│   ├── Embeddings
+│   ├── Word Embeddings
+│   ├── Sentence Embeddings
+│   ├── Image Embeddings
+│   ├── Audio Embeddings
+│   ├── Multimodal Embeddings
+│   ├── Metric Learning
+│   ├── Similarity Learning
+│   ├── Contrastive Learning
+│   ├── Siamese Networks
+│   ├── Triplet Networks
+│   ├── Positive Pairs
+│   ├── Negative Pairs
+│   ├── Hard-Negative Mining
+│   ├── Self-Supervised Learning
+│   └── Multimodal Representations
+│
+├── 7.26 Self-Supervised Learning
+│   ├── Pretext Task
+│   ├── Contrastive Learning
+│   ├── Non-Contrastive Learning
+│   ├── Masked Prediction
+│   ├── Masked Language Modelling
+│   ├── Next-Token Prediction
+│   ├── Masked Image Modelling
+│   ├── Auto-Regressive Learning
+│   ├── SimCLR
+│   ├── MoCo
+│   ├── BYOL
+│   ├── SimSiam
+│   ├── DINO
+│   ├── CLIP
+│   └── Self-Distillation
+│
+├── 7.27 Autoencoders
+│   ├── Autoencoder
+│   ├── Encoder
+│   ├── Bottleneck
+│   ├── Latent Space
+│   ├── Decoder
+│   ├── Reconstruction
+│   ├── Reconstruction Loss
+│   ├── Undercomplete Autoencoder
+│   ├── Overcomplete Autoencoder
+│   ├── Sparse Autoencoder
+│   ├── Denoising Autoencoder
+│   ├── Contractive Autoencoder
+│   ├── Convolutional Autoencoder
+│   ├── Variational Autoencoder
+│   ├── Latent Sampling
+│   ├── Reparameterization Trick
+│   ├── KL Divergence
+│   ├── Data Compression
+│   ├── Feature Learning
+│   └── Anomaly Detection
+│
+├── 7.28 Generative Adversarial Networks
+│   ├── GAN
+│   ├── Generator
+│   ├── Discriminator
+│   ├── Real Samples
+│   ├── Fake Samples
+│   ├── Latent Noise
+│   ├── Adversarial Loss
+│   ├── Minimax Game
+│   ├── Nash Equilibrium
+│   ├── Generator Training
+│   ├── Discriminator Training
+│   ├── DCGAN
+│   ├── Conditional GAN
+│   ├── Wasserstein GAN
+│   ├── WGAN-GP
+│   ├── CycleGAN
+│   ├── Pix2Pix
+│   ├── Progressive GAN
+│   ├── StyleGAN
+│   ├── Mode Collapse
+│   └── Training Instability
+│
+├── 7.29 Diffusion Models
+│   ├── Diffusion Process
+│   ├── Forward Diffusion
+│   ├── Reverse Diffusion
+│   ├── Noise Addition
+│   ├── Gaussian Noise
+│   ├── Noise Schedule
+│   ├── Denoising
+│   ├── Denoising Network
+│   ├── Noise Prediction
+│   ├── Score Matching
+│   ├── U-Net
+│   ├── Time-Step Embedding
+│   ├── DDPM
+│   ├── DDIM
+│   ├── Latent Diffusion
+│   ├── Text Conditioning
+│   ├── Cross-Attention
+│   ├── Classifier Guidance
+│   ├── Classifier-Free Guidance
+│   ├── Sampling Steps
+│   ├── Stable Diffusion
+│   └── Diffusion Transformers
+│
+├── 7.30 Transfer Learning
+│   ├── Pretrained Model
+│   ├── Source Domain
+│   ├── Target Domain
+│   ├── Feature Extraction
+│   ├── Frozen Layers
+│   ├── Trainable Layers
+│   ├── New Output Head
+│   ├── Fine-Tuning
+│   ├── Partial Fine-Tuning
+│   ├── Full Fine-Tuning
+│   ├── Layer-Wise Learning Rate
+│   ├── Domain Adaptation
+│   ├── Domain Shift
+│   ├── Few-Shot Transfer
+│   ├── Zero-Shot Transfer
+│   └── Parameter-Efficient Fine-Tuning
+│
+├── 7.31 Parameter-Efficient Fine-Tuning
+│   ├── Adapter Tuning
+│   ├── LoRA
+│   ├── QLoRA
+│   ├── Low-Rank Matrices
+│   ├── Prompt Tuning
+│   ├── Prefix Tuning
+│   ├── P-Tuning
+│   ├── Soft Prompts
+│   ├── IA3
+│   ├── BitFit
+│   ├── Quantized Fine-Tuning
+│   └── Adapter Merging
+│
+├── 7.32 Large-Language-Model Architecture
+│   ├── Language Model
+│   ├── Autoregressive Language Model
+│   ├── Next-Token Prediction
+│   ├── Encoder-Only Transformer
+│   ├── Decoder-Only Transformer
+│   ├── Encoder-Decoder Transformer
+│   ├── Token
+│   ├── Tokenization
+│   ├── Vocabulary
+│   ├── Token ID
+│   ├── Token Embedding
+│   ├── Byte-Pair Encoding
+│   ├── WordPiece
+│   ├── SentencePiece
+│   ├── Context Window
+│   ├── Attention Heads
+│   ├── Multi-Query Attention
+│   ├── Grouped-Query Attention
+│   ├── Sliding-Window Attention
+│   ├── Sparse Attention
+│   ├── Flash Attention
+│   ├── KV Cache
+│   ├── Prefill Phase
+│   ├── Decoding Phase
+│   ├── Logits
+│   ├── Softmax
+│   ├── Token Probability
+│   ├── Model Parameters
+│   ├── Dense Models
+│   ├── Mixture-of-Experts
+│   └── Long-Context Models
+│
+├── 7.33 LLM Training
+│   ├── Dataset Preparation
+│   ├── Data Cleaning
+│   ├── Data Deduplication
+│   ├── Data Filtering
+│   ├── Pretraining
+│   ├── Causal Language Modelling
+│   ├── Masked Language Modelling
+│   ├── Continual Pretraining
+│   ├── Domain-Adaptive Pretraining
+│   ├── Instruction Tuning
+│   ├── Supervised Fine-Tuning
+│   ├── Conversation Formatting
+│   ├── Chat Templates
+│   ├── Preference Learning
+│   ├── Reward Model
+│   ├── RLHF
+│   ├── PPO
+│   ├── DPO
+│   ├── ORPO
+│   ├── Knowledge Distillation
+│   ├── LoRA
+│   ├── QLoRA
+│   ├── Catastrophic Forgetting
+│   └── Alignment
+│
+├── 7.34 LLM Inference and Decoding
+│   ├── Prompt Processing
+│   ├── Prompt Tokens
+│   ├── Output Tokens
+│   ├── Prefill
+│   ├── Decoding
+│   ├── Greedy Decoding
+│   ├── Beam Search
+│   ├── Temperature
+│   ├── Top-K Sampling
+│   ├── Top-P Sampling
+│   ├── Min-P Sampling
+│   ├── Repetition Penalty
+│   ├── Frequency Penalty
+│   ├── Presence Penalty
+│   ├── Stop Tokens
+│   ├── Maximum Tokens
+│   ├── KV Cache
+│   ├── Speculative Decoding
+│   ├── Continuous Batching
+│   ├── Quantized Inference
+│   ├── Streaming Output
+│   └── Structured Generation
+│
+├── 7.35 Multimodal Deep Learning
+│   ├── Multimodal Data
+│   ├── Text Encoder
+│   ├── Image Encoder
+│   ├── Audio Encoder
+│   ├── Video Encoder
+│   ├── Modality Alignment
+│   ├── Modality Fusion
+│   ├── Early Fusion
+│   ├── Late Fusion
+│   ├── Cross-Modal Attention
+│   ├── Joint Embedding Space
+│   ├── Vision-Language Models
+│   ├── CLIP
+│   ├── Image Captioning
+│   ├── Visual Question Answering
+│   ├── Image-Text Retrieval
+│   ├── Speech-to-Text
+│   ├── Text-to-Speech
+│   ├── Audio-Language Models
+│   ├── Video Understanding
+│   └── Multimodal Foundation Models
+│
+├── 7.36 Graph Neural Networks
+│   ├── Graph
+│   ├── Node
+│   ├── Edge
+│   ├── Adjacency Matrix
+│   ├── Node Features
+│   ├── Edge Features
+│   ├── Graph Convolution
+│   ├── Message Passing
+│   ├── Aggregation
+│   ├── Graph Embedding
+│   ├── Node Classification
+│   ├── Edge Prediction
+│   ├── Link Prediction
+│   ├── Graph Classification
+│   ├── Graph Convolutional Network
+│   ├── Graph Attention Network
+│   ├── GraphSAGE
+│   ├── Graph Autoencoder
+│   ├── Heterogeneous Graph
+│   └── Graph Transformer
+│
+├── 7.37 Advanced Deep-Learning Architectures
+│   ├── Neural ODEs
+│   ├── Capsule Networks
+│   ├── Spiking Neural Networks
+│   ├── Energy-Based Models
+│   ├── Hopfield Networks
+│   ├── Memory Networks
+│   ├── Neural Turing Machines
+│   ├── Differentiable Neural Computers
+│   ├── Neural Architecture Search
+│   ├── Hypernetworks
+│   ├── Mixture-of-Experts
+│   ├── State-Space Models
+│   ├── Mamba Architecture
+│   ├── Liquid Neural Networks
+│   └── Foundation Models
+│
+├── 7.38 Continual and Federated Learning
+│   │
+│   ├── Continual Learning
+│   │   ├── Sequential Tasks
+│   │   ├── Catastrophic Forgetting
+│   │   ├── Replay Methods
+│   │   ├── Regularization Methods
+│   │   ├── Dynamic Architectures
+│   │   ├── Task-Incremental Learning
+│   │   ├── Class-Incremental Learning
+│   │   └── Domain-Incremental Learning
+│   │
+│   └── Federated Learning
+│       ├── Federated Training
+│       ├── Client
+│       ├── Central Server
+│       ├── Local Training
+│       ├── Model Aggregation
+│       ├── Federated Averaging
+│       ├── Non-IID Data
+│       ├── Communication Efficiency
+│       ├── Secure Aggregation
+│       └── Federated Deep Learning
+│
+├── 7.39 Distributed Deep Learning
+│   ├── Single-GPU Training
+│   ├── Multi-GPU Training
+│   ├── Multi-Node Training
+│   ├── Data Parallelism
+│   ├── Model Parallelism
+│   ├── Pipeline Parallelism
+│   ├── Tensor Parallelism
+│   ├── Sequence Parallelism
+│   ├── Distributed Data Parallel
+│   ├── Gradient Synchronization
+│   ├── All-Reduce
+│   ├── Parameter Servers
+│   ├── Sharded Training
+│   ├── Fully Sharded Data Parallel
+│   ├── ZeRO Optimization
+│   ├── Distributed Checkpointing
+│   ├── Communication Overhead
+│   ├── Fault-Tolerant Training
+│   └── Elastic Training
+│
+├── 7.40 Memory and Compute Optimization
+│   ├── GPU Memory
+│   ├── Model Memory
+│   ├── Activation Memory
+│   ├── Optimizer State Memory
+│   ├── Gradient Memory
+│   ├── Gradient Checkpointing
+│   ├── Activation Checkpointing
+│   ├── Mixed Precision
+│   ├── FP16
+│   ├── BF16
+│   ├── Memory-Efficient Attention
+│   ├── Flash Attention
+│   ├── CPU Offloading
+│   ├── NVMe Offloading
+│   ├── Parameter Sharding
+│   ├── Micro-Batching
+│   └── Dynamic Batching
+│
+├── 7.41 Model Compression
+│   ├── Quantization
+│   ├── Post-Training Quantization
+│   ├── Quantization-Aware Training
+│   ├── Dynamic Quantization
+│   ├── Static Quantization
+│   ├── Weight-Only Quantization
+│   ├── INT8 Quantization
+│   ├── INT4 Quantization
+│   ├── GPTQ
+│   ├── AWQ
+│   ├── GGUF
+│   ├── Pruning
+│   ├── Structured Pruning
+│   ├── Unstructured Pruning
+│   ├── Knowledge Distillation
+│   ├── Low-Rank Approximation
+│   ├── Weight Sharing
+│   ├── Model Sparsity
+│   └── Model Compression Evaluation
+│
+├── 7.42 Deep-Learning Inference
+│   ├── Training vs Inference
+│   ├── Batch Inference
+│   ├── Real-Time Inference
+│   ├── Online Inference
+│   ├── Offline Inference
+│   ├── Edge Inference
+│   ├── Cloud Inference
+│   ├── Model Serving
+│   ├── Inference Endpoint
+│   ├── Inference Latency
+│   ├── Throughput
+│   ├── Cold Start
+│   ├── Warm Start
+│   ├── Static Batching
+│   ├── Dynamic Batching
+│   ├── Continuous Batching
+│   ├── Model Caching
+│   ├── Request Queuing
+│   ├── GPU Utilization
+│   └── Inference Scaling
+│
+├── 7.43 Deployment Technologies
+│   ├── Model Serialization
+│   ├── PyTorch State Dictionary
+│   ├── TorchScript
+│   ├── TensorFlow SavedModel
+│   ├── ONNX
+│   ├── ONNX Runtime
+│   ├── TensorRT
+│   ├── OpenVINO
+│   ├── Core ML
+│   ├── TensorFlow Lite
+│   ├── vLLM
+│   ├── llama.cpp
+│   ├── Text Generation Inference
+│   ├── Triton Inference Server
+│   ├── FastAPI
+│   ├── Docker
+│   ├── Kubernetes
+│   ├── Serverless Inference
+│   └── GPU Inference Servers
+│
+├── 7.44 Deep-Learning Evaluation
+│   │
+│   ├── Training Evaluation
+│   │   ├── Training Loss
+│   │   ├── Validation Loss
+│   │   ├── Training Curves
+│   │   ├── Validation Curves
+│   │   ├── Learning Curves
+│   │   ├── Gradient Monitoring
+│   │   ├── Weight Monitoring
+│   │   ├── Activation Monitoring
+│   │   └── Learning-Rate Monitoring
+│   │
+│   ├── Classification Evaluation
+│   │   ├── Accuracy
+│   │   ├── Precision
+│   │   ├── Recall
+│   │   ├── F1 Score
+│   │   ├── Confusion Matrix
+│   │   ├── ROC-AUC
+│   │   ├── PR-AUC
+│   │   └── Calibration
+│   │
+│   ├── Regression Evaluation
+│   │   ├── MAE
+│   │   ├── MSE
+│   │   ├── RMSE
+│   │   └── R-Squared
+│   │
+│   ├── Generative Evaluation
+│   │   ├── Perplexity
+│   │   ├── BLEU
+│   │   ├── ROUGE
+│   │   ├── FID
+│   │   ├── Inception Score
+│   │   └── Human Evaluation
+│   │
+│   └── Model Analysis
+│       ├── Robustness
+│       ├── Ablation Studies
+│       ├── Error Analysis
+│       ├── Sensitivity Analysis
+│       ├── Confidence Calibration
+│       └── Out-of-Distribution Evaluation
+│
+├── 7.45 Explainable Deep Learning
+│   ├── Explainability
+│   ├── Interpretability
+│   ├── Global Explanation
+│   ├── Local Explanation
+│   ├── Feature Importance
+│   ├── Saliency Maps
+│   ├── Gradient-Based Attribution
+│   ├── Integrated Gradients
+│   ├── Grad-CAM
+│   ├── Occlusion Analysis
+│   ├── SHAP
+│   ├── LIME
+│   ├── Attention Visualization
+│   ├── Activation Visualization
+│   ├── Feature Visualization
+│   └── Model Probing
+│
+├── 7.46 Deep-Learning Safety
+│   ├── Adversarial Examples
+│   ├── Adversarial Attacks
+│   ├── FGSM
+│   ├── PGD
+│   ├── Adversarial Training
+│   ├── Data Poisoning
+│   ├── Model Poisoning
+│   ├── Backdoor Attacks
+│   ├── Model Extraction
+│   ├── Membership Inference
+│   ├── Model Inversion
+│   ├── Privacy-Preserving Learning
+│   ├── Differential Privacy
+│   ├── Data Leakage
+│   ├── Model Bias
+│   ├── Fairness
+│   ├── Robustness Testing
+│   ├── Safety Evaluation
+│   └── Responsible AI
+│
+├── 7.47 Production Deep Learning
+│   ├── Experiment Tracking
+│   ├── Model Registry
+│   ├── Model Versioning
+│   ├── Dataset Versioning
+│   ├── Reproducible Training
+│   ├── Training Pipeline
+│   ├── Validation Pipeline
+│   ├── Deployment Pipeline
+│   ├── CI/CD
+│   ├── Model Monitoring
+│   ├── Data Drift
+│   ├── Prediction Drift
+│   ├── Concept Drift
+│   ├── Performance Degradation
+│   ├── Latency Monitoring
+│   ├── Throughput Monitoring
+│   ├── GPU Monitoring
+│   ├── Cost Monitoring
+│   ├── Model Retraining
+│   ├── A/B Testing
+│   ├── Canary Deployment
+│   ├── Shadow Deployment
+│   ├── Blue-Green Deployment
+│   ├── Rollback
+│   ├── Logging
+│   ├── Tracing
+│   └── Alerting
+│
+└── 7.48 Deep-Learning Projects
+    ├── Artificial-Neuron Implementation
+    ├── Perceptron Classifier
+    ├── Multilayer Perceptron
+    ├── Regression Neural Network
+    ├── Classification Neural Network
+    ├── Image Classifier
+    ├── CNN Object Classifier
+    ├── Transfer-Learning Project
+    ├── Object-Detection Project
+    ├── Image-Segmentation Project
+    ├── Time-Series RNN
+    ├── LSTM Forecasting
+    ├── Text Classification
+    ├── Sequence-to-Sequence Model
+    ├── Transformer Implementation
+    ├── Autoencoder Anomaly Detector
+    ├── GAN Image Generator
+    ├── Diffusion Image Generator
+    ├── Embedding Search System
+    ├── Fine-Tuned Language Model
+    ├── Multimodal Application
+    ├── Quantized Model Deployment
+    └── Production Deep-Learning System
