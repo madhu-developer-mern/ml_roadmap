@@ -1,0 +1,260 @@
+Python Object-Oriented Programming
+│
+├── 1. OOP Foundations
+│   ├── What is OOP?
+│   ├── Why OOP is used
+│   ├── Procedural Programming vs OOP
+│   ├── Real-world entities
+│   ├── State
+│   ├── Behaviour
+│   └── Identity
+│
+├── 2. Classes and Objects
+│   ├── Class
+│   ├── Object
+│   ├── Instance
+│   ├── Creating a class
+│   ├── Creating objects
+│   ├── Accessing object members
+│   └── Multiple objects from one class
+│
+├── 3. Constructor and self
+│   ├── __init__() method
+│   ├── Constructor parameters
+│   ├── self keyword
+│   ├── Initialising object data
+│   ├── Default parameter values
+│   ├── Optional parameters
+│   └── Constructor validation
+│
+├── 4. Attributes
+│   ├── Instance attributes
+│   ├── Class attributes
+│   ├── Local variables
+│   ├── Accessing attributes
+│   ├── Updating attributes
+│   ├── Dynamic attributes
+│   └── Attribute lookup
+│
+├── 5. Methods
+│   ├── Instance methods
+│   ├── Class methods
+│   ├── @classmethod
+│   ├── Static methods
+│   ├── @staticmethod
+│   ├── Method parameters
+│   ├── Return values
+│   └── Method calling
+│
+├── 6. The Four Main OOP Principles
+│   │
+│   ├── Encapsulation
+│   │   ├── Combining data and methods
+│   │   ├── Public members
+│   │   ├── Protected members
+│   │   ├── Private members
+│   │   ├── Name mangling
+│   │   ├── Getters and setters
+│   │   └── Data validation
+│   │
+│   ├── Inheritance
+│   │   ├── Parent class
+│   │   ├── Child class
+│   │   ├── Single inheritance
+│   │   ├── Multilevel inheritance
+│   │   ├── Hierarchical inheritance
+│   │   ├── Multiple inheritance
+│   │   ├── Method overriding
+│   │   ├── super()
+│   │   └── is-a relationship
+│   │
+│   ├── Polymorphism
+│   │   ├── One interface, many behaviours
+│   │   ├── Method overriding
+│   │   ├── Duck typing
+│   │   ├── Operator overloading
+│   │   ├── Function polymorphism
+│   │   └── Runtime polymorphism
+│   │
+│   └── Abstraction
+│       ├── Hiding implementation details
+│       ├── Abstract classes
+│       ├── Abstract methods
+│       ├── ABC module
+│       ├── @abstractmethod
+│       └── Interface-like design
+│
+├── 7. Properties
+│   ├── @property
+│   ├── Property getters
+│   ├── Property setters
+│   ├── Property deleters
+│   ├── Read-only properties
+│   ├── Computed properties
+│   └── Attribute validation
+│
+├── 8. Relationships Between Classes
+│   ├── Association
+│   ├── Aggregation
+│   ├── Composition
+│   ├── Dependency
+│   ├── has-a relationship
+│   ├── is-a relationship
+│   └── Choosing composition vs inheritance
+│
+├── 9. Special or Magic Methods
+│   ├── __init__()
+│   ├── __str__()
+│   ├── __repr__()
+│   ├── __len__()
+│   ├── __eq__()
+│   ├── __lt__()
+│   ├── __add__()
+│   ├── __contains__()
+│   ├── __iter__()
+│   ├── __next__()
+│   ├── __call__()
+│   ├── __enter__()
+│   └── __exit__()
+│
+├── 10. Object Lifecycle
+│   ├── Object creation
+│   ├── __new__()
+│   ├── Object initialisation
+│   ├── Object references
+│   ├── Reference counting
+│   ├── Garbage collection
+│   ├── __del__()
+│   └── Object destruction
+│
+├── 11. Advanced Inheritance
+│   ├── Multiple inheritance
+│   ├── Diamond problem
+│   ├── Method Resolution Order
+│   ├── MRO
+│   ├── ClassName.mro()
+│   ├── Cooperative inheritance
+│   ├── super() chaining
+│   └── Mixin classes
+│
+├── 12. Dataclasses
+│   ├── @dataclass
+│   ├── Automatic constructor
+│   ├── Automatic __repr__()
+│   ├── Automatic equality
+│   ├── Default values
+│   ├── field()
+│   ├── default_factory
+│   ├── Frozen dataclasses
+│   ├── Ordering
+│   └── __post_init__()
+│
+├── 13. Type Hints in OOP
+│   ├── Attribute type hints
+│   ├── Method parameter types
+│   ├── Return types
+│   ├── Optional
+│   ├── Union
+│   ├── ClassVar
+│   ├── Self type
+│   ├── Protocol
+│   ├── Generic classes
+│   └── TypeVar
+│
+├── 14. Exception Handling in OOP
+│   ├── Built-in exceptions
+│   ├── Raising exceptions
+│   ├── Custom exception classes
+│   ├── Domain exceptions
+│   ├── Validation errors
+│   ├── try-except inside methods
+│   └── Exception hierarchy
+│
+├── 15. Iterators and Context Managers
+│   ├── Iterable classes
+│   ├── Iterator classes
+│   ├── __iter__()
+│   ├── __next__()
+│   ├── StopIteration
+│   ├── Context manager classes
+│   ├── __enter__()
+│   └── __exit__()
+│
+├── 16. SOLID Principles
+│   ├── Single Responsibility Principle
+│   ├── Open/Closed Principle
+│   ├── Liskov Substitution Principle
+│   ├── Interface Segregation Principle
+│   └── Dependency Inversion Principle
+│
+├── 17. Other Design Principles
+│   ├── DRY
+│   ├── KISS
+│   ├── YAGNI
+│   ├── Separation of Concerns
+│   ├── High cohesion
+│   ├── Low coupling
+│   ├── Favour composition over inheritance
+│   └── Program to abstractions
+│
+├── 18. Common Design Patterns
+│   │
+│   ├── Creational Patterns
+│   │   ├── Factory Method
+│   │   ├── Abstract Factory
+│   │   ├── Builder
+│   │   ├── Singleton
+│   │   └── Prototype
+│   │
+│   ├── Structural Patterns
+│   │   ├── Adapter
+│   │   ├── Decorator
+│   │   ├── Facade
+│   │   ├── Proxy
+│   │   ├── Composite
+│   │   └── Bridge
+│   │
+│   └── Behavioural Patterns
+│       ├── Strategy
+│       ├── Observer
+│       ├── Command
+│       ├── State
+│       ├── Template Method
+│       ├── Chain of Responsibility
+│       └── Iterator
+│
+├── 19. Testing OOP Code
+│   ├── Unit testing classes
+│   ├── Testing constructors
+│   ├── Testing methods
+│   ├── Testing exceptions
+│   ├── Mock objects
+│   ├── Dependency injection
+│   ├── Test doubles
+│   └── pytest fixtures
+│
+├── 20. Production-Level OOP
+│   ├── Domain models
+│   ├── Service classes
+│   ├── Repository classes
+│   ├── Controller classes
+│   ├── Dependency injection
+│   ├── Configuration classes
+│   ├── DTOs
+│   ├── Entities
+│   ├── Value objects
+│   ├── Interfaces
+│   ├── Logging
+│   ├── Validation
+│   ├── Error handling
+│   └── Clean architecture
+│
+└── 21. OOP Projects
+    ├── Bank account system
+    ├── Library management system
+    ├── Employee management system
+    ├── E-commerce system
+    ├── Vehicle rental system
+    ├── Hospital management system
+    ├── Food delivery system
+    └── Production API architecture
