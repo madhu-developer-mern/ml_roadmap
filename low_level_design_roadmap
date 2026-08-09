@@ -1,0 +1,538 @@
+LOW LEVEL DESIGN (LLD)
+│
+▼
+1. PROGRAMMING FOUNDATIONS
+│
+├── Classes
+├── Objects
+├── Constructors
+├── Methods
+├── Instance / Class Variables
+├── Access Modifiers
+└── Static / Class Methods
+│
+▼
+2. OOP
+│
+├── Encapsulation
+├── Abstraction
+├── Inheritance
+├── Polymorphism
+├── Composition
+├── Aggregation
+├── Association
+├── Interface
+└── Abstract Class
+│
+▼
+3. OBJECT RELATIONSHIPS
+│
+├── Is-A
+├── Has-A
+├── Association
+├── Aggregation
+├── Composition
+└── Dependency
+│
+▼
+4. OBJECT-ORIENTED DESIGN PRINCIPLES
+│
+├── Composition over Inheritance
+├── Program to Interfaces
+├── Encapsulate What Changes
+├── Favor Loose Coupling
+├── High Cohesion
+├── DRY
+├── KISS
+├── YAGNI
+├── Tell, Don't Ask
+└── Law of Demeter
+│
+▼
+5. SOLID PRINCIPLES
+│
+├── SRP
+├── OCP
+├── LSP
+├── ISP
+└── DIP
+│
+▼
+6. UML
+│
+├── Use Case Diagram
+├── Class Diagram
+├── Object Diagram
+├── Sequence Diagram
+├── Activity Diagram
+├── State Diagram
+└── Component Diagram
+│
+▼
+7. DESIGN PATTERNS
+│
+├── CREATIONAL
+│   ├── Factory Method
+│   ├── Abstract Factory
+│   ├── Builder
+│   ├── Prototype
+│   └── Singleton
+│
+├── STRUCTURAL
+│   ├── Adapter
+│   ├── Bridge
+│   ├── Composite
+│   ├── Decorator
+│   ├── Facade
+│   ├── Flyweight
+│   └── Proxy
+│
+└── BEHAVIORAL
+    ├── Strategy
+    ├── Observer
+    ├── State
+    ├── Command
+    ├── Chain of Responsibility
+    ├── Template Method
+    ├── Iterator
+    ├── Mediator
+    ├── Memento
+    ├── Visitor
+    └── Interpreter
+│
+▼
+8. DOMAIN MODELING
+│
+├── Requirement Analysis
+├── Use Cases
+├── Actors
+├── Entities
+├── Value Objects
+├── Domain Services
+├── Business Rules
+├── Invariants
+└── Relationships
+│
+▼
+9. CLASS & OBJECT DESIGN
+│
+├── Responsibility Assignment
+├── Class Identification
+├── Method Identification
+├── Object Collaboration
+├── Interface Design
+├── Encapsulation Boundaries
+└── Object Lifecycle
+│
+▼
+10. GRASP PRINCIPLES
+│
+├── Information Expert
+├── Creator
+├── Controller
+├── Low Coupling
+├── High Cohesion
+├── Polymorphism
+├── Pure Fabrication
+├── Indirection
+└── Protected Variations
+│
+▼
+11. STATE & WORKFLOW DESIGN
+│
+├── State Machine
+├── State Transition
+├── Transition Rules
+├── Invalid Transitions
+├── Workflow
+└── State Pattern
+│
+▼
+12. VALIDATION & BUSINESS RULES
+│
+├── Request Validation
+├── Domain Validation
+├── Cross-Entity Validation
+├── Database Constraints
+└── Business Invariants
+│
+▼
+13. ERROR DESIGN
+│
+├── Domain Errors
+├── Application Errors
+├── Infrastructure Errors
+├── Exception Hierarchy
+├── Error Mapping
+└── Fail-Fast Design
+│
+▼
+14. DEPENDENCY MANAGEMENT
+│
+├── Dependency Inversion
+├── Dependency Injection
+├── Constructor Injection
+├── Setter Injection
+├── IoC
+└── IoC Containers
+│
+▼
+15. DATA MODELING
+│
+├── Entity Model
+├── Domain Model
+├── DTO
+├── Request Model
+├── Response Model
+├── Persistence Model
+├── Mapping
+└── Serialization
+│
+▼
+16. PERSISTENCE DESIGN
+│
+├── Repository Pattern
+├── DAO Pattern
+├── Unit of Work
+├── Identity Map
+├── ORM
+├── Transactions
+├── Optimistic Locking
+└── Pessimistic Locking
+│
+▼
+17. APPLICATION / SERVICE LAYER
+│
+├── Controllers
+├── Application Services
+├── Domain Services
+├── Use Cases
+├── Commands
+├── Queries
+└── Infrastructure Services
+│
+▼
+18. API DESIGN AT LLD LEVEL
+│
+├── REST Resource Modeling
+├── Request / Response Contracts
+├── API Validation
+├── Pagination
+├── Filtering
+├── Sorting
+├── Versioning
+├── Idempotency
+└── Error Contracts
+│
+▼
+19. CONCURRENCY
+│
+├── Thread
+├── Process
+├── Race Condition
+├── Critical Section
+├── Mutex
+├── Semaphore
+├── Read-Write Lock
+├── Atomic Operations
+├── Deadlock
+├── Starvation
+└── Thread Safety
+│
+▼
+20. ASYNCHRONOUS DESIGN
+│
+├── Async / Await
+├── Futures
+├── Promises
+├── Worker Pools
+├── Background Jobs
+├── Task Queues
+└── Backpressure
+│
+▼
+21. EVENT-DRIVEN LLD
+│
+├── Domain Events
+├── Integration Events
+├── Event Publisher
+├── Event Subscriber
+├── Event Handler
+├── Event Dispatcher
+├── Message Queue
+└── Eventual Consistency
+│
+▼
+22. CACHE DESIGN
+│
+├── Cache Aside
+├── Read Through
+├── Write Through
+├── Write Behind
+├── TTL
+├── Eviction
+├── Cache Invalidation
+├── Local Cache
+└── Distributed Cache
+│
+▼
+23. RESILIENCE PATTERNS
+│
+├── Retry
+├── Timeout
+├── Exponential Backoff
+├── Circuit Breaker
+├── Bulkhead
+├── Fallback
+└── Rate Limiting
+│
+▼
+24. DISTRIBUTED-SYSTEM PATTERNS
+│
+├── Idempotency
+├── Deduplication
+├── Distributed Lock
+├── Lease
+├── Outbox Pattern
+├── Inbox Pattern
+├── Saga
+├── Compensating Transaction
+└── Eventual Consistency
+│
+▼
+25. SECURITY DESIGN
+│
+├── Authentication
+├── Authorization
+├── RBAC
+├── ABAC
+├── Input Validation
+├── Object-Level Authorization
+├── Secrets Management
+├── Encryption
+├── Audit Logging
+└── Rate Limiting
+│
+▼
+26. TESTABILITY
+│
+├── Unit Testing
+├── Integration Testing
+├── Contract Testing
+├── Mocks
+├── Stubs
+├── Fakes
+├── Spies
+├── Test Doubles
+└── Dependency Injection for Testing
+│
+▼
+27. CLEAN CODE
+│
+├── Naming
+├── Small Functions
+├── Small Classes
+├── Immutability
+├── Pure Functions
+├── Command Query Separation
+├── Avoid Magic Values
+├── Avoid Deep Nesting
+└── Avoid Duplication
+│
+▼
+28. CODE SMELLS
+│
+├── God Object
+├── Long Method
+├── Large Class
+├── Feature Envy
+├── Primitive Obsession
+├── Shotgun Surgery
+├── Switch Explosion
+├── Tight Coupling
+├── Cyclic Dependency
+└── Anemic Domain Model
+│
+▼
+29. REFACTORING
+│
+├── Extract Method
+├── Extract Class
+├── Move Method
+├── Introduce Value Object
+├── Replace Conditionals with Polymorphism
+├── Replace Inheritance with Composition
+├── Introduce Strategy
+├── Introduce Factory
+└── Introduce Repository
+│
+▼
+30. DOMAIN-DRIVEN DESIGN (DDD)
+│
+├── Domain
+├── Subdomain
+├── Core Domain
+├── Supporting Domain
+├── Generic Domain
+├── Ubiquitous Language
+├── Entity
+├── Value Object
+├── Aggregate
+├── Aggregate Root
+├── Repository
+├── Domain Service
+├── Domain Event
+├── Factory
+└── Specification
+│
+▼
+31. STRATEGIC DDD
+│
+├── Bounded Context
+├── Context Map
+├── Shared Kernel
+├── Customer-Supplier
+├── Conformist
+├── Anti-Corruption Layer
+├── Open Host Service
+└── Published Language
+│
+▼
+32. ARCHITECTURAL PATTERNS
+│
+├── Layered Architecture
+├── MVC
+├── MVP
+├── MVVM
+├── Clean Architecture
+├── Onion Architecture
+├── Hexagonal Architecture
+└── Ports & Adapters
+│
+▼
+33. CQRS
+│
+├── Commands
+├── Command Handlers
+├── Queries
+├── Query Handlers
+├── Read Models
+└── Write Models
+│
+▼
+34. EVENT SOURCING
+│
+├── Event Store
+├── Aggregate Reconstruction
+├── Event Versioning
+├── Snapshots
+└── Projections
+│
+▼
+35. MICROSERVICE INTERNAL DESIGN
+│
+├── Domain Layer
+├── Application Layer
+├── Infrastructure Layer
+├── API Layer
+├── Persistence Boundary
+├── Messaging Boundary
+├── External Service Adapters
+└── Service Contracts
+│
+▼
+36. EXTENSIBILITY DESIGN
+│
+├── Plugin Architecture
+├── Extension Points
+├── Strategy-based Extensions
+├── Factory Registries
+├── Dynamic Dispatch
+└── Configuration-Driven Behavior
+│
+▼
+37. PERFORMANCE-AWARE LLD
+│
+├── N+1 Queries
+├── Lazy Loading
+├── Eager Loading
+├── Batching
+├── Pagination
+├── Streaming
+├── Connection Pooling
+├── Memory Management
+├── Query Optimization
+└── Backpressure
+│
+▼
+38. OBSERVABILITY
+│
+├── Structured Logging
+├── Metrics
+├── Tracing
+├── Correlation ID
+├── Request ID
+├── Audit Events
+└── Business Metrics
+│
+▼
+39. ARCHITECTURE QUALITY ATTRIBUTES
+│
+├── Scalability
+├── Availability
+├── Reliability
+├── Maintainability
+├── Extensibility
+├── Testability
+├── Security
+├── Performance
+├── Modularity
+└── Operability
+│
+▼
+40. ARCHITECTURE TRADE-OFFS
+│
+├── Coupling vs Complexity
+├── Abstraction vs Simplicity
+├── Consistency vs Availability
+├── Performance vs Maintainability
+├── Sync vs Async
+├── SQL vs NoSQL
+├── Monolith vs Microservices
+└── Build vs Buy
+│
+▼
+41. LLD PRACTICE
+│
+├── Parking Lot
+├── Library Management
+├── Vending Machine
+├── ATM
+├── Elevator
+├── Tic-Tac-Toe
+├── Chess
+├── Snake & Ladder
+├── Hotel Booking
+├── Movie Booking
+├── Car Rental
+├── Splitwise
+├── Cab Booking
+├── Food Delivery
+├── Notification System
+├── Logging Framework
+├── Rate Limiter
+├── Cache
+├── Job Scheduler
+├── Payment Gateway
+├── Inventory System
+├── Order Management
+├── Workflow Engine
+├── Rule Engine
+├── Feature Flag System
+├── API Gateway
+├── IoT Device Management
+├── Subscription / Billing
+└── E-commerce Platform
+│
+▼
+SOFTWARE ARCHITECT LEVEL
